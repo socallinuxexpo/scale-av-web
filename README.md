@@ -10,4 +10,8 @@ If you are interested in volunteering, please make sure you
  - bookmark [scale-av minimalist webpage](http://scale-av.github.io/scale-av-web/). Please also bookmark the minimalist webpage.  We will be posting more information as we figure out logistical and technical issues.
  - sign up for the [scale-av mailing list](https://lists.linuxfests.org/cgi-bin/mailman/listinfo/scale-av).  That is where A/V-related discussions occur and where announcements will be made.  
  
+If you want to edit the webpage, it is on the gh-pages branch.  It can be edited on the GitHub website or by cloning and editing the text files.  The website is written in Markdown.  As long as each file starts with the boilerplate below, GitHub will render the Markdown as HTML.  Otherwise, it will be rendered as is.   You may also create HTML pages and link to them.
 
+---
+title: <your title>
+---
