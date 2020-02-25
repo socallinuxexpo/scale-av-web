@@ -1,0 +1,55 @@
+= SCaLE A/V Coordination =
+
+This repo contains source files that serve the dual purpose of generating
+the http://socallinuxexpo.github.io/scale-av-web/[scale-av webpage] and the
+link:scale-av-user-manual.pdf[scale-av-user-manual.pdf], as well as offering a
+wiki and issue tracker for SCaLE A/V logistics and planning.
+
+If you are interested in volunteering, please checkout the website linked above.
+
+SCaLE A/V is the team that handles audio & visual (A/V) for the
+http://socallinuxexpo.org[Southern California Linux Expo], a volunteer-organized
+open-source conference. We are currently working on SCaLE 17x, which will be
+held on March 7-10, 2019, at the Pasadena Convention Center.
+
+== Contributing ==
+
+Source files for the SCaLE A/V User Manual are maintained in the
+link:user_manual/[user_manual/] directory and published to the `gh-pages`
+branch. To update this manual, simply edit the appropriate files in the
+link:user_manual/[user_manual/], note the changes in
+link:user_manual/CHANGELOG.adoc/[CHANGELOG.adoc], then commit changes to the `master`
+branch.
+
+== Previewing Changes ==
+
+To preview changes made to the SCaLE A/V user manual, you will need to use the
+https://asciidoctor.org/[Asciidoctor] toolchain. The following instructions are
+recommended for installing and using https://asciidoctor.org/[Asciidoctor] with
+https://bundler.io/[bundler] for generating the
+link:scale-av-user-manual.pdf[scale-av-user-manual.pdf].
+
+=== Prerequisites ===
+
+It is recommended you use https://github.com/rbenv/rbenv[rbenv] for installing
+Ruby.
+
+- Ruby 2.4+
+
+=== Installation ===
+
+Clone this repo, then change directory into the cloned repo:
+
+ git clone https://github.com/socallinuxexpo/scale-av-web.git
+ cd scale-av-web/
+
+Install bundler, then bundle install dependencies:
+
+ gem install bundler:2.1.4
+ bundle install
+
+=== Usage ===
+
+The following will generate a pdf document of the SCaLE A/V user manual.
+
+ asciidoctor user_manual/index.adoc -o scale-av-user-manual.pdf -r asciidoctor-pdf -b pdf -a allow-uri-read
