@@ -1,4 +1,4 @@
-:version: 1.0-b
+:version: 1.0-c
 [cols=",,,", options="header", caption=""]
 .*Changelog*
 |===

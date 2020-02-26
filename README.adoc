@@ -52,4 +52,4 @@ Install bundler, then bundle install dependencies:
 
 The following will generate a pdf document of the SCaLE A/V user manual.
 
- asciidoctor user_manual/index.adoc -o scale17-av-user-manual.pdf -r asciidoctor-pdf -b pdf -a allow-uri-read
+ asciidoctor user_manual/index.adoc -o scale17-av-user-manual.pdf -r asciidoctor-pdf -b pdf -a allow-uri-read -a pdf-theme=user_manual/theme.yml
