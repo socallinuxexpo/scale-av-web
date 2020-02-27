@@ -1,0 +1,23 @@
+language: ruby
+rvm: 2.4.5
+sudo: true
+before_install:
+- wget http://mirrors.kernel.org/ubuntu/pool/main/g/graphviz/graphviz_2.38.0-12ubuntu2_amd64.deb
+- sudo apt install ./graphviz_2.38.0-12ubuntu2_amd64.deb
+- wget -O ~/plantuml.jar https://repo1.maven.org/maven2/net/sourceforge/plantuml/plantuml/1.2020.1/plantuml-1.2020.1.jar
+install:
+- gem install bundler:2.1.4
+- bundle install
+script:
+- asciidoctor index.adoc
+- asciidoctor user_manual/index.adoc -o site/index.html -r asciidoctor-diagram
+- asciidoctor user_manual/index.adoc -o site/scale18x-av-user-manual.pdf -r asciidoctor-pdf
+  -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml
+- cp -r user_manual/assets/ site/
+after_success:
+- "./deploy.sh"
+branches:
+  only:
+  - master
+pro:
+  secure: CgI2SDEG+c7NS7M8qYnACnkLMmpMdVbEKGvE/eWHYt6bBNwLinrGEKnw1W0zA0PhFZLYSgaWg1QRYG4id5tJObZ4jjxL2aCvhFCnjZ+k8RhAeZd8Zu5wjZmNwXg3SNWxrZg8cLOyZ17L/41qXWwsA1+E5uWFnv33+S0s5Df1EJ0=
