@@ -6,6 +6,8 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     afm (0.2.2)
     asciidoctor (2.0.10)
+    asciidoctor-diagram (2.0.1)
+      asciidoctor (>= 1.5.7, < 3.x)
     asciidoctor-pdf (1.5.2)
       asciidoctor (>= 1.5.3, < 3.0.0)
       concurrent-ruby (~> 1.1.0)
@@ -56,6 +58,7 @@ PLATFORMS
 
 DEPENDENCIES
   asciidoctor (~> 2.0)
+  asciidoctor-diagram (~> 2.0)
   asciidoctor-pdf (~> 1.5)
 
 BUNDLED WITH
