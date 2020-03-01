@@ -1,6 +1,6 @@
-= Audio Troubleshooting
+== Audio Troubleshooting
 
-== For Experts Only
+=== For Experts Only
 
 If there is noise, distortion, or imbalancing in any room, an audio-visual expert should be called in for assistance.
 An audio-visual expert is someone who has volunteered for SCALE for many years, and has experience setting audio-levels for both the room and the monitor feeds.
@@ -72,7 +72,7 @@ Once the issue is solved, the other affected settings should be adjusted as mini
 Move along the chain of settings from the inputs to outputs.
 . Re-test.
 
-== Things to keep in mind:
+=== Things to keep in mind:
 
 . One debugger at a time.
 Only one individual should be touching settings at a given time.

@@ -1,6 +1,6 @@
-= Setting up the Podium Computer
+== Setting up the Podium Computer
 
-image::/assets/podium-computer-front-panel-connections.png[]
+image::./assets/podium-computer-front-panel-connections.png[]
 
 . Place the computer on the shelf of the speaker's podium.
 . When connecting cables, you want to end with a clean and tidy set of cables running not in the way of the speaker and not a rats nest.

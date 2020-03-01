@@ -1,7 +1,6 @@
-= Room Setup
-:doctype: book
+== Room Setup
 
-== *Network Mixer:*
+=== *Network Mixer:*
 
 . Locate the Long XLR Audio Cable that was already ran from the audio mixer area to the back of the room near the camera and the Long Network Mixer Ethernet cable that will run from the Ethernet Switch to the Network Mixer.
 . Place the *Network Mixer* in a safe and stable location near the In-Room Audio Mixer.
@@ -19,7 +18,7 @@ Do not turn on the Network Mixer power switch yet.
 . Set the *MIX L knob* to the 12 o'clock position
 . Turn on the Network Mixer's *Power Switch*.
 
-== *POE Injector (Both Camera Types):*
+=== *POE Injector (Both Camera Types):*
 
 . Locate the room's *Ethernet Switch*, normally near the podium but sometimes elsewhere in the room.
 . Place the *POE Injector* near the Switch.
@@ -34,7 +33,7 @@ Plug the other end of the cable into the *DATA* jack of the POE Injector.
 The other side will plug into the camera later on.
 . Connect power to the POE Injector by connecting the *AC Adapter* for TP-Link models, or the *IEC Cable* for ZyXEL models to a power outlet.
 
-== *Camera DI Box:*
+=== *Camera DI Box:*
 
 . Locate the *Long XLR Audio Cable* that runs from the audio mixer area to the back of the room near the camera.
 . Place the *Camera DI Box* on the floor near the tripod.
@@ -44,7 +43,7 @@ The other side will plug into the camera later on.
 If using a PTZ Optics Camera, set to -20db.
 . Set the Ground Switch to the *OFF* position.
 
-== *Samsung Camera:*
+=== *Samsung Camera:*
 
 . Unfold the *tripod* in the back of the room in the appropriate spot.
 (Look for the Ethernet cable.) In rooms with confidence monitors (like teleprompters), place the camera on the same side (left/right) of the room as the confidence monitor.
@@ -60,7 +59,7 @@ The TIP plug will remain unconnected.
 . Raise the camera high enough on the tripod so that it can look over anybody standing in the back of the room (approximately 8 feet).
 Lock the tripod height into place with the appropriate metal pins and tension knobs.Do not overtighten the tension knob.
 
-== *PTZOptics Camera:*
+=== *PTZOptics Camera:*
 
 . Unfold the *tripod* in the back of the room in the appropriate spot.
 (Look for the Ethernet cable and DI Box)
@@ -72,9 +71,9 @@ This will power on the camera.
 Lock the tripod height into place with the appropriate metal pins and tension knobs.
 Do not overtighten the tension knob.
 
-== Podium Computer
+=== Podium Computer
 
-image::/assets/podium-computer-front-panel-connections.png[]
+images::./assets/podium-computer-front-panel-connections.png[]
 
 . If there is an HDMI cable on the podium, hide it.
 We do not want it to be used.
@@ -100,7 +99,7 @@ Each time you press the remote, one of two lights near the VGA Out port will tur
 . Tape the Laminated Speaker Reminder Flyer to the top of the podium.
 . Tape the KVM switch about 6 inches from the bottom edge of the podium towards the left edge of the top of the podium.
 
-= Room Testing Procedure
+== Room Testing Procedure
 
 This procedure can be run by just a volunteer with a year or more experience.
 New volunteers should pair with more experienced volunteers.*When in doubt, ask an A/V expert for help.

@@ -1,9 +1,9 @@
-= Volunteer Logistics
+== Volunteer Logistics
 :doctype: book
 
 Here is some useful information for volunteers.
 
-= Communications
+=== Communications
 
 * *Email*: Announcements and discussions usually occur on the scale-av mailing list.
 Please sign up early, as it requires approval to add your subscription.
@@ -14,7 +14,7 @@ You can download the app to your smartphone or login via your computer.
 Please ask Ilan (@socallinuxexpo.org) or Bala (@socallinuxexpo.org) for an invitation, so you can access our team channels.
 * *Old fashioned, offline messages*: If you're a fan of writing things on sheets of dead trees, or there's a power outage and the world is going to end but you still need to relay a message, you can leave a message at the front desk of the A/V NOC between 8am-6pm.
 
-= Registration
+=== Registration
 
 Volunteers for the A/V team will receive a free badge.
 SCALE Registration for volunteers was handled by the team lead.
@@ -36,7 +36,7 @@ We also have staff tshirts for the A/V team.
 Please wear them when you're working.
 Depending on availability, we will hand out multiple shirts so you can wear them multiple days.
 
-= Hotel Rooms
+=== Hotel Rooms
 
 SCALE attendees are primarily staying at on-site Sheraton hotel or the offsite Hilton hotel 5 minutes away.
 
@@ -52,7 +52,7 @@ If you don't need a car, you should consider taking Uber/Lyft to the hotel if it
 that may be reimbursable with the receipt.
 You should also ask about whether the room includes free internet access, and if so, what the code is.
 
-= Parking
+=== Parking
 
 Here is the general information regarding parking at the venue or around Pasadena.
 You may also consider carpooling or other modes of transportation.
@@ -63,7 +63,7 @@ Please be frugal as SCALE has a lot of expenses with the new venue.
 Shuttles from nearby hotels to the convention may be available.
 Ask your hotel front desk for information.
 
-= Meals
+=== Meals
 
 Boxed lunches will be provided for on-site volunteers in the volunteer break room, which is Room 208.
 Pastries are sometimes available in the morning.
@@ -83,13 +83,13 @@ Hopefully, this duty will rotate to a different volunteer each night.
 Please fill out the doodle poll to list your availability.
 It is extremely easy to update your availability.
 
-= Training
+=== Training
 
 Training will be provided onsite.
 There are many veteran volunteers who can answer basic questions.
 This book was created to also provide documentation of all of the procedures and equipment used by the team.
 
-= Questions
+=== Questions
 
 Lan Dang is the volunteer coordinator for the SCALE A/V Team.
 Her goal is to make sure SCALE A/V is well-supported and that you have a good experience and want to come back to help out again next year.

@@ -1,11 +1,11 @@
-= Video Monitoring Procedure
+== Video Monitoring Procedure
 
 Always remember:
 
 * *Make sure to cover your drinks!*
 * Have the headphones on at the same time as the walkie talkie earpiece.
 
-== Check to see if the Speaker is centered in the frame
+=== Check to see if the Speaker is centered in the frame
 
 If not then pan/tilt the camera so that the Speaker is centered in the frame.
 If a speaker keeps leaving the frame (like pacing around), then you may want to zoom out.
@@ -20,7 +20,7 @@ If you've moved the camera to an unknown location, press *Home* to move back to 
 
 Once the speaker is properly framed, press *Set Home* again to lock in the new position.
 
-== Listen to Audio of Each Room
+=== Listen to Audio of Each Room
 
 To Hear Audio in the various rooms, click room's window.
 If the video in the Operations Control window disappears or is not shown, then refresh the page.
@@ -42,7 +42,7 @@ When we hear on the radio that there is an audio problem in a room, confirm whet
 If there is a problem, let the person on the radio know if the problem is with the camera audio or the room ambient audio.
 If the video is also cutting out, let them know about that too.
 
-== Observe the Video Feed
+=== Observe the Video Feed
 
 Observe the video feed and confirm that both the PTZ Camera video and the Slides video is displaying properly.
 If Video is not working then log the issue and ask Michael Proctor-Smith.
@@ -52,18 +52,18 @@ Examples of problems that could happen are:
 * Slides are cut off: the speaker may have misformatted the slides or has not configured their laptop properly to display at the correct resolution (*1024x768@60Hz*)
 * Video is Choppy or it goes black: if the video goes black, make sure the projector is physically turned on, and still no picture/dark/black, then alert senior tech.
 
-== SCALE Signs Crashing
+=== SCALE Signs Crashing
 
 If there are reports of the SCALE Signs web browser crashing, press "`Restart Signs`"
 
-== VLC/Monitoring Station Issues
+=== VLC/Monitoring Station Issues
 
 If a VLC window goes completely black, you can reload the room feed in VLC by closing the window by pressing the X in the window title bar.
 A new VLC window will open in its place.
 
 If the monitoring station computers are acting up, inform Michael Starch or Matthew Campbell
 
-=== Last and Final Resort:
+==== Last and Final Resort:
 
 If the monitoring station computer crashes or freezes, you can restart the system:
 

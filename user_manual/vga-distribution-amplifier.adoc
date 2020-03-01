@@ -1,9 +1,9 @@
-= VGA Distribution Amplifier
+== VGA Distribution Amplifier
 
 Use a D.A.
 to help amplify the video signal in a room where the projector image seems unstable or weak.
 
-image::/assets/vga-da-2port-small.jpg[]
+image::./assets/vga-da-2port-small.jpg[]
 
 Kit Contents:
 

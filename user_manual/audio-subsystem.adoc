@@ -1,4 +1,4 @@
-= Audio Subsystem
+== Audio Subsystem
 
 A *microphone* is connected to the sound reinforcement system so that the audience may better hear the speaker.
 Each room usually has two microphones.

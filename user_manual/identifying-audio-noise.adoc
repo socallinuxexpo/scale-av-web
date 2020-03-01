@@ -1,27 +1,27 @@
-= Identifying Audio Noise
+== Identifying Audio Noise
 
 In order to speak more precisely when discussing audio noise problems, it may be useful to familiarize yourself with the different types of audio noise and how they are different from each other.
 
-== Hum
+=== Hum
 
 Hum (also called buzz) is a continuous sound that occur in a specific set of lower frequencies (often around 60Hz) and  usually are caused by electrical interference by either bad audio connections or a ground loop condition.
 https://www.youtube.com/watch?v=SVZ2P0KsLic[This is a video sample] with a 60Hz tone.
 
-image::/assets/identify_hum.png[]
+images::./assets/identify_hum.png[]
 
-== Hiss
+=== Hiss
 
 Hiss is a continuous broadband sound that occurs over a wider set of frequencies than hum and may be caused by fans, air conditioners, or analog sound equipment like tape cassettes.
 
-image::/assets/identify_hiss.png[]
+images::./assets/identify_hiss.png[]
 
-== Clicks and Pops
+=== Clicks and Pops
 
 Clicks and pops are short bursts of high level sound across the spectrum and can be caused by mechanical issues in analog systems like vinyl record players or signal processing errors in digital systems such as insufficient buffer sizes or latency.
 
-image::/assets/identify_clicks.png[]
+images::./assets/identify_clicks.png[]
 
-== Distortion
+=== Distortion
 
 Distortion is any kind of alteration to the shape of a sound wave and is usually unwanted.
 There are different types of distortion, but the most common type is amplitude distortion (also called clipping).
@@ -31,9 +31,9 @@ Clipping occurs when the peaks and troughs of an audio signal gets "`clipped`" o
 
 You can prevent distortion by reducing the sound levels on a device so that signals have enough "`headroom`" and do not trip the peak or clip indicators.
 
-image::/assets/identify_clipping.png[]
+images::./assets/identify_clipping.png[]
 
-== Feedback
+=== Feedback
 
 Audio feedback is the loud unpleasant squeal that occurs when a loop occurs between an audio input and output, such as a microphone pointed at a loudspeaker.
 The signal gets continually amplified any may overdrive the speakers and cause potential damage, so immediate attention is required such as lowering the volume of the sound channel in question and pointing the microphone away from the amplification source.
