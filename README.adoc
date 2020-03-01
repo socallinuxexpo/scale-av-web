@@ -62,6 +62,10 @@ Install bundler, then bundle install dependencies:
 
 === Usage ===
 
-The following will generate a pdf document of the SCaLE A/V user manual.
+The following will locally generate the latest revision of the {scale18x-av-user-manual.pdf}.
 
- asciidoctor user_manual/index.adoc -o scale18-av-user-manual.pdf -r asciidoctor-pdf -b pdf -a allow-uri-read -a pdf-theme=user_manual/theme.yml
+ asciidoctor user_manual/index.adoc -o scale18-av-user-manual.pdf -r asciidoctor-pdf -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml
+
+The following will locally generate an index.html, including diagrams, of the latest SCaLE A/V user manual.
+
+ asciidoctor user_manual/index.adoc -r asciidoctor-diagram
