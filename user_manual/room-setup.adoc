@@ -1,0 +1,136 @@
+= Room Setup
+:doctype: book
+
+== *Network Mixer:*
+
+. Locate the Long XLR Audio Cable that was already ran from the audio mixer area to the back of the room near the camera and the Long Network Mixer Ethernet cable that will run from the Ethernet Switch to the Network Mixer.
+. Place the *Network Mixer* in a safe and stable location near the In-Room Audio Mixer.
+. Fold the Wi-Fi antenna down.
+. Connect the *AC Adapter* to the Network Mixer.
+Do not turn on the Network Mixer power switch yet.
+. Connect the *Long Network Mixer Ethernet Cable* from the Switch to the Network Mixer.
+. Connect the *Long XLR Audio Cable* to the *MIX L* jack.
+. For each channel of the In-Room Audio Mixer in use (Headset/Handheld/Podium Computer), attach one *1/4`" TS to 1/4`" TRS Adapter* to one end of each of the 1/4`" TS Audio Cables.
+. Using the *prepared 1/4`" TS Audio Cables* made in the previous step, for each channel of the In-Room Audio Mixer that will be used connect the end of the prepared cable with the 1/4`" TRS Adapter to the *INSERT* Jack on the In-Room Audio Mixer and connect the other end to the appropriate *INPUT* Jack on the Network Mixer.
+(Note: The *INSERT* Jack on the Zed 14 mixer is on top, whereas on the Mackie 1404 it is on the rear panel.) The mappings from the In-room mixer to the Network Mixer are as follows: Handheld Mic to Network Mixer Ch.
+1, Lav Mic to Ch.
+2, and DI to Ch.
+3.
+. Set the *MIX L knob* to the 12 o'clock position
+. Turn on the Network Mixer's *Power Switch*.
+
+== *POE Injector (Both Camera Types):*
+
+. Locate the room's *Ethernet Switch*, normally near the podium but sometimes elsewhere in the room.
+. Place the *POE Injector* near the Switch.
+. Locate the *Long Camera Ethernet Cable* that is intended to run from the Switch to the Camera.
+The side closest to the Switch might already be plugged in.
+If so, note which port it was plugged into then disconnect it.
+. Connect the POE Injector to the Ethernet Switch with the *Short Ethernet Cable*, plugging in one end into the appropriate port on the Ethernet Switch you disconnected in the previous step.
+If the Long Camera Ethernet Cable was not already plugged in, ask NOC which port to plug into.
+Plug the other end of the cable into the *DATA* jack of the POE Injector.
+(ZyXEL labels it DATA, TP-Link labels it LAN.)
+. Connect one end of the *Long Camera Ethernet Cable* to the POE Injector's *PoE/DATA Jack*.
+The other side will plug into the camera later on.
+. Connect power to the POE Injector by connecting the *AC Adapter* for TP-Link models, or the *IEC Cable* for ZyXEL models to a power outlet.
+
+== *Camera DI Box:*
+
+. Locate the *Long XLR Audio Cable* that runs from the audio mixer area to the back of the room near the camera.
+. Place the *Camera DI Box* on the floor near the tripod.
+. Connect the Long XLR Audio Cable to the *Female-Female XLR Coupler*.
+. Connect the Female-Female XLR Coupler to the *Camera DI Box*.
+. If using a Samsung Camera, set the *ATT* switch on the Camera DI Box to 0db.
+If using a PTZ Optics Camera, set to -20db.
+. Set the Ground Switch to the *OFF* position.
+
+== *Samsung Camera:*
+
+. Unfold the *tripod* in the back of the room in the appropriate spot.
+(Look for the Ethernet cable.) In rooms with confidence monitors (like teleprompters), place the camera on the same side (left/right) of the room as the confidence monitor.
+. Attach the *PVC camera mount* to the tripod.
+. Attach the *Samsung Camera* to the PVC camera mount by carefully inserting the camera upward into the mount, making sure to align the metal alignment pins on the camera, then twist the camera to lock.
+Align arrows on camera and mount.
+Additionally, secure the camera to the mount by connecting the metal cable tether.
+. Make sure that the camera is *level*.
+. Ensure that the camera and mount will extend over a leg of the tripod for *stability*.
+. Connect the *Camera's Audio Cable* to the Camera DI Box by plugging in the 1/4`" *RING* plug to the DI Box *PARPOUT* Jack.
+The TIP plug will remain unconnected.
+. Connect the **Camera's Ethernet Cable **to the Network.This will power on the camera.
+. Raise the camera high enough on the tripod so that it can look over anybody standing in the back of the room (approximately 8 feet).
+Lock the tripod height into place with the appropriate metal pins and tension knobs.Do not overtighten the tension knob.
+
+== *PTZOptics Camera:*
+
+. Unfold the *tripod* in the back of the room in the appropriate spot.
+(Look for the Ethernet cable and DI Box)
+. Attach the *PTZ Optics Camera* (already screwed into mount) to the Tripod.
+. Connect the Camera DI Box to the Camera with the *3.5mm TRS to Dual 1/4`" TS Audio Cable*, connecting the 1/4`" plug to the DI Box *PARPOUT* Jack, and the 3.5mm TRS plug into the Camera's **LINE-IN **jack.
+. Connect the **Long POE+Data Ethernet Cable **coming from the Switch to the POE Splitter on the Camera Mount.
+This will power on the camera.
+. Raise the camera high enough so that it can look over anybody standing in the back of the room (approximately 8 feet).
+Lock the tripod height into place with the appropriate metal pins and tension knobs.
+Do not overtighten the tension knob.
+
+== Podium Computer
+
+image::/assets/podium-computer-front-panel-connections.png[]
+
+. If there is an HDMI cable on the podium, hide it.
+We do not want it to be used.
+. Place the computer on the shelf of the speaker's podium.
+. When connecting cables, you want to end with a clean and tidy set of cables running that are not in the way of the speaker and not a rats nest.
+Do not allow wires to dangle.
+. Connect the Ethernet cable labeled "`AV`" coming from the network switch into the **Ethernet ** jack.The other Ethernet cable labeled "`Speaker`" is for Presenter's Laptop use.
+If the Ethernet cables are not already plugged into the network switch, you will need to connect the cables to the switches.
+Please ask the NOC which ports are designated for you to use.
+. Attach the 3.5mm to 1/4`" TS adapter plug to the 3.5mm TS audio cable coming from the Podium DI Box, then plug in the cable to the to the *Audio Out* jack (the middle one) to the Podium DI Box for the Room Sound System.
+. Connect the audio wire of the VGA/Audio cable to the *Audio In* jack using the 3.5mm to 1/4`" adapter plug.
+. Connect the VGA plug (using the side without the adapters) of the Speaker's Laptop VGA/Audio cable to the *VGA In* jack.
+. Connect the VGA cable going to the projector to the *VGA Out* jack.
+. Connect the KVM Source Switch to the *Switch* jack in the upper right by pushing in the connector.
+Do not screw the connector in.
+. Plug the AC side of the *AC adapter* power cord into a power outlet of the surge proctor inside or near the podium, but do not connect the DC side to the computer yet, this is because the computer may automatically turn on when power is connected.
+. Connect the IEC cable to the AC Adapter IEC socket and connect the DC barrel plug to the *12V DC Power Connection* barrel jack.
+. Alert the NOC that the computer is connected and if instructed, press the *Power Switch* to power on the machine.
+. Confirm that the Podium Computer has a good network connection by looking at the inner motherboard through the clear top lid of the case.
+You should see both a solid blue *Link light* and a flashing orange *Activity light*.
+. Test the KVM Video Switch by pressing the pushbutton on the ** KVM remote**.
+Each time you press the remote, one of two lights near the VGA Out port will turn on, indicating which source is active.
+. Tape the Laminated Speaker Reminder Flyer to the top of the podium.
+. Tape the KVM switch about 6 inches from the bottom edge of the podium towards the left edge of the top of the podium.
+
+= Room Testing Procedure
+
+This procedure can be run by just a volunteer with a year or more experience.
+New volunteers should pair with more experienced volunteers.*When in doubt, ask an A/V expert for help.
+**"`Easily audible`" means loud enough to hear in a room full of people, but not so loud that it is painful or distorted.
+"`Elevated enough`" means as high as it can go and still be stable.
+Typically this is high enough to look over standing audience members (approximately 8 feet).
+** Please do not adjust audio settings without AV NOC approval.*
+
+. Test the in-room audio levels.
+Audio should be noise-free and clear in all areas of the room and easily audible.
+Have your setup partner stand near the loudspeaker and then later in the back of the room to confirm that you are audible.
+When testing a microphone, hold the microphone near your mouth and talk at a normal level, letting the microphone do the amplification of the voice.
+Count to ten to ensure that your partner has enough sample audio to listen to for each test.
+Check the audio levels of the following devices:
+ .. Earset microphone
+ .. Handheld microphones #1 and #2 (if present)
+ .. Laptop audio feed (VGA/Audio cable) by plugging in a 3.5mm test source such as a phone or laptop.
+** Avoid playing copyrighted sounds when testing, such as music.
+** If you have a phone, record your voice and play it back.
+ .. (If present) Panel microphones
+. Request attention from the Monitoring Computer operator.
+. With consultation from the Monitoring Computer operator, check that the camera has been set up properly:
+ .. Camera should have a clear view of the podium
+ .. Camera should be elevated enough to see over audience
+ .. Camera feed should be clean
+ .. Camera should not wobble on the stand.
+If using a Samsung Camera, the Camera mount should extend over a leg for stability.
+. Help the Monitoring Computer operator check the recorded audio levels.
+For each item in Step 1 above, ensure that the monitoring computers pick up clear audio on the audio channel of the monitoring feed.
+. Ensure that no other noise or interference is in the room.
+Report if there is something unusual about a room that might affect audio quality, such as flickering lights, loud fans, hum/buzz, etc.
+. Done!
+** If issues were detected, please notify A/V NOC.**

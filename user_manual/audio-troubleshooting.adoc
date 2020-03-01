@@ -1,0 +1,89 @@
+= Audio Troubleshooting
+
+== For Experts Only
+
+If there is noise, distortion, or imbalancing in any room, an audio-visual expert should be called in for assistance.
+An audio-visual expert is someone who has volunteered for SCALE for many years, and has experience setting audio-levels for both the room and the monitor feeds.
+The following procedure is for the experts.
+
+. Identify the primary issue in the room.
+What needs to be fixed?
+Audio issues differ in the proper fix, and so a clear understanding of the issue before doing any workis important and prevents further errors.
+Possible errors include:
+. {blank}
+ .. Hum or buzz.
+There are generally two causes of constant hum/buzzing.
+Ground loop buzzing (60Hz buzz) is caused by audio equipment being grounded to different grounds in the facility.
+With multi-phase power this is easy to do.
+Possible solutions: connect equipment to the same ground (same electrical outlet);
+push the ground-lift switch on the DI Box <insert picture here>.
+Sometimes the issue could also be caused by poor shielding of the audio cable.
+First check to see that the audio cable is not crossing near any power cables, as this might be causing some of the hum.
+Additionally, look in the room for any malfunctioning fluorescent lights.
+ .. Distortion.
+Distortion is caused when signals are amplified too much.
+This often means gains are too high.Possible solutions: Before performing adjustments to the gains, check with AV NOC to ensure that there is distortion on the AV monitoring feed.
+If distortion is detected on the monitoring feed, Adjust the mixer board to bring down the gains.
+If distortion is not detected on the monitoring feed, do not adjust the gains, but reduce the volume knobs.
+See noise (iii)
+ .. Noise.
+General noise is a more difficult problem, but can be the result of amplifying the output to the speaker too high.
+Is the noise constant or intermittent?
+Possible solutions: If the noise is intermittent, the cable might be damaged.
+Follow the cable's path and look to see if maybe the cable is/was being crushed by a chair or table leg or was laid down and bent at too narrow of an angle.
+In addition, check that connections between cables and equipment are secure.
+ .. Feedback.
+Feedback is the unintended "`infinite loop`" of amplification of a sound and can occur when a microphone is pointed toward a loudspeaker and the amplification is set too high.
+Solving this problem has two aspects: triage and solution.
+When it immediately happens, the sound is deafening to the audience, so your instinctual reaction should be to lower the master faders to stop the feedback.
+Once you've lowered the sound, then you can begin to think about how to prevent it.
+If this is a panel with multiple microphones, turn off unused microphones.
+The more microphones that are hot, the more likely feedback is to occur.
+Is one presenter standing near a loudspeaker?
+Turn down their gain.Note: before adjusting gains, please consult with AV NOC.
+. Identify the affected portion of the audio system.
+Problems with audio equipment can appear anywhere in the chain of the audio system.
+Once the affected portion is identified, work can focus there to resolve the issue, before expanding into other portions.
+This can keep the amount of work minimal.
+Parts of the audio system:
+. {blank}
+ .. Single loudspeaker.
+If a problem affects one speaker and not the other then the problem is often with the built-in amplification in that speaker.
+Look there first.
+Is it turned on?
+Next, check the cables.
+ .. All loudspeakers.
+If a problem exists in multiple speakers,but notthe monitoring feed, the problem might be with the in-room audio mixer settings.
+Check to make sure the channels are not muted and that the channels and mix settings are appropriately set.
+Note:The monitoring feed is post-gain controls and thus these should not be adjusted unless the monitoring feed is also affected.
+ .. Monitoring feed.
+If a problem is reported on the monitoring feed, but is not apparent in the room, then the output settings to the monitoring feed are at fault.
+Confirm that the appropriate channels from the in-room audio mixer are being fed to the networked audio mixer.
+In addition, gains can be checked for this issue.
+ .. Inputs.
+If the problem is observed in both the monitoring feed, and the room, the problem likely exists with the inputs.
+Adjust there first.
+These include the gain settings.
+. Perform adjustments.
+Adjust the system to fix the above isolated problem, and perform the adjustments for the affected part of the system first.
+Remember, settings dialed far past unity gain (labeled "`U`" or "`+0db`" on most systems) are often likely to be contributing to the problem.
+. Rebalance.
+Once the issue is solved, the other affected settings should be adjusted as minimally as possible to ensure that the room still operates normally.
+Move along the chain of settings from the inputs to outputs.
+. Re-test.
+
+== Things to keep in mind:
+
+. One debugger at a time.
+Only one individual should be touching settings at a given time.
+Far too much time has been lost in past years when 2 debuggers are adjusting 2 settings at 1 time.
+If another volunteer has a suggestion, formally hand-off ownership of the debug.
+. Be procedural.
+Work an area of the system from input to output.Don't just randomly adjust settings.
+. Fix one setting at a time.
+As much as possible, fix a setting, test it independently (with headphones) and then move on to the next setting.
+Varying 2 settings at once is usually a bad idea.
+. Minimal changes are best.
+Keep adjustments small, and line levels low but sufficient to do the job.
+. Unity gain is good.
+Going far past unity usually should be reasoned through as it often causes the aforementioned problems.

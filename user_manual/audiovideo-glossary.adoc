@@ -1,0 +1,46 @@
+= Audio/Video Glossary
+
+Here are some terms you might read or hear during the weekend.
+
+*Amplifier*: a device that produces a gain in signal level
+
+*Balanced Audio*: An audio signal transmission strategy which sends an inverted copy with the original signal to allow devices to use the two copies to remove common noise common to both signals.
+
+*Bandwidth*: The range of frequencies a signal occupies.
+
+*Compressor*: A device which reduces the dynamic range of an audio signal.
+
+*Countryman*: A brand of headset, earset, and lavalier microphones
+
+*DI Box*: Also called a Direct box.
+It is said to stand for Direct Injection or Direct Input.
+Converts an unbalanced high impedance signal to a balanced low impedance signal.
+
+*Dynamic Range*: The difference between the largest and smallest values a quantity can assume, such as volume.
+
+*Ground Lift*: A switch on some audio devices that disconnects the cable shield.
+Used in attempts to stop hum induced by ground loops.
+
+*Ground Loop*: Sometimes when connecting audio equipment to each other, a potential between the two devices`' grounds can occur which induces current flow at a frequency of the mains line voltage (60Hz in the US).
+This produces an unwanted audible hum in the signal.
+
+*Impedance*: Measured in Ohms, it is the AC equivalent of resistance and represents opposition to current flow in a circuit.
+
+*Lavalier*: A type of small microphone often clipped to a tie or garment.
+
+*Line Level*: A signal with a higher voltage than Mic Level and is used between various audio devices before being sent to the amplifier.
+
+*Mic Level*: A signal with a relatively low voltage.
+
+*Speaker Level:* The highest voltage signal of the Mic, Instrument, Line, Speaker levels that has been amplified and can be sent to a passive loudspeaker.
+
+*TS*: Tip-Sleeve phone audio connector.
+Used for an unbalanced mono signal.
+
+*TRS*: Tip-Ring-Sleeve phone audio connector.
+Can be used as for an unbalanced stereo or balanced mono signal.
+
+*XLR*: A balanced audio connector with three conductors used for connecting microphones and other audio equipment.
+Its balanced nature makes it ideal for longer cable runs.
+
+*Z*: An abbreviation for electrical impedance.

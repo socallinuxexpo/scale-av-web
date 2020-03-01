@@ -1,0 +1,36 @@
+= Types of Audio Connectors
+
+[discrete]
+=== XLR
+
+image::/assets/XLR-connectors-small.jpg[]
+
+1 channel mono, balanced.
+Used for microphones, speakers, subwoofers, monitors, mixers, and due to its balanced nature and shielding is ideal for long distance cable runs.
+
+[discrete]
+=== 1/4" TS Phone Connector
+
+image::/assets/Jack_plug.jpg[]
+
+1 channel mono, unbalanced.
+Used for musical instruments and shorter audio device connections.
+Splitter cables such as stereo to two mono channels may use this type of plug.
+
+[discrete]
+=== 1/4" or 1/8" TRS Phone Connector
+
+image::/assets/balanced_jack.gif[]
+
+2 channels of unbalanced stereo audio or 1 channel of balanced audio.
+Used to connect headphones and other consumer electronics.
+Available in quarter-inch and eighth-inch sizes.
+The eighth-inch size is also called 3.5mm.
+
+[discrete]
+=== RCA Connector
+
+image::/assets/rca.jpg[]
+
+1 channel mono, balanced.
+Used to connect devices like CD/DVD players to mixers.
