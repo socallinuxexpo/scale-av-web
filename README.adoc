@@ -43,10 +43,25 @@ made to the {scale18x-av-user-manual.pdf}.
 
 === Prerequisites ===
 
-We recommend that you use https://github.com/rbenv/rbenv[rbenv] for installing
-Ruby.
+Ubuntu/Debian is recommended for installing the following requirements:
 
-- Ruby 2.4+
+- Ruby 2.4+ (2.4.5 recommended)
+- Graphviz (2.38.0 recommended)
+- https://plantuml.com/download[Plantuml] (1.2020.2 recommended)
+
+https://github.com/rbenv/rbenv[rbenv] is the recommended Ruby version manager
+for installing Ruby / Gems.
+
+For Ubuntu/Debian, you will need to install
+https://launchpad.net/ubuntu/+source/graphviz/2.38.0-16ubuntu1[graphviz 2.38.0]
+from source:
+
+ wget https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/graphviz/2.38.0-16ubuntu1/graphviz_2.38.0.orig.tar.gz
+ tar -xvf graphviz_2.38.0.orig.tar.gz
+ cd ./graphviz_2.38.0.orig
+ ./configure
+ make
+ sudo make install
 
 === Installation/Setup ===
 
