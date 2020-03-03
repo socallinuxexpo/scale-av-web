@@ -1,0 +1,11 @@
+== The A/V NOC
+
+The A/V NOC (Network Operations Center) is the headquarters of the A/V team.
+The NOC is located on the 2nd floor of the conference center, *Room 204*.
+Team members should report to the NOC at the beginning of their shift so that they can be assigned a task.
+When in the NOC, please talk quietly (like inside a library) because video feed monitors are trying to listen to the audio streams and staff needs to be able to hear about issues over the radio.
+
+=== NOC Setup
+
+The table for the radios should be sufficiently far away from the door to prevent people from running into it.
+For 17x, we are going to try to place the radios behind the reception desk.

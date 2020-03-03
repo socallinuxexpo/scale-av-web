@@ -1,0 +1,22 @@
+== What We Do at SCaLE
+
+The SCALE A/V Team is the team of volunteers responsible for setting up and running most of the audio and video equipment for each room of the conference.
+Our work provides several key features of SCALE:
+
+* In-room live sound reinforcement for conference speakers via microphones and loudspeakers
+* In-room video projection for slides and other graphics from conference speaker laptops
+* Live streaming of each talk via YouTube with both a view of the speaker via a camera and an embedded view of the slides
+* Recordings of each talk taken from the live stream
+
+In order to provide these services, each room is equipped with devices to facilitate the capture and transmission of audio and video signals and provide it to the room and to the internet.
+Each room is connected to the A/V NOC:
+
+image::./assets/overview-noc-internet.png[]
+
+As shown above, each room is connected to the A/V NOC (Network Operations Center) for monitoring and recording purposes.
+We try to have as much control over the system as we can from the A/V NOC in order to centralize management and prevent having to staff each room with a technician.
+
+To carry out our mission, each room has audio, video, and networking equipment.
+The following diagram outlines the major connections between the various devices in the room:
+
+image::./assets/overview-room-connections.png[]

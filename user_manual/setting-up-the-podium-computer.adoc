@@ -1,0 +1,21 @@
+== Setting up the Podium Computer
+
+image::./assets/podium-computer-front-panel-connections.png[]
+
+. Place the computer on the shelf of the speaker's podium.
+. When connecting cables, you want to end with a clean and tidy set of cables running not in the way of the speaker and not a rats nest.
+Do not allow wires to dangle.
+. Connect one of the Ethernet cables coming from the network switch into the **Ethernet**jack.The other cable is for Speaker Laptop use.If you need to connect the cables to the switches, confirm which ports are designated foryouto use.
+. Use the 1/4`" TS cable to connect the *Audio Out* jack to the DI Box for the Room Sound System.
+. Connect the audio wire of the VGA/Audio cable to the *Audio In* jack using the 3.5mm to 1/4`" adapter plug.
+. Connect the VGA plug of the Speaker's Laptop VGA/Audio cable to the *VGA In* jack.
+. Connect the VGA cable going to the projector to the *VGA Out* jack.
+. Connect the KVM Source Switch to the *Switch* jack by pushing in the connector.
+Do not screw the connector in.
+. Plug the AC side of the *AC adapter* power cord into a power outlet of the surge proctor inside or near the podium, but do not connect the DC side to the computer yet, this is because the computer may automatically turn on when power is connected.
+. When ready, connect the IEC cable to the AC Adapter IEC socket and connect the DC barrel plug to the *12V DC Power Connection* barrel jack.
+. Alert the NOC that the computer is connected and if instructed, press the *Power Switch* to power on the machine.
+. Confirm that the Podium Computer has a good network connection by looking at the inner motherboard through the clear top lid of the case.
+You should see both a solid blue *Link light* and a flashing orange *Activity light*.
+. Test the KVM Video Switch by pressing the pushbutton on the *KVM remote*.
+Each time you press the remote, one of two lights near the VGA Out port will turn on, indicating which source is active.

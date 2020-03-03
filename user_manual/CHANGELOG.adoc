@@ -1,0 +1,7 @@
+:version: 1.0-c
+[cols=",,,", options="header", caption=""]
+.*Changelog*
+|===
+|Name |Date |Reason For Changes |Version
+|Sean Marquez |February 24, 2020 |Pre-release |{version}
+|===
