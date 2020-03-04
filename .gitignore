@@ -8,6 +8,9 @@
 .AppleDouble
 .LSOverride
 
+# Temp files
+*~
+
 # Icon must end with two \r
 Icon
 

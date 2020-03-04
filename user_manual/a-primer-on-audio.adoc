@@ -3,7 +3,7 @@
 [discrete]
 === XLR
 
-images::./assets/XLR-connectors-small.jpg[]
+image::./assets/XLR-connectors-small.jpg[]
 
 1 channel mono, balanced.
 Used for microphones, speakers, subwoofers, monitors, mixers, and due to its balanced nature and shielding is ideal for long distance cable runs.
@@ -11,7 +11,7 @@ Used for microphones, speakers, subwoofers, monitors, mixers, and due to its bal
 [discrete]
 === 1/4" TS Phone Connector
 
-images::./assets/Jack_plug.jpg[]
+image::./assets/Jack_plug.jpg[]
 
 1 channel mono, unbalanced.
 Used for musical instruments and shorter audio device connections.
@@ -20,7 +20,7 @@ Splitter cables such as stereo to two mono channels may use this type of plug.
 [discrete]
 === 1/4" or 1/8" TRS Phone Connector
 
-images::./assets/balanced_jack.gif[]
+image::./assets/balanced_jack.png[]
 
 2 channels of unbalanced stereo audio or 1 channel of balanced audio.
 Used to connect headphones and other consumer electronics.
@@ -30,7 +30,7 @@ The eighth-inch size is also called 3.5mm.
 [discrete]
 === RCA Connector
 
-images::./assets/rca.jpg[]
+image::./assets/rca.jpg[]
 
 1 channel mono, balanced.
 Used to connect devices like CD/DVD players to mixers.

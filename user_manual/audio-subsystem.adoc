@@ -6,8 +6,8 @@ One Countryman earset microphone with beltpack transmitter that is normally the 
 The beltpack and the handheld microphone use disposable batteries and should the batteries need replacing, you can either acquire some from the A/V NOC or find spares near the sound mixer board in the conference room (sometimes inside a drawer).
 The specific transmission frequencies of the microphones is preconfigured by the convention center staff and should never be changed without permission from Michael Proctor-Smith.
 
-If the speaker is using a laptop and has sound to play, they may also connect their laptop audio to the sound system via the combination *VGA/Audio Cable* that connects the Speaker's Laptop to the *Podium Computer*.
-The** Room Audio Mixer *is setup by the convention center staff to combine the various audio sources into one master channel to be output via the room's* loudspeakers**.
+If the speaker is using a laptop and has sound to play, they may also connect their laptop audio to the sound system via the combination *HDMI Cable* or *VGA/Audio Cable* that connects the Speaker's Laptop to the *Podium Computer*.
+The *Room Audio Mixer* is setup by the convention center staff to combine the various audio sources into one master channel to be output via the room's *loudspeakers*.
 Starting this year for SCALE 16x, we are also using our own **Network-Controlled Audio Mixer** that will take auxiliary output feeds split off from each channel of the Room Audio Mixer as input.
 This mix is what will be fed to the video camera to be recorded with the video stream.
 This additional setup will allow us to control from the A/V NOC the audio levels fed into the camera independently of the audio levels that are to be heard in the room.

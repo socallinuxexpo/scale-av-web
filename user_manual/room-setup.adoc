@@ -9,11 +9,11 @@
 * [ ] Connect *AC Adapter* to *Network Mixer*. (Note: Do not turn on Network
 Mixer power switch yet.)
 
-* [ ] Connect *Network Mixer* to *Long Ethernet Cable* tF *Network Switch*.
+* [ ] Connect *Network Mixer* to *Long Ethernet Cable* to *Network Switch*.
 
 * [ ] Connect *XLR Audio Cable* to Network Mixer's *MIX L* jack.
 
- (Tip: XLR audio cable should run along back of the room from camera to audio mixer.)
+ Tip: XLR audio cable should run along back of the room from camera to audio mixer.
 
 * [ ] Using 3 sets of *1/4” TS Audio Cables* and *1/4” TS-to-1/4” TRS
 Adapters*, connect the following In-Room Audio Mixer INSERT Jacks to the
@@ -25,7 +25,7 @@ corresponding Network Mixer channels:
 
 ** [ ] *"DI"* to Network Mixer *Ch. 3*.
 
- (Note: INSERT Jack on Zed 14 audio mixer is on top, whereas INSERT Jack on Mackie 1404 audio mixer it is on rear panel.)
+ Note: INSERT Jack on Zed 14 audio mixer is on top, whereas INSERT Jack on Mackie 1404 audio mixer it is on rear panel.
 
 * [ ] Set *MIX L* knob to *12 o’clock* position
 
@@ -71,11 +71,11 @@ include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
 
 * [ ] Connect Long XLR Audio Cable to Female-Female XLR Coupler.
 
- (Note: Long XLR Audio Cable runs from audio mixer area to the back of the room near the camera.)
+ Note: Long XLR Audio Cable runs from audio mixer area to the back of the room near the camera.
 
 * [ ] Connect Female-Female XLR Coupler to Camera DI Box.
 
- (Note: Camera DI Box should be placed on the floor near the tripod.)
+ Note: Camera DI Box should be placed on the floor near the tripod.
 
 * [ ] Set ATT switch (on  Camera DI Box) to 0dB.
 
@@ -110,7 +110,7 @@ stability.
 * [ ] Connect Camera’s Audio Cable to Camera DI Box by plugging in 1/4” RING
 plug to the DI Box PARPOUT Jack.
 
-  (Note: The TIP plug will remain unconnected.)
+  Note: The TIP plug will remain unconnected.
 
 * [ ] Connect Camera’s Ethernet Cable into the PoE Injector’s PoE/DATA Jack.
 This should power on the camera.
@@ -143,65 +143,62 @@ the back of the room (approximately 8 feet). Lock the tripod height into place
 with the appropriate metal pins and tension knobs. Do not overtighten the
 tension knob.
 
+<<<
 === Podium Computer ===
 
-images::./assets/podium-computer-front-panel-connections.png[]
-
-* [ ] If there is an HDMI cable on the podium, hide it. We do not want it to
-be used.
+image::./assets/podium-computer-front-panel-connections.png[]
 
 * [ ] Place the computer on the shelf of the speaker’s podium.
 
 * [ ] When connecting cables, you want to end with a clean and tidy set of
-
-cables running that are not in the way of the speaker and not a rats nest. Do
-not allow wires to dangle.
+cables running that are not in the way of the speaker and not a rats nest. 
+Do not allow wires to dangle.
 
 * [ ] Connect the Ethernet cable labeled “AV” coming from the network
-switch into the Ethernet jack.The other Ethernet cable labeled “Speaker” is
+switch into the Ethernet jack. The other Ethernet cable labeled “Speaker” is
 for Presenter's Laptop use. If the Ethernet cables are not already plugged into
 the network switch, you will need to connect the cables to the switches. Please
 ask the NOC which ports are designated for you to use.
 
 * [ ] Attach the 3.5mm to 1/4” TS adapter plug to the 3.5mm TS audio cable
 coming from the Podium DI Box, then plug in the cable to the to the Audio Out
-jack (the middle one) to the Podium DI Box for the Room Sound System.
+jack to the Podium DI Box for the Room Sound System.
 
-* [ ] Connect the audio wire of the VGA/Audio cable to the Audio In jack using
+* [ ] Connect the audio wire of the HDMI/VGA/Audio cable to the Audio In jack using
 the 3.5mm to 1/4” adapter plug.
 
-* [ ] Connect the VGA plug (using the side without the adapters) of the
-Speaker’s Laptop VGA/Audio cable to the VGA In jack.
+* [ ] Connect the HDMI plug (using the side without the adapters) of the
+Speaker’s Laptop HDMI/VGA/Audio cable to the HDMI In jack.
 
-* [ ] Connect the VGA cable going to the projector to the VGA Out jack.
+* [ ] Connect the HDMI cable going to the projector to the HDMI Out jack.
 
 * [ ] Connect the KVM Source Switch to the Switch jack in the upper right by
 pushing in the connector. Do not screw the connector in.
 
-* [ ] Plug the AC side of the AC adapter power cord into a power outlet of the
-surge proctor inside or near the podium, but do not connect the DC side to the
-computer yet, this is because the computer may automatically turn on when power
-is connected.
+* [ ] Plug the AC adapter power cord into a power outlet of the
+surge proctor inside or near the podium, but do not connect the adapter to the
+computer yet. 
+(The computer may automatically turn on when power is connected)
 
-* [ ] Connect the IEC cable to the AC Adapter IEC socket and connect the DC
-barrel plug to the 12V DC Power Connection barrel jack.
+* [ ] Connect the AC Adapter to the Podium Computer.
 
 * [ ] Alert the NOC that the computer is connected and if instructed, press the
 Power Switch to power on the machine.
 
 * [ ] Confirm that the Podium Computer has a good network connection by looking
-at the inner motherboard through the clear top lid of the case. You should see
-both a solid blue Link light and a flashing orange Activity light.
+at the inner motherboard through the clear right side wall of the computer.
+You should see both a solid blue Link light and a flashing orange Activity light from the right.
 
 * [ ] Test the KVM Video Switch by pressing the pushbutton on the KVM remote.
-Each time you press the remote, one of two lights near the VGA Out port will
-turn on, indicating which source is active.
+Each time you press the remote, one of two lights near the bottom
+of the front of the computer will turn on, indicating which source is active.
 
 * [ ] Tape the Laminated Speaker Reminder Flyer to the top of the podium.
 
 * [ ] Tape the KVM switch about 6 inches from the bottom edge of the podium
 towards the left edge of the top of the podium.
 
+<<<
 === Room Testing Procedures ===
 
 This procedure can be run by just a volunteer with a year or more
@@ -224,7 +221,7 @@ listen to for each test. Check the audio levels of the following devices:
 
 ** [ ] Handheld microphones #1 and #2 (if present)
 
-** [ ] Laptop audio feed (VGA/Audio cable) by plugging in a 3.5mm test source such as a phone or laptop. Avoid playing copyrighted sounds when testing, such as music. If you have a phone, record your voice and play it back.
+** [ ] Laptop audio feed (HDMI/Audio cable) by plugging in a 3.5mm test source such as a phone or laptop. Avoid playing copyrighted sounds when testing, such as music. If you have a phone, record your voice and play it back.
 
 ** [ ] (If present) Panel microphones
 
