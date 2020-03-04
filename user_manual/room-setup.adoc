@@ -37,6 +37,7 @@ power switch.
 include::./assets/network_mixer.puml[Network Mixer]
 ....
 
+<<<
 === PoE Injector (for Samsung Camera) ===
 
 * [ ] Using Short Ethernet Cable, connect Network Switch (any port from 22 to
@@ -52,6 +53,7 @@ Injector’s PoE/DATA Jack.
 include::./assets/poe_injector_samsung.puml[PoE Injector (Samsung Camera)]
 ....
 
+<<<
 === PoE Injector (for PTZOptics Camera) ===
 
 * [ ] Using Short Ethernet Cable, connect Network Switch (any port from 22 to
@@ -67,6 +69,7 @@ Jack into PoE Splitter's POWER+DATA IN Jack.
 include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
 ....
 
+<<<
 === Camera DI Box ===
 
 * [ ] Connect Long XLR Audio Cable to Female-Female XLR Coupler.
@@ -86,6 +89,7 @@ include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
 include::./assets/camera_di_box.puml[Camera DI Box]
 ....
 
+<<<
 === Samsung Camera ===
 
 * [ ] Unfold and place Tripod next to confidence monitor (s.a., teleprompter).
@@ -124,6 +128,7 @@ back of the room; approximately 8 feet. DO NOT OVERTIGHTEN the tension knobs.)
 include::./assets/samsung_camera.puml[Samsung Camera]
 ....
 
+<<<
 === PTZOptics Camera ===
 
 * [ ] Unfold the tripod in the back of the room in the appropriate spot.
