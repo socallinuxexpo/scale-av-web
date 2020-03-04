@@ -20,4 +20,4 @@ image::./assets/podium-computer-hero.jpg[]
 
 The following image shows a front view of the various I/O connections on the podium computer:
 
-images::./assets/podium-computer-front-panel-connections.png[]
+image::./assets/podium-computer-front-panel-connections.png[]
