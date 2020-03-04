@@ -2,5 +2,5 @@
 
 The following schematics show the various connections of all of the equipment in each room
 
-image::./assets/detailed-podium-connections-scale-16x.svg.png[]
+image::./assets/detailed-podium-connections-scale-18x.png[]
 image::./assets/detailed-camera-connections-scale-16x.png[]

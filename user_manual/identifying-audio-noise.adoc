@@ -7,19 +7,19 @@ In order to speak more precisely when discussing audio noise problems, it may be
 Hum (also called buzz) is a continuous sound that occur in a specific set of lower frequencies (often around 60Hz) and  usually are caused by electrical interference by either bad audio connections or a ground loop condition.
 https://www.youtube.com/watch?v=SVZ2P0KsLic[This is a video sample] with a 60Hz tone.
 
-images::./assets/identify_hum.png[]
+image::./assets/identify_hum.png[]
 
 === Hiss
 
 Hiss is a continuous broadband sound that occurs over a wider set of frequencies than hum and may be caused by fans, air conditioners, or analog sound equipment like tape cassettes.
 
-images::./assets/identify_hiss.png[]
+image::./assets/identify_hiss.png[]
 
 === Clicks and Pops
 
 Clicks and pops are short bursts of high level sound across the spectrum and can be caused by mechanical issues in analog systems like vinyl record players or signal processing errors in digital systems such as insufficient buffer sizes or latency.
 
-images::./assets/identify_clicks.png[]
+image::./assets/identify_clicks.png[]
 
 === Distortion
 
@@ -31,7 +31,7 @@ Clipping occurs when the peaks and troughs of an audio signal gets "`clipped`" o
 
 You can prevent distortion by reducing the sound levels on a device so that signals have enough "`headroom`" and do not trip the peak or clip indicators.
 
-images::./assets/identify_clipping.png[]
+image::./assets/identify_clipping.png[]
 
 === Feedback
 
