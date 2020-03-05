@@ -27,6 +27,8 @@ corresponding Network Mixer channels:
 
  Note: INSERT Jack on Zed 14 audio mixer is on top, whereas INSERT Jack on Mackie 1404 audio mixer it is on rear panel.
 
+ CAUTION: Make sure that the TRS side (the one with the adapter) is the side plugged into the In-Room Mixer.
+
 * [ ] Set *MIX L* knob to *12 o’clock* position
 
 * [ ] Connect *AC Adapter* to Network Mixer and power outlet and *Turn On*

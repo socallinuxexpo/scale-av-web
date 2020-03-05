@@ -1,8 +1,9 @@
-:version: 1.0
+:version: 1.1
 [cols=",,,", options="header", caption=""]
 .*Changelog*
 |===
 |Name |Date |Reason For Changes |Version
+|Jess Bermudes | March 4, 2020 | Add caution for AV cables in Room Setup | 1.1
 |Jess Bermudes | March 4, 2020 | Update for 18x | 1.0
 |Sean Marquez |February 24, 2020 |Pre-release |1.0-c
 |===
