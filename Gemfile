@@ -10,3 +10,5 @@ gem "asciidoctor", "~> 2.0"
 gem "asciidoctor-pdf", "~> 1.5"
 
 gem "asciidoctor-diagram", "~> 2.0"
+
+gem "travis", "~> 1.8"
