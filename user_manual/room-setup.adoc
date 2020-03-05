@@ -40,8 +40,8 @@ include::./assets/network_mixer.puml[Network Mixer]
 <<<
 === PoE Injector (for Samsung Camera) ===
 
-* [ ] Using Short Ethernet Cable, connect Network Switch (any port from 22 to
-27) to DATA Jack of ZyXEL PoE Injector
+* [ ] Using Short Ethernet Cable, connect Network Switch 
+(any port from 22 to 27) to DATA Jack of ZyXEL PoE Injector
 
 * [ ] Using Long Camera Ethernet Cable, connect Samsung camera into PoE
 Injector’s PoE/DATA Jack.
@@ -119,9 +119,11 @@ plug to the DI Box PARPOUT Jack.
 * [ ] Connect Camera’s Ethernet Cable into the PoE Injector’s PoE/DATA Jack.
 This should power on the camera.
 
-* [ ] Raise camera and lock in place with metal pin and tension knobs. (Note
-camera should be high enough such that it can look over anybody standing in the
-back of the room; approximately 8 feet. DO NOT OVERTIGHTEN the tension knobs.)
+* [ ] Raise camera and lock in place with metal pin and tension knobs. 
+
+ Note: Camera should be high enough such that it can look over anybody standing in the back of the room; approximately 8 feet. 
+ 
+ WARNING: DO NOT OVERTIGHTEN the tension knobs.
 
 [plantuml, samsung_camera, svg]
 ....
