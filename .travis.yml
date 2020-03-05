@@ -19,5 +19,6 @@ after_success:
 branches:
   only:
   - master
-pro:
-  secure: CgI2SDEG+c7NS7M8qYnACnkLMmpMdVbEKGvE/eWHYt6bBNwLinrGEKnw1W0zA0PhFZLYSgaWg1QRYG4id5tJObZ4jjxL2aCvhFCnjZ+k8RhAeZd8Zu5wjZmNwXg3SNWxrZg8cLOyZ17L/41qXWwsA1+E5uWFnv33+S0s5Df1EJ0=
+env:
+  global:
+  - secure: Ke2uqIPj5ns/Hu4gbMS58ojgnG/tKqkR8UGdFLiZEvj6kWexU3MMFvIGZZ3N8zKjI9K35Ub9KcSqTpMd1ZEY6dlz+Za7XQ3ueYKW54fAWH58TVxK9Yw8a1hY03lPGTzOSxBMKiC5PCdgG+sBuxMvDVZ02FpQUQ0+T/Hv9zc04BQ=
