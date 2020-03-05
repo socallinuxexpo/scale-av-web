@@ -1,5 +1,5 @@
 = SCaLE A/V Coordination =
-:scale18x-av-user-manual.pdf: https://github.com/socallinuxexpo/scale-av-web/blob/gh-pages/scale18x-av-user-manual.pdf[scale18x-av-user-manual.pdf]
+:scale-av-user-manual-pdf: https://socallinuxexpo.github.io/scale-av-web/site/scale-av-user-manual.pdf[scale-av-user-manual.pdf]
 :user-manual-dir: link:user_manual/[user_manual/]
 :changelog: link:user_manual/CHANGELOG.adoc/[CHANGELOG.adoc]
 :scale-av-web: https://socallinuxexpo.github.io/scale-av-web/[scale-av webpage]
@@ -10,7 +10,7 @@
 Welcome to the SCaLE A/V Coordination GitHub repo! 
 
 This repo contains source files that serve the dual purpose of generating the
-{scale-av-web} and the {scale18x-av-user-manual.pdf}, as well as offering a
+{scale-av-web} and the {scale-av-user-manual-pdf}, as well as offering a
 wiki and issue tracker for SCaLE A/V logistics and planning.
 
 If you are interested in volunteering, please refer to the {scale-av-wiki}.
@@ -23,7 +23,7 @@ Pasadena Convention Center.
 == Developer Notes ==
 
 Documentation in this repo, including the {scale-av-web} and
-{scale18x-av-user-manual.pdf}, were generated using {asciidoctor-homepage} - a
+{scale-av-user-manual-pdf}, were generated using {asciidoctor-homepage} - a
 static-site generator for the
 https://asciidoctor.org/docs/asciidoc-syntax-quick-reference[AsciiDoc]
 markup language.
@@ -39,7 +39,7 @@ the changes in {changelog}, then commit changes to the `master` branch.
 
 The following prerequisites and instructions are for installing and building
 {asciidoctor-homepage}, including required dependencies, for previewing changes
-made to the {scale18x-av-user-manual.pdf}.
+made to the {scale-av-user-manual-pdf}.
 
 === Prerequisites ===
 
@@ -77,10 +77,10 @@ Install bundler, then bundle install dependencies:
 
 === Usage ===
 
-The following will locally generate the {scale18x-av-user-manual.pdf} to the
+The following will locally generate the {scale-av-user-manual-pdf} to the
 site/ folder.
 
- asciidoctor user_manual/index.adoc -o site/scale18-av-user-manual.pdf -r asciidoctor-pdf -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml
+ asciidoctor user_manual/index.adoc -o site/scale-av-user-manual.pdf -r asciidoctor-pdf -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml
 
 The following will locally generate an index.html, including diagrams, of the
 SCaLE A/V user manual to the site/ folder.

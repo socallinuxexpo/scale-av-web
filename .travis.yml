@@ -11,7 +11,7 @@ install:
 script:
 - asciidoctor index.adoc
 - asciidoctor user_manual/index.adoc -o site/index.html -r asciidoctor-diagram
-- asciidoctor user_manual/index.adoc -o site/scale18x-av-user-manual.pdf -r asciidoctor-pdf
+- asciidoctor user_manual/index.adoc -o site/scale-av-user-manual.pdf -r asciidoctor-pdf
   -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml
 - cp -r user_manual/assets/ site/
 after_success:
