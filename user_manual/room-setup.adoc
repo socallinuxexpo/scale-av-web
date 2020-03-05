@@ -2,7 +2,7 @@
 
 === Network Mixer ===
 
-* [ ] Place *Network Mixer* on tray underneath *In-Room Audio Mixer*.
+* [ ] Place *Network Mixer* in a safe place on tray underneath *In-Room Audio Mixer* or if it doesn't fit, make room
 
 * [ ] Fold WiFi antenna down.
 
@@ -23,7 +23,7 @@ corresponding Network Mixer channels:
 
 ** [ ] *"LAV Mic"* to Network Mixer *Ch. 2*
 
-** [ ] *"DI"* to Network Mixer *Ch. 3*.
+** [ ] *"DI" (Sometimes labeled "COMP")* to Network Mixer *Ch. 3*.
 
  Note: INSERT Jack on Zed 14 audio mixer is on top, whereas INSERT Jack on Mackie 1404 audio mixer it is on rear panel.
 
