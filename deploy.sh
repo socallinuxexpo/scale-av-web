@@ -8,5 +8,5 @@ git checkout -b gh-pages
 git add .
 git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
-git remote add origin-pages https://$GH_TOKEN@github.com/capsulecorplab/scale-av-web.git > /dev/null 2>&1
+git remote add origin-pages https://$GH_TOKEN@github.com/socallinuxexpo/scale-av-web.git > /dev/null 2>&1
 git push -f origin-pages gh-pages
