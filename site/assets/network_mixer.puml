@@ -1,0 +1,40 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+[Network Mixer] as NM
+[AC Adapter] as AC
+[Network Switch] as NS
+[Camera DI Box] as DIBox
+[1/4” TS -to- 1/4”\nTRS Adapter] as adapter1
+[1/4” TS -to- 1/4”\nTRS Adapter] as adapter2
+[1/4” TS -to- 1/4”\nTRS Adapter] as adapter3
+[In-Room\nAudio Mixer] as mixer
+interface "MIX L" as MIXL
+interface Ch1
+interface Ch2
+interface Ch3
+interface "Handheld Mic" as handheld
+interface "LAV Mic" as LAV
+interface "DI"
+interface "Power Outlet" as PO
+
+note top of mixer: Fold WiFi antenna down
+mixer -- handheld
+mixer -- LAV
+mixer -- DI
+handheld -- adapter1
+LAV -- adapter2
+DI -- adapter3
+adapter1 -- Ch1: <<1/4" TS\nAudio Cable>>
+adapter2 -- Ch2: <<1/4" TS\nAudio Cable>>
+adapter3 -- Ch3: <<1/4" TS\nAudio Cable>>
+Ch1 -- NM
+Ch2 -- NM
+Ch3 -- NM
+DIBox - MIXL: <<XLR Audio Cable>>
+NM -- MIXL
+NS - NM: <<Long Ethernet Cable>>
+NM - AC
+note right of NM: Set MIX L knob to 12 o'clock
+AC - PO
+@enduml

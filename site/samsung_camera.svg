@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="197px" preserveAspectRatio="none" style="width:677px;height:197px;" version="1.1" viewBox="0 0 677 197" width="677px" zoomAndPan="magnify"><defs><filter height="300%" id="frfc219aco89u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[880852973e4670ca538771b23516c397]
+entity tripod--><rect fill="#FEFECE" filter="url(#frfc219aco89u)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="64" x="285.5" y="150"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="280.5" y="155"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="280.5" y="176.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="295.5" y="172.9951">Tripod</text><!--MD5=[cc0b6f262df5a2b8e82a805a09600c41]
+entity cam--><rect fill="#FEFECE" filter="url(#frfc219aco89u)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="246.5" y="79"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="241.5" y="84"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="241.5" y="105.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="256.5" y="101.9951">Samsung Camera</text><!--MD5=[e8fd80a56ae2a755cbd0cee676455e8e]
+entity mount--><rect fill="#FEFECE" filter="url(#frfc219aco89u)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="153" x="241" y="8"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="236" y="13"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="236" y="34.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="251" y="30.9951">PVC Camera Mount</text><!--MD5=[09b973bd9245ee673f4c806aba89dc2a]
+entity DIBox--><rect fill="#FEFECE" filter="url(#frfc219aco89u)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="121" x="545" y="17"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="540" y="22"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="540" y="43.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="555" y="39.9951">Camera DI Box</text><!--MD5=[1182b8c93ace4aff2a6dcaa289a56fd5]
+entity injector--><rect fill="#FEFECE" filter="url(#frfc219aco89u)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="6" y="17"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1" y="22"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1" y="43.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="16" y="39.9951">PoE Injector</text><!--MD5=[fca63ca9f51852cf376039b0c2941740]
+entity PARPOUT--><ellipse cx="605.5" cy="97" fill="#FEFECE" filter="url(#frfc219aco89u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="572" y="126.9951">PARPOUT</text><!--MD5=[ea0932af54cda7a6db5dcbe2deafdc39]
+entity injectorOUT--><ellipse cx="57" cy="97" fill="#FEFECE" filter="url(#frfc219aco89u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="22" y="126.9951">PoE/DATA</text><!--MD5=[437987a5ff0b847c69a60d9d3918fc13]
+link cam to PARPOUT--><path d="M388.83,97 C460.942,97 566.633,97 596.421,97 " fill="none" id="cam-PARPOUT" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="425" y="93.0669">«audio cable»</text><!--MD5=[055ab9d902daae67e2dfc259af77f695]
+link injectorOUT to cam--><path d="M66.0199,97 C92.949,97 182.05,97 246.322,97 " fill="none" id="injectorOUT-cam" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="71" x="139" y="93.0669">«ethernet»</text><!--MD5=[24b5df5b18094a65a83442c5017d5f47]
+link injector to injectorOUT--><path d="M57,53.149 C57,64.698 57,76.248 57,87.7969 " fill="none" id="injector-injectorOUT" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7de0aa394bb96fc86f3ab44f99a1bf9d]
+link DIBox to PARPOUT--><path d="M605.5,53.149 C605.5,64.698 605.5,76.248 605.5,87.7969 " fill="none" id="DIBox-PARPOUT" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[32ddabeb9b18f37c4e0d3f943ce32b82]
+link mount to cam--><path d="M317.5,44.209 C317.5,55.797 317.5,67.385 317.5,78.973 " fill="none" id="mount-cam" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[95291813b0b6a9992e721c4ba9ed70a6]
+link cam to tripod--><path d="M317.5,115.2094 C317.5,126.7971 317.5,138.3849 317.5,149.9727 " fill="none" id="cam-tripod" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[77d6cbe6d98d2ac628544d6efd1150cc]
+@startuml
+left to right direction
+[Tripod] as tripod
+[Samsung Camera] as cam
+[PVC Camera Mount] as mount
+[Camera DI Box] as DIBox
+[PoE Injector] as injector
+interface PARPOUT
+interface "PoE/DATA" as injectorOUT
+
+cam .. PARPOUT: <<audio cable>>
+injectorOUT .. cam: <<ethernet>>
+injector - injectorOUT
+DIBox - PARPOUT
+mount - cam
+cam - tripod
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 10:24:54 UTC 2019)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.2+9
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

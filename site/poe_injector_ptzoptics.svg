@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="281px" preserveAspectRatio="none" style="width:933px;height:281px;" version="1.1" viewBox="0 0 933 281" width="933px" zoomAndPan="magnify"><defs><filter height="300%" id="f1wzcwy2gijvwr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[cc0b6f262df5a2b8e82a805a09600c41]
+entity cam--><rect fill="#FEFECE" filter="url(#f1wzcwy2gijvwr)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="149" x="6" y="8"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1" y="13"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1" y="34.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="129" x="16" y="30.9951">PTZOptics Camera</text><!--MD5=[1182b8c93ace4aff2a6dcaa289a56fd5]
+entity injector--><rect fill="#FEFECE" filter="url(#f1wzcwy2gijvwr)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="158" x="576" y="141"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="571" y="146"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="571" y="167.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="586" y="163.9951">TP-LINK PoE Injector</text><!--MD5=[61498962660899b120993277f4dd34dc]
+entity NS--><rect fill="#FEFECE" filter="url(#f1wzcwy2gijvwr)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="126" x="795" y="62"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="790" y="67"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="790" y="88.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="805" y="84.9951">Network Switch</text><!--MD5=[84947c9ab41620577ad302ba4b50b1b3]
+entity splitter--><rect fill="#FEFECE" filter="url(#f1wzcwy2gijvwr)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="31" y="79"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="26" y="84"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="26" y="105.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="41" y="101.9951">PoE Splitter</text><!--MD5=[973b953f4bcf83b0da13ee85ebbc43e4]
+entity injectorIN--><ellipse cx="858" cy="159" fill="#FEFECE" filter="url(#f1wzcwy2gijvwr)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="836.5" y="188.9951">LAN IN</text><!--MD5=[ea0932af54cda7a6db5dcbe2deafdc39]
+entity injectorOUT--><ellipse cx="439" cy="159" fill="#FEFECE" filter="url(#f1wzcwy2gijvwr)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="371" y="188.9951">POWER+DATA OUT</text><!--MD5=[582f22069baae4e4e79b7291162023b8]
+entity splitterIN--><ellipse cx="80.5" cy="159" fill="#FEFECE" filter="url(#f1wzcwy2gijvwr)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="119" x="21" y="188.9951">POWER+DATA IN</text><!--MD5=[314cc96ff71eed8d4368d2aaf76c7ae0]
+entity PO--><ellipse cx="655" cy="238" fill="#FEFECE" filter="url(#f1wzcwy2gijvwr)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="610.5" y="267.9951">Power Outlet</text><!--MD5=[4be1dd72d53980471631fdbcc1a5b83c]
+link cam to splitter--><path d="M80.5,44.209 C80.5,55.797 80.5,67.385 80.5,78.973 " fill="none" id="cam-splitter" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0047e54710c4ee5aa666eaec1cf9eb9b]
+link splitter to splitterIN--><path d="M80.5,115.149 C80.5,126.698 80.5,138.248 80.5,149.7969 " fill="none" id="splitter-splitterIN" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3651024d4d0dcd08dd4f812994d5f3bb]
+link splitterIN to injectorOUT--><path d="M89.6158,159 C137.395,159 381.571,159 429.741,159 " fill="none" id="splitterIN-injectorOUT" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="186" y="155.0669">«Long Ethernet Cable»</text><!--MD5=[8e6e7d30aaed9ff54d13d9195588f52a]
+link injectorOUT to injector--><path d="M448.128,159 C469.123,159 526.956,159 575.998,159 " fill="none" id="injectorOUT-injector" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[42a88f8f62638c8b027c8b4f7539d92b]
+link injector to PO--><path d="M655,177.2017 C655,193.3853 655,216.3738 655,228.9377 " fill="none" id="injector-PO" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="605.5" y="207.5669">«IEC Cable»</text><!--MD5=[b2e227aeaf1a5b20a91a9aea5aa9633b]
+link injector to injectorIN--><path d="M734.287,159 C778.82,159 829.478,159 848.868,159 " fill="none" id="injector-injectorIN" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ce265e719cf46af8783818d9db776666]
+link NS to injectorIN--><path d="M858,98.202 C858,114.385 858,137.374 858,149.9377 " fill="none" id="NS-injectorIN" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="150" x="771.5" y="128.5669">«Short Ethernet Cable»</text><!--MD5=[80135e11239102ad71db7a119add3178]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+[PTZOptics Camera] as cam
+[TP-LINK PoE Injector] as injector
+[Network Switch] as NS
+[PoE Splitter] as splitter
+interface "LAN IN" as injectorIN
+interface "POWER+DATA OUT" as injectorOUT
+interface "POWER+DATA IN" as splitterIN
+interface "Power Outlet" as PO
+
+cam - splitter
+splitter - splitterIN
+splitterIN - - injectorOUT: <<Long Ethernet Cable>>
+injectorOUT - - injector
+injector - PO: <<IEC Cable>>
+injector - - injectorIN
+NS - injectorIN: <<Short Ethernet Cable>>
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 10:24:54 UTC 2019)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.2+9
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

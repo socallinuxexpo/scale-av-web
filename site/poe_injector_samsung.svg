@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="227px" preserveAspectRatio="none" style="width:571px;height:227px;" version="1.1" viewBox="0 0 571 227" width="571px" zoomAndPan="magnify"><defs><filter height="300%" id="f1o1mtnbk9di34" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[cc0b6f262df5a2b8e82a805a09600c41]
+entity cam--><rect fill="#FEFECE" filter="url(#f1o1mtnbk9di34)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="20.5" y="8"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="15.5" y="13"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="15.5" y="34.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="30.5" y="30.9951">Samsung Camera</text><!--MD5=[1182b8c93ace4aff2a6dcaa289a56fd5]
+entity injector--><rect fill="#FEFECE" filter="url(#f1o1mtnbk9di34)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="148" x="223.5" y="87"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="218.5" y="92"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="218.5" y="113.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="233.5" y="109.9951">ZyXEL PoE Injector</text><!--MD5=[61498962660899b120993277f4dd34dc]
+entity NS--><rect fill="#FEFECE" filter="url(#f1o1mtnbk9di34)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="126" x="432.5" y="8"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="427.5" y="13"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="427.5" y="34.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="442.5" y="30.9951">Network Switch</text><!--MD5=[bcd48e186c7e0034822ece4af48c0720]
+entity DATAIN--><ellipse cx="495.5" cy="105" fill="#FEFECE" filter="url(#f1o1mtnbk9di34)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="476.5" y="134.9951">DATA</text><!--MD5=[76fd9e203d96db57c0a9f8fd22506d7a]
+entity DATAOUT--><ellipse cx="91.5" cy="105" fill="#FEFECE" filter="url(#f1o1mtnbk9di34)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="56.5" y="134.9951">PoE/DATA</text><!--MD5=[314cc96ff71eed8d4368d2aaf76c7ae0]
+entity PO--><ellipse cx="297.5" cy="184" fill="#FEFECE" filter="url(#f1o1mtnbk9di34)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="253" y="213.9951">Power Outlet</text><!--MD5=[c624c596d84c5e3ad58415022fd74314]
+link cam to DATAOUT--><path d="M91.5,44.202 C91.5,60.385 91.5,83.374 91.5,95.9377 " fill="none" id="cam-DATAOUT" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="7" y="74.5669">«Long Ethernet Cable»</text><!--MD5=[996fcbb2f9423a0e3e13ec1119c1fc43]
+link DATAOUT to injector--><path d="M100.7497,105 C121.36,105 176.799,105 223.438,105 " fill="none" id="DATAOUT-injector" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[42a88f8f62638c8b027c8b4f7539d92b]
+link injector to PO--><path d="M297.5,123.2017 C297.5,139.3853 297.5,162.3738 297.5,174.9377 " fill="none" id="injector-PO" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="248" y="153.5669">«IEC Cable»</text><!--MD5=[8beed3163ecbac350ed0be084c91c5c5]
+link injector to DATAIN--><path d="M371.762,105 C415.69,105 466.713,105 486.284,105 " fill="none" id="injector-DATAIN" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3e432aa6da0004cc3255d5a982e058a6]
+link NS to DATAIN--><path d="M495.5,44.202 C495.5,60.385 495.5,83.374 495.5,95.9377 " fill="none" id="NS-DATAIN" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="150" x="409" y="74.5669">«Short Ethernet Cable»</text><!--MD5=[96a14977503e8e64f9021b4417c8f79c]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+[Samsung Camera] as cam
+[ZyXEL PoE Injector] as injector
+[Network Switch] as NS
+interface "DATA" as DATAIN
+interface "PoE/DATA" as DATAOUT
+interface "Power Outlet" as PO
+
+cam - DATAOUT: <<Long Ethernet Cable>>
+DATAOUT - - injector
+injector - PO: <<IEC Cable>>
+injector - - DATAIN
+NS - DATAIN: <<Short Ethernet Cable>>
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 10:24:54 UTC 2019)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.2+9
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

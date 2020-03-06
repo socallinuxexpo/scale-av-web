@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="318px" preserveAspectRatio="none" style="width:1212px;height:318px;" version="1.1" viewBox="0 0 1212 318" width="1212px" zoomAndPan="magnify"><defs><filter height="300%" id="fu16svidfwyu3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[887d5722b1d18c8d939b8be9b21021dc]
+entity NM--><rect fill="#FEFECE" filter="url(#fu16svidfwyu3)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="117" x="818.5" y="124"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="813.5" y="129"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="813.5" y="150.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="828.5" y="146.9951">Network Mixer</text><!--MD5=[0313ddc4f8ed0f4991a51edae0b1647c]
+entity AC--><rect fill="#FEFECE" filter="url(#fu16svidfwyu3)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="828.5" y="195"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="823.5" y="200"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="823.5" y="221.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="838.5" y="217.9951">AC Adapter</text><!--MD5=[61498962660899b120993277f4dd34dc]
+entity NS--><rect fill="#FEFECE" filter="url(#fu16svidfwyu3)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="126" x="814" y="36"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="809" y="41"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="809" y="62.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="824" y="58.9951">Network Switch</text><!--MD5=[09b973bd9245ee673f4c806aba89dc2a]
+entity DIBox--><rect fill="#FEFECE" filter="url(#fu16svidfwyu3)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="121" x="1040" y="8"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1035" y="13"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1035" y="34.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="1050" y="30.9951">Camera DI Box</text><!--MD5=[343b5791d7541b25281fd72eea895487]
+entity adapter1--><rect fill="#FEFECE" filter="url(#fu16svidfwyu3)" height="52.5938" style="stroke: #A80036; stroke-width: 1.5;" width="134" x="405" y="22.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="400" y="27.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="400" y="65.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="415" y="45.4951">1/4” TS -to- 1/4”</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="415" y="61.792">TRS Adapter</text><!--MD5=[b7e917a45f1e0c733606fbda88f6d7e8]
+entity adapter2--><rect fill="#FEFECE" filter="url(#fu16svidfwyu3)" height="52.5938" style="stroke: #A80036; stroke-width: 1.5;" width="134" x="405" y="115.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="400" y="120.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="400" y="158.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="415" y="138.4951">1/4” TS -to- 1/4”</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="415" y="154.792">TRS Adapter</text><!--MD5=[19c532058e43e05d59938b5bc42eba56]
+entity adapter3--><rect fill="#FEFECE" filter="url(#fu16svidfwyu3)" height="52.5938" style="stroke: #A80036; stroke-width: 1.5;" width="134" x="405" y="208.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="400" y="213.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="400" y="251.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="415" y="231.4951">1/4” TS -to- 1/4”</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="415" y="247.792">TRS Adapter</text><!--MD5=[b631dddb027ebfec8dcad7bd459aff7c]
+entity mixer--><rect fill="#FEFECE" filter="url(#fu16svidfwyu3)" height="52.5938" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="41" y="115.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="36" y="120.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="36" y="158.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="51" y="138.4951">In-Room</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="51" y="154.792">Audio Mixer</text><!--MD5=[6abd995aa08889c0eedc186983669474]
+entity MIXL--><ellipse cx="1100.5" cy="105" fill="#FEFECE" filter="url(#fu16svidfwyu3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="1083" y="134.9951">MIX L</text><!--MD5=[fe754ccad47540191b7c1f6188f33c1e]
+entity Ch1--><ellipse cx="726" cy="49" fill="#FEFECE" filter="url(#fu16svidfwyu3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="712" y="78.9951">Ch1</text><!--MD5=[b0f4ec10f7027fab22456914291535b3]
+entity Ch2--><ellipse cx="726" cy="142" fill="#FEFECE" filter="url(#fu16svidfwyu3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="712" y="171.9951">Ch2</text><!--MD5=[7c295b66cf076363b17476869db9bdc4]
+entity Ch3--><ellipse cx="726" cy="235" fill="#FEFECE" filter="url(#fu16svidfwyu3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="712" y="264.9951">Ch3</text><!--MD5=[a7f2830eea97772afbc2bda78ddd1c55]
+entity handheld--><ellipse cx="290" cy="49" fill="#FEFECE" filter="url(#fu16svidfwyu3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="243.5" y="78.9951">Handheld Mic</text><!--MD5=[0c4999c73bd7538c74e6b1d237ac8d0b]
+entity LAV--><ellipse cx="290" cy="142" fill="#FEFECE" filter="url(#fu16svidfwyu3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="264" y="171.9951">LAV Mic</text><!--MD5=[9a9f7a7118ae17816e018c2bf6f0b153]
+entity DI--><ellipse cx="290" cy="235" fill="#FEFECE" filter="url(#fu16svidfwyu3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="14" x="283" y="264.9951">DI</text><!--MD5=[314cc96ff71eed8d4368d2aaf76c7ae0]
+entity PO--><ellipse cx="877" cy="275" fill="#FEFECE" filter="url(#fu16svidfwyu3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="832.5" y="304.9951">Power Outlet</text><path d="M6,55.5 L6,80.6328 A0,0 0 0 0 6,80.6328 L86.5,80.6328 L90.5,115.406 L94.5,80.6328 L175,80.6328 A0,0 0 0 0 175,80.6328 L175,65.5 L165,55.5 L6,55.5 A0,0 0 0 0 6,55.5 " fill="#FBFB77" filter="url(#fu16svidfwyu3)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M165,55.5 L165,65.5 L175,65.5 L165,55.5 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="148" x="12" y="72.5669">Fold WiFi antenna down</text><path d="M1001,149.5 L1001,149.5 L935.618,147.203 L1001,157.5 L1001,174.6328 A0,0 0 0 0 1001,174.6328 L1200,174.6328 A0,0 0 0 0 1200,174.6328 L1200,159.5 L1190,149.5 L1001,149.5 A0,0 0 0 0 1001,149.5 " fill="#FBFB77" filter="url(#fu16svidfwyu3)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1190,149.5 L1190,159.5 L1200,159.5 L1190,149.5 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="178" x="1007" y="166.5669">Set MIX L knob to 12 o'clock</text><!--MD5=[8d81d84023fe0c43f65c196f23528fd5]
+link mixer to handheld--><path d="M140.067,119.131 C188.037,96.542 257.525,63.821 280.949,52.791 " fill="none" id="mixer-handheld" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f42b57ec3748c6338e1660bdb42b8a1d]
+link mixer to LAV--><path d="M140.067,142 C188.037,142 257.525,142 280.949,142 " fill="none" id="mixer-LAV" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7249fe34b1e92ea99a07581e55d90ba2]
+link mixer to DI--><path d="M140.067,164.869 C188.037,187.4579 257.525,220.1789 280.949,231.2087 " fill="none" id="mixer-DI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a2a1d6d2b88eb8d2ef41f9be05c1f605]
+link handheld to adapter1--><path d="M299.202,49 C317.771,49 364.531,49 404.586,49 " fill="none" id="handheld-adapter1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[713b4d9f3644c8d158f26463b388fdfd]
+link LAV to adapter2--><path d="M299.202,142 C317.771,142 364.531,142 404.586,142 " fill="none" id="LAV-adapter2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d109fbfecd633fc1b79f1e9c26b44a77]
+link DI to adapter3--><path d="M299.202,235 C317.771,235 364.531,235 404.586,235 " fill="none" id="DI-adapter3" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0741edd1628a17c924b3d903e3cbb6af]
+link adapter1 to Ch1--><path d="M539.21,49 C601.624,49 689.518,49 716.678,49 " fill="none" id="adapter1-Ch1" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="585.5" y="30.0669">&lt;&lt;1/4" TS</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="98" x="570" y="45.1997">Audio Cable&gt;&gt;</text><!--MD5=[501c0075a8151e2c0deac518a3ba1deb]
+link adapter2 to Ch2--><path d="M539.21,142 C601.624,142 689.518,142 716.678,142 " fill="none" id="adapter2-Ch2" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="585.5" y="123.0669">&lt;&lt;1/4" TS</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="98" x="570" y="138.1997">Audio Cable&gt;&gt;</text><!--MD5=[52212f90daccb16b1362107ceec09bc6]
+link adapter3 to Ch3--><path d="M539.21,235 C601.624,235 689.518,235 716.678,235 " fill="none" id="adapter3-Ch3" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="585.5" y="216.0669">&lt;&lt;1/4" TS</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="98" x="570" y="231.1997">Audio Cable&gt;&gt;</text><!--MD5=[22e00a5426c781824d80f166828dbb1c]
+link Ch1 to NM--><path d="M735.011,54 C755.805,66.979 812.302,102.242 847.139,123.986 " fill="none" id="Ch1-NM" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e5216e3c1962b6f2b0c5a38d14e1026f]
+link Ch2 to NM--><path d="M735.011,142 C750.667,142 786.561,142 818.213,142 " fill="none" id="Ch2-NM" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c4beac4d6937585f6a6fe5ae26159033]
+link Ch3 to NM--><path d="M735.062,229.5083 C750.312,219.1681 784.498,196.2111 814,178 C823.638,172.05 834.258,165.782 843.945,160.173 " fill="none" id="Ch3-NM" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[be4463f60a6c1eece7228d21d33ea4d2]
+link DIBox to MIXL--><path d="M1100.5,44.202 C1100.5,60.385 1100.5,83.374 1100.5,95.938 " fill="none" id="DIBox-MIXL" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="1029.5" y="74.5669">«XLR Audio Cable»</text><!--MD5=[2e222e411907b4522106f5a97b7074a7]
+link NM to MIXL--><path d="M935.618,132.375 C989.968,123.297 1066.69,110.481 1091.46,106.344 " fill="none" id="NM-MIXL" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b2e9b6119b20dc7b1047f1e12c5bf763]
+link NS to NM--><path d="M877,72.21 C877,87.307 877,108.663 877,123.766 " fill="none" id="NS-NM" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="792.5" y="102.5669">«Long Ethernet Cable»</text><!--MD5=[a1aebc17eff2b1a105f8db5cb4208882]
+link NM to AC--><path d="M877,160.209 C877,171.797 877,183.385 877,194.9727 " fill="none" id="NM-AC" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[39d2a9e5bc716bbd40f269e84d16fc4c]
+link AC to PO--><path d="M877,231.1489 C877,242.6982 877,254.2476 877,265.7969 " fill="none" id="AC-PO" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[53fabf27b9254561a27cc827733b7e1a]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+[Network Mixer] as NM
+[AC Adapter] as AC
+[Network Switch] as NS
+[Camera DI Box] as DIBox
+[1/4” TS -to- 1/4”\nTRS Adapter] as adapter1
+[1/4” TS -to- 1/4”\nTRS Adapter] as adapter2
+[1/4” TS -to- 1/4”\nTRS Adapter] as adapter3
+[In-Room\nAudio Mixer] as mixer
+interface "MIX L" as MIXL
+interface Ch1
+interface Ch2
+interface Ch3
+interface "Handheld Mic" as handheld
+interface "LAV Mic" as LAV
+interface "DI"
+interface "Power Outlet" as PO
+
+note top of mixer: Fold WiFi antenna down
+mixer - - handheld
+mixer - - LAV
+mixer - - DI
+handheld - - adapter1
+LAV - - adapter2
+DI - - adapter3
+adapter1 - - Ch1: <<1/4" TS\nAudio Cable>>
+adapter2 - - Ch2: <<1/4" TS\nAudio Cable>>
+adapter3 - - Ch3: <<1/4" TS\nAudio Cable>>
+Ch1 - - NM
+Ch2 - - NM
+Ch3 - - NM
+DIBox - MIXL: <<XLR Audio Cable>>
+NM - - MIXL
+NS - NM: <<Long Ethernet Cable>>
+NM - AC
+note right of NM: Set MIX L knob to 12 o'clock
+AC - PO
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 10:24:54 UTC 2019)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.2+9
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

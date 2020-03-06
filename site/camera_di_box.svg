@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="177px" preserveAspectRatio="none" style="width:764px;height:177px;" version="1.1" viewBox="0 0 764 177" width="764px" zoomAndPan="magnify"><defs><filter height="300%" id="fktkj5jdperwj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[34e36c4b4d3b246860935eee93441c8b]
+entity coupler--><rect fill="#FEFECE" filter="url(#fktkj5jdperwj)" height="52.5938" style="stroke: #A80036; stroke-width: 1.5;" width="125" x="251" y="60"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="246" y="65"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="246" y="102.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="261" y="82.9951">Female-Female</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="261" y="99.292">XLR Coupler</text><!--MD5=[09b973bd9245ee673f4c806aba89dc2a]
+entity DIBox--><rect fill="#FEFECE" filter="url(#fktkj5jdperwj)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="121" x="37.5" y="68.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="32.5" y="73.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="32.5" y="94.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="47.5" y="91.4951">Camera DI Box</text><!--MD5=[b631dddb027ebfec8dcad7bd459aff7c]
+entity mixer--><rect fill="#FEFECE" filter="url(#fktkj5jdperwj)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="161" x="592" y="68.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="587" y="73.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="587" y="94.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="141" x="602" y="91.4951">In-Room Audio Mixer</text><path d="M17.5,8 L17.5,33.1328 A0,0 0 0 0 17.5,33.1328 L94,33.1328 L98,68.4531 L102,33.1328 L178.5,33.1328 A0,0 0 0 0 178.5,33.1328 L178.5,18 L168.5,8 L17.5,8 A0,0 0 0 0 17.5,8 " fill="#FBFB77" filter="url(#fktkj5jdperwj)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M168.5,8 L168.5,18 L178.5,18 L168.5,8 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="140" x="23.5" y="25.0669">Set ATT Switch to 0dB</text><path d="M6,140 L6,165.1328 A0,0 0 0 0 6,165.1328 L190,165.1328 A0,0 0 0 0 190,165.1328 L190,150 L180,140 L102,140 L98,104.845 L94,140 L6,140 A0,0 0 0 0 6,140 " fill="#FBFB77" filter="url(#fktkj5jdperwj)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M180,140 L180,150 L190,150 L180,140 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="163" x="12" y="157.0669">Set Ground Switch to OFF</text><!--MD5=[386b6cb2c363d924bbb066ac7e1da299]
+link DIBox to coupler--><path d="M158.756,86.5 C187.499,86.5 221.921,86.5 250.901,86.5 " fill="none" id="DIBox-coupler" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[71f14da237560cbbd3437640ea1715de]
+link coupler to mixer--><path d="M376.277,86.5 C435.947,86.5 526.607,86.5 591.711,86.5 " fill="none" id="coupler-mixer" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="154" x="407" y="82.5669">«Long XLR Audio Cable»</text><!--MD5=[1468e3e85fdb965f081b6af292a95311]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+[Female-Female\nXLR Coupler] as coupler
+[Camera DI Box] as DIBox
+[In-Room Audio Mixer] as mixer
+
+DIBox - - coupler
+note top of DIBox: Set ATT Switch to 0dB
+note bottom of DIBox: Set Ground Switch to OFF
+coupler - - mixer: <<Long XLR Audio Cable>>
+@enduml
+
+PlantUML version 1.2019.12(Sun Nov 03 10:24:54 UTC 2019)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.2+9
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
