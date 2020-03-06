@@ -2,7 +2,13 @@
 
 === Network Mixer ===
 
-* [ ] Place *Network Mixer* in a safe place on tray underneath *In-Room Audio Mixer* or if it doesn't fit, make room
+[plantuml, network_mixer, svg]
+....
+include::./assets/network_mixer.puml[Network Mixer]
+....
+
+* [ ] Place *Network Mixer* in a safe place near the *In-Room Audio Mixer* 
+(either on the lower shelf below the mixer or on the same shelf as the mixer)
 
 * [ ] Fold WiFi antenna down.
 
@@ -11,13 +17,16 @@ Mixer power switch yet.)
 
 * [ ] Connect *Network Mixer* to *Long Ethernet Cable* to *Network Switch*.
 
-* [ ] Connect *XLR Audio Cable* to Network Mixer's *MIX L* jack.
+* [ ] Connect the long in-room *XLR Audio Cable* to Network Mixer's *MIX L* jack.
 
- Tip: XLR audio cable should run along back of the room from camera to audio mixer.
+ Tip: This XLR audio cable should already be ran along back of the room from camera to audio mixer.
+
+.XLR Plugs
+image::./assets/XLR-connectors-small.jpg[XLR Plugs,100,100]
 
 * [ ] Using 3 sets of *1/4” TS Audio Cables* and *1/4” TS-to-1/4” TRS
 Adapters*, connect the following In-Room Audio Mixer INSERT Jacks to the
-corresponding Network Mixer channels:
+corresponding Network Mixer channels (see diagram below):
 
 ** [ ] *"Handheld Mic"* to Network Mixer *Ch. 1*,
 
@@ -29,47 +38,11 @@ corresponding Network Mixer channels:
 
  CAUTION: Make sure that the TRS side (the one with the adapter) is the side plugged into the In-Room Mixer.
 
-* [ ] Set *MIX L* knob to *12 o’clock* position
+* [ ] Set *MIX L* knob to the maximum position.
 
 * [ ] Connect *AC Adapter* to Network Mixer and power outlet and *Turn On*
 power switch.
 
-[plantuml, network_mixer, svg]
-....
-include::./assets/network_mixer.puml[Network Mixer]
-....
-
-<<<
-=== PoE Injector (for Samsung Camera) ===
-
-* [ ] Using Short Ethernet Cable, connect Network Switch 
-(any port from 22 to 27) to DATA Jack of ZyXEL PoE Injector
-
-* [ ] Using Long Camera Ethernet Cable, connect Samsung camera into PoE
-Injector’s PoE/DATA Jack.
-
-* [ ] Connect power to PoE Injector, using IEC Cable.
-
-[plantuml, poe_injector_samsung, svg]
-....
-include::./assets/poe_injector_samsung.puml[PoE Injector (Samsung Camera)]
-....
-
-<<<
-=== PoE Injector (for PTZOptics Camera) ===
-
-* [ ] Using Short Ethernet Cable, connect Network Switch (any port from 22 to
-27) to LAN IN Jack of TP-LINK PoE Injector
-
-* [ ] Using Long Camera Ethernet Cable, connect PoE Injector’s POWER+DATA OUT
-Jack into PoE Splitter's POWER+DATA IN Jack.
-
-* [ ] Connect power to PoE Injector, using DC 48V AC Adapter.
-
-[plantuml, poe_injector_ptzoptics, svg]
-....
-include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
-....
 
 <<<
 === Camera DI Box ===
@@ -86,10 +59,26 @@ include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
 
 * [ ] Set Ground Switch to OFF.
 
+* [ ] Tape the DI Box to the tripod.
+
 [plantuml, camera_di_box, svg]
 ....
 include::./assets/camera_di_box.puml[Camera DI Box]
 ....
+
+<<<
+=== PoE Injector (for Samsung Camera) ===
+
+* [ ] Using Short Ethernet Cable, connect Network Switch 
+(any port from 22 to 27) to DATA Jack of ZyXEL PoE Injector
+
+* [ ] Connect power to PoE Injector, using IEC Cable.
+
+[plantuml, poe_injector_samsung, svg]
+....
+include::./assets/poe_injector_samsung.puml[PoE Injector (Samsung Camera)]
+....
+
 
 <<<
 === Samsung Camera ===
@@ -99,14 +88,16 @@ If there are no confidence monitors, place tripod in the back of the room.
 
 * [ ] Attach PVC camera mount to tripod.
 
+ CAUTION: Ensure that the camera and mount will extend over a leg of the tripod for stability
+
 * [ ] Attach Samsung Camera to PVC camera mount:
 
-* [ ] Carefully align and insert metal alignment pins on camera into camera
+** [ ] Carefully align and insert metal alignment pins on camera into camera
 mount.
 
-* [ ] Twist camera to lock.
+** [ ] Twist camera to lock.
 
-* [ ] Secure camera to mount by connecting metal cable tether.
+** [ ] Secure camera to mount by connecting metal cable tether.
 
 * [ ] Check that camera is level.
 
@@ -114,7 +105,7 @@ mount.
 stability.
 
 * [ ] Connect Camera’s Audio Cable to Camera DI Box by plugging in 1/4” RING
-plug to the DI Box PARPOUT Jack.
+plug to the DI Box PARPOUT Jack. (see the labels on the cable)
 
   Note: The TIP plug will remain unconnected.
 
@@ -130,6 +121,20 @@ This should power on the camera.
 [plantuml, samsung_camera, svg]
 ....
 include::./assets/samsung_camera.puml[Samsung Camera]
+....
+
+<<<
+=== PoE Injector (for PTZOptics Camera) ===
+
+* [ ] Using Short Ethernet Cable, connect Network Switch (any port from 22 to
+27) to LAN IN Jack of TP-LINK PoE Injector
+
+
+* [ ] Connect power to PoE Injector, using DC 48V AC Adapter.
+
+[plantuml, poe_injector_ptzoptics, svg]
+....
+include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
 ....
 
 <<<
@@ -164,17 +169,10 @@ cables running that are not in the way of the speaker and not a rats nest.
 Do not allow wires to dangle.
 
 * [ ] Connect the Ethernet cable labeled “AV” coming from the network
-switch into the Ethernet jack. The other Ethernet cable labeled “Speaker” is
+switch into the PC Ethernet jack. The other Ethernet cable labeled “Speaker” is
 for Presenter's Laptop use. If the Ethernet cables are not already plugged into
-the network switch, you will need to connect the cables to the switches. Please
-ask the NOC which ports are designated for you to use.
-
-* [ ] Attach the 3.5mm to 1/4” TS adapter plug to the 3.5mm TS audio cable
-coming from the Podium DI Box, then plug in the cable to the to the Audio Out
-jack to the Podium DI Box for the Room Sound System.
-
-* [ ] Connect the audio wire of the HDMI/VGA/Audio cable to the Audio In jack using
-the 3.5mm to 1/4” adapter plug.
+the network switch, you will need to connect the cables to the switches.
+Use an empty port in the AV VLAN range (22-27, confirm with diagram posted on Switch)
 
 * [ ] Connect the HDMI plug (using the side without the adapters) of the
 Speaker’s Laptop HDMI/VGA/Audio cable to the HDMI In jack.
@@ -185,18 +183,20 @@ Speaker’s Laptop HDMI/VGA/Audio cable to the HDMI In jack.
 pushing in the connector. Do not screw the connector in.
 
 * [ ] Plug the AC adapter power cord into a power outlet of the
-surge proctor inside or near the podium, but do not connect the adapter to the
-computer yet. 
-(The computer may automatically turn on when power is connected)
+surge protector inside or near the podium.
 
 * [ ] Connect the AC Adapter to the Podium Computer.
 
 * [ ] Alert the NOC that the computer is connected and if instructed, press the
-Power Switch to power on the machine.
+Power Switch to power on the machine. The machine will turn on and the power button
+will light up green. If the computer does not come on, wait 45 seconds, watching the
+LCD screen on the front panel to see if penguins display on the screen.
 
 * [ ] Confirm that the Podium Computer has a good network connection by looking
 at the inner motherboard through the clear right side wall of the computer.
 You should see both a solid blue Link light and a flashing orange Activity light from the right.
+
+ TIP: The light is located roughly underneath the penguin logo etched on top of the box.
 
 * [ ] Test the KVM Video Switch by pressing the pushbutton on the KVM remote.
 Each time you press the remote, one of two lights near the bottom
@@ -206,6 +206,10 @@ of the front of the computer will turn on, indicating which source is active.
 
 * [ ] Tape the KVM switch about 6 inches from the bottom edge of the podium
 towards the left edge of the top of the podium.
+
+* [ ] Tape down the *HDMI Adapters Cable Set*, leaving enough slack in the cable
+on the side with the adapters so that the presenter can comfortably plug the
+adapters into their laptop.
 
 <<<
 === Room Testing Procedures ===
@@ -226,11 +230,14 @@ talk at a normal level, letting the microphone do the amplification of the
 voice. Count to ten to ensure that your partner has enough sample audio to
 listen to for each test. Check the audio levels of the following devices:
 
-** [ ] Earset microphone
+** [ ] Earset microphone (also called lavelier/lav)
 
 ** [ ] Handheld microphones #1 and #2 (if present)
 
-** [ ] Laptop audio feed (HDMI/Audio cable) by plugging in a 3.5mm test source such as a phone or laptop. Avoid playing copyrighted sounds when testing, such as music. If you have a phone, record your voice and play it back.
+** [ ] Laptop audio feed by plugging in a 3.5mm test source such as a 
+phone or laptop into the audio cable already at the podium. 
+Avoid playing copyrighted sounds when testing, such as music. 
+If you have a phone, record your voice and play it back.
 
 ** [ ] (If present) Panel microphones
 
