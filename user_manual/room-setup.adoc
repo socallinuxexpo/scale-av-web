@@ -34,10 +34,16 @@ corresponding Network Mixer channels:
 * [ ] Connect *AC Adapter* to Network Mixer and power outlet and *Turn On*
 power switch.
 
+ifdef::env-github[]
+image:http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/socallinuxexpo/scale-av-web/plantuml-preview-github/user_manual/assets/network_mixer.puml[]
+endif::[]
+
+ifndef::env-github[]
 [plantuml, network_mixer, svg]
 ....
 include::./assets/network_mixer.puml[Network Mixer]
 ....
+endif::[]
 
 <<<
 === PoE Injector (for Samsung Camera) ===
@@ -50,10 +56,16 @@ Injector’s PoE/DATA Jack.
 
 * [ ] Connect power to PoE Injector, using IEC Cable.
 
+ifdef::env-github[]
+image:http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/socallinuxexpo/scale-av-web/plantuml-preview-github/user_manual/assets/poe_injector_samsung.puml[]
+endif::[]
+
+ifndef::env-github[]
 [plantuml, poe_injector_samsung, svg]
 ....
 include::./assets/poe_injector_samsung.puml[PoE Injector (Samsung Camera)]
 ....
+endif::[]
 
 <<<
 === PoE Injector (for PTZOptics Camera) ===
@@ -66,10 +78,16 @@ Jack into PoE Splitter's POWER+DATA IN Jack.
 
 * [ ] Connect power to PoE Injector, using DC 48V AC Adapter.
 
+ifdef::env-github[]
+image:http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/socallinuxexpo/scale-av-web/plantuml-preview-github/user_manual/assets/poe_injector_ptzoptics.puml[]
+endif::[]
+
+ifndef::env-github[]
 [plantuml, poe_injector_ptzoptics, svg]
 ....
 include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
 ....
+endif::[]
 
 <<<
 === Camera DI Box ===
@@ -86,10 +104,16 @@ include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
 
 * [ ] Set Ground Switch to OFF.
 
+ifdef::env-github[]
+image:http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/socallinuxexpo/scale-av-web/plantuml-preview-github/user_manual/assets/camera_di_box.puml[]
+endif::[]
+
+ifndef::env-github[]
 [plantuml, camera_di_box, svg]
 ....
 include::./assets/camera_di_box.puml[Camera DI Box]
 ....
+endif::[]
 
 <<<
 === Samsung Camera ===
@@ -127,10 +151,16 @@ This should power on the camera.
  
  WARNING: DO NOT OVERTIGHTEN the tension knobs.
 
+ifdef::env-github[]
+image:http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/socallinuxexpo/scale-av-web/plantuml-preview-github/user_manual/assets/samsung_camera.puml[]
+endif::[]
+
+ifndef::env-github[]
 [plantuml, samsung_camera, svg]
 ....
 include::./assets/samsung_camera.puml[Samsung Camera]
 ....
+endif::[]
 
 <<<
 === PTZOptics Camera ===
