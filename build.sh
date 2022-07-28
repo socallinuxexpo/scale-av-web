@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-version=2.0.15
+version=2.0.17
 
 if [ ! -r ./public ]; then
     mkdir public
