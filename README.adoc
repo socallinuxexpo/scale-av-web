@@ -1,5 +1,5 @@
 = SCaLE A/V Coordination =
-:scale-av-user-manual-pdf: https://socallinuxexpo.github.io/scale-av-web/site/scale-av-user-manual.pdf[scale-av-user-manual.pdf]
+:scale-av-user-manual-pdf: https://socallinuxexpo.github.io/scale-av-web/scale-av-user-manual.pdf[scale-av-user-manual.pdf]
 :user-manual-dir: link:user_manual/[user_manual/]
 :changelog: link:user_manual/CHANGELOG.adoc/[CHANGELOG.adoc]
 :scale-av-web: https://socallinuxexpo.github.io/scale-av-web/[scale-av webpage]
@@ -33,56 +33,27 @@ markup language.
 Source files for the SCaLE A/V User Manual are maintained in the
 {user-manual-dir} directory and published to the `gh-pages` branch. To update
 the manual, simply edit the appropriate files in the {user-manual-dir}, note
-the changes in {changelog}, then commit changes to the `master` branch.
+the changes in {changelog}, then commit changes to the `main` branch.
 
-== Previewing Changes ==
+== Building the documentation locally ==
 
-The following prerequisites and instructions are for installing and building
-{asciidoctor-homepage}, including required dependencies, for previewing changes
-made to the {scale-av-user-manual-pdf}.
+The following instructions are for building the
+{asciidoctor-homepage} & {scale-av-user-manual-pdf} locally.
 
 === Prerequisites ===
 
-Ubuntu/Debian is recommended for installing the following requirements:
+You will need to install https://docs.docker.com/get-docker/[docker] for your specific platform.
 
-- Ruby 2.4+ (2.4.5 recommended)
-- Graphviz (2.38.0 recommended)
-- https://plantuml.com/download[Plantuml] (1.2020.2 recommended)
-
-https://github.com/rbenv/rbenv[rbenv] is the recommended Ruby version manager
-for installing Ruby / Gems.
-
-For Ubuntu/Debian, you will need to install
-https://launchpad.net/ubuntu/+source/graphviz/2.38.0-16ubuntu1[graphviz 2.38.0]
-from source:
-
- wget https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/graphviz/2.38.0-16ubuntu1/graphviz_2.38.0.orig.tar.gz
- tar -xvf graphviz_2.38.0.orig.tar.gz
- cd ./graphviz_2.38.0.orig
- ./configure
- make
- sudo make install
-
-=== Installation/Setup ===
+=== Cloning the repo ===
 
 Clone this repo, then change directory into the cloned repo:
 
  git clone https://github.com/socallinuxexpo/scale-av-web.git
  cd scale-av-web/
 
-Install bundler, then bundle install dependencies:
-
- gem install bundler:2.1.4
- bundle install
-
 === Usage ===
 
-The following will locally generate the {scale-av-user-manual-pdf} to the
-site/ folder.
+The following will locally generate the {scale-av-user-manual-pdf} to the `public/` folder.
 
- asciidoctor user_manual/index.adoc -o site/scale-av-user-manual.pdf -r asciidoctor-pdf -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml
+ ./build.sh
 
-The following will locally generate an index.html, including diagrams, of the
-SCaLE A/V user manual to the site/ folder.
-
- asciidoctor user_manual/index.adoc -o site/index.html -r asciidoctor-diagram
