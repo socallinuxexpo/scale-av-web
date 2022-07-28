@@ -19,7 +19,7 @@ If you are interested in volunteering with us,
 
 == volunteer info
 
-For more information on volunteering with the SCALE A/V team, please refer to the link:./site/index.html[SCALE AV User Manual].
+For more information on volunteering with the SCALE A/V team, please refer to the link:./scale-av-user-manual.html[SCALE AV User Manual].
 
 == volunteer timeline
 
