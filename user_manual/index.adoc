@@ -1,4 +1,6 @@
+include::version.adoc[]
 = Scale A/V User Manual
+v{version}
 :toc: left
 :toclevels: 3
 
