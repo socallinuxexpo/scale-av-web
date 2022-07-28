@@ -149,7 +149,9 @@ include::./assets/poe_injector_ptzoptics.puml[PoE Injector (PTZOptics Camera)]
 TS Audio Cable, connecting the 1/4” plug to the DI Box PARPOUT Jack, and the
 3.5mm TRS plug into the Camera’s LINE-IN jack.
 
-* [ ] Connect the Long POE+Data Ethernet Cable coming from the Switch to the
+* [ ] Ensure the Camera's power switch is in the ON position.
+
+* [ ] Connect the Long POE+Data Ethernet Cable coming from the POE injector to the
 POE Splitter on the Camera Mount. This will power on the camera.
 
 * [ ] Raise the camera high enough so that it can look over anybody standing in

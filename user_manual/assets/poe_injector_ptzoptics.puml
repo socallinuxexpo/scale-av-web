@@ -14,7 +14,7 @@ cam - splitter
 splitter - splitterIN
 splitterIN -- injectorOUT: <<Long Ethernet Cable>>
 injectorOUT -- injector
-injector - PO: <<IEC Cable>>
+injector - PO: <<AC Adapter>>
 injector -- injectorIN
 NS - injectorIN: <<Short Ethernet Cable>>
 @enduml
