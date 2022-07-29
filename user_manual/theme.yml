@@ -1,9 +1,0 @@
-extends: default
-footer:
-  columns: =100%
-  recto:
-    center:
-      content: '{section-or-chapter-title} | *{page-number}* | v{version}'
-  verso:
-    center:
-      content: '{section-or-chapter-title} | *{page-number}* | v{version}'

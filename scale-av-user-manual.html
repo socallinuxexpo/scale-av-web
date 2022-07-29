@@ -1,0 +1,2112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.17">
+<title>Scale A/V User Manual</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<h1>Scale A/V User Manual</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_introduction">Introduction</a>
+<ul class="sectlevel2">
+<li><a href="#_schedule_overview">Schedule Overview</a></li>
+</ul>
+</li>
+<li><a href="#_what_we_do_at_scale">What We Do at SCaLE</a></li>
+<li><a href="#_where_we_do_it">Where We Do It</a>
+<ul class="sectlevel2">
+<li><a href="#_points_of_interest">Points of Interest</a></li>
+</ul>
+</li>
+<li><a href="#_audio_subsystem">Audio Subsystem</a></li>
+<li><a href="#_video_subsystem">Video Subsystem</a></li>
+<li><a href="#_the_podium_computer">The Podium Computer</a></li>
+<li><a href="#_room_setup">Room Setup</a>
+<ul class="sectlevel2">
+<li><a href="#_network_mixer">Network Mixer</a></li>
+<li><a href="#_camera_di_box">Camera DI Box</a></li>
+<li><a href="#_poe_injector_for_samsung_camera">PoE Injector (for Samsung Camera)</a></li>
+<li><a href="#_samsung_camera">Samsung Camera</a></li>
+<li><a href="#_poe_injector_for_ptzoptics_camera">PoE Injector (for PTZOptics Camera)</a></li>
+<li><a href="#_ptzoptics_camera">PTZOptics Camera</a></li>
+<li><a href="#_podium_computer">Podium Computer</a></li>
+<li><a href="#_room_testing_procedures">Room Testing Procedures</a></li>
+</ul>
+</li>
+<li><a href="#_radio_checkout_and_protocol">Radio Checkout and Protocol</a>
+<ul class="sectlevel2">
+<li><a href="#_radio_checkout_procedure">Radio Checkout Procedure</a></li>
+<li><a href="#_voice_technique">Voice Technique</a></li>
+<li><a href="#_voice_procedure">Voice Procedure</a></li>
+</ul>
+</li>
+<li><a href="#_a_primer_on_digital_video">A Primer on Digital Video</a></li>
+<li><a href="#_team_roles">Team Roles</a>
+<ul class="sectlevel2">
+<li><a href="#_field_techs">Field Techs</a></li>
+<li><a href="#_video_feed_monitors">Video Feed Monitors</a></li>
+</ul>
+</li>
+<li><a href="#_the_av_noc">The A/V NOC</a>
+<ul class="sectlevel2">
+<li><a href="#_noc_setup">NOC Setup</a></li>
+</ul>
+</li>
+<li><a href="#_audiovideo_glossary">Audio/Video Glossary</a></li>
+<li><a href="#_identifying_audio_noise">Identifying Audio Noise</a>
+<ul class="sectlevel2">
+<li><a href="#_hum">Hum</a></li>
+<li><a href="#_hiss">Hiss</a></li>
+<li><a href="#_clicks_and_pops">Clicks and Pops</a></li>
+<li><a href="#_distortion">Distortion</a></li>
+<li><a href="#_feedback">Feedback</a></li>
+</ul>
+</li>
+<li><a href="#_video_monitoring_procedure">Video Monitoring Procedure</a>
+<ul class="sectlevel2">
+<li><a href="#_check_to_see_if_the_speaker_is_centered_in_the_frame">Check to see if the Speaker is centered in the frame</a></li>
+<li><a href="#_listen_to_audio_of_each_room">Listen to Audio of Each Room</a></li>
+<li><a href="#_observe_the_video_feed">Observe the Video Feed</a></li>
+<li><a href="#_scale_signs_crashing">SCALE Signs Crashing</a></li>
+<li><a href="#_vlcmonitoring_station_issues">VLC/Monitoring Station Issues</a>
+<ul class="sectlevel3">
+<li><a href="#_last_and_final_resort">Last and Final Resort:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_room_equipment_connections">Room Equipment Connections</a></li>
+<li><a href="#_types_of_audio_connectors">Types of Audio Connectors</a></li>
+<li><a href="#_audio_troubleshooting">Audio Troubleshooting</a>
+<ul class="sectlevel2">
+<li><a href="#_for_experts_only">For Experts Only</a></li>
+<li><a href="#_things_to_keep_in_mind">Things to keep in mind:</a></li>
+</ul>
+</li>
+<li><a href="#_volunteer_logistics">Volunteer Logistics</a>
+<ul class="sectlevel2">
+<li><a href="#_communications">Communications</a></li>
+<li><a href="#_registration">Registration</a></li>
+<li><a href="#_hotel_rooms">Hotel Rooms</a></li>
+<li><a href="#_parking">Parking</a></li>
+<li><a href="#_meals">Meals</a></li>
+<li><a href="#_training">Training</a></li>
+<li><a href="#_questions">Questions</a></li>
+</ul>
+</li>
+<li><a href="#_vga_distribution_amplifier">VGA Distribution Amplifier</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="image"><a class="image" href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a></span> <span class="image"><a class="image" href="https://github.com/socallinuxexpo/scale-av-web/"><img src="https://img.shields.io/badge/Contribute%20on-GitHub-orange" alt="Contribute on GitHub"></a></span> <span class="image"><a class="image" href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a></span> <span class="image"><a class="image" href="./scale-av-user-manual.pdf"><img src="https://img.shields.io/badge/Download%20-PDF-blue" alt="Download PDF"></a></span></p>
+</div>
+<!-- toc disabled -->
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title"><strong>Changelog</strong></caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Date</th>
+<th class="tableblock halign-left valign-top">Reason For Changes</th>
+<th class="tableblock halign-left valign-top">Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jess Bermudes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">July 27, 2022</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fix note about PTZ POE Splitter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jess Bermudes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">March 5, 2020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Update Room Setup per Sean&#8217;s notes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jess Bermudes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">March 4, 2020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Add caution for AV cables in Room Setup</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jess Bermudes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">March 4, 2020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Update for 18x</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sean Marquez</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">February 24, 2020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pre-release</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0-c</p></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Welcome to the SCALE A/V Team! Thank you for volunteering your time to help make
+SCALE the most awesome volunteer-run Linux Conference in the world (If anyone
+says otherwise, they can take it up with Jess).</p>
+</div>
+<div class="paragraph">
+<p>The A/V team is responsible for the setup and troubleshooting of the various
+audio and video equipment used throughout the conference in partnership with the
+Convention Center A/V vendor staff. Each room used for presentations will have a
+projector that can be connected to a presenter’s laptop, a sound system for
+sound reinforcement inside the room as well as a network-controlled camera with
+a connection to the sound system for recording and streaming of the
+presentation. A/V team members will report to and work from the A/V Network
+Operations Center (NOC) where, during their shift, they may either help with the
+monitoring of the video feeds of the various rooms via the Video Monitoring
+System or be dispatched to the field to troubleshoot an issue with a particular
+room. Volunteers should contact the A/V Team volunteer coordinator, Lan Dang,
+and register both their availability for work shifts and their preferred job
+assignment. Volunteers will be given access to documentation that explains the
+equipment in use at the conference and basic troubleshooting tips to be
+effective in the field.</p>
+</div>
+<div class="sect2">
+<h3 id="_schedule_overview">Schedule Overview</h3>
+<div class="paragraph">
+<p>SCALE 18x is March 5-8, 2020, Thursday through Sunday. However, volunteers are
+needed for setup on Wednesday as well as sometimes on Tuesday.
+Tuesday (afternoon): Retrieving equipment from the off-site storage facility,
+unpacking and setting up the A/V NOC, and potential room setups.
+Wednesday (all day): Deployment, setup, and testing of all conference room
+equipment.
+Thursday-Sunday (8am-6pm): Volunteers work in shifts as monitors or field techs.
+For evening events we will need one volunteer with audio mixer experience to
+help run the board.
+Sunday Evening: Teardown.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_we_do_at_scale">What We Do at SCaLE</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The SCALE A/V Team is the team of volunteers responsible for setting up and running most of the audio and video equipment for each room of the conference.
+Our work provides several key features of SCALE:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>In-room live sound reinforcement for conference speakers via microphones and loudspeakers</p>
+</li>
+<li>
+<p>In-room video projection for slides and other graphics from conference speaker laptops</p>
+</li>
+<li>
+<p>Live streaming of each talk via YouTube with both a view of the speaker via a camera and an embedded view of the slides</p>
+</li>
+<li>
+<p>Recordings of each talk taken from the live stream</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In order to provide these services, each room is equipped with devices to facilitate the capture and transmission of audio and video signals and provide it to the room and to the internet.
+Each room is connected to the A/V NOC:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/overview-noc-internet.png" alt="overview noc internet">
+</div>
+</div>
+<div class="paragraph">
+<p>As shown above, each room is connected to the A/V NOC (Network Operations Center) for monitoring and recording purposes.
+We try to have as much control over the system as we can from the A/V NOC in order to centralize management and prevent having to staff each room with a technician.</p>
+</div>
+<div class="paragraph">
+<p>To carry out our mission, each room has audio, video, and networking equipment.
+The following diagram outlines the major connections between the various devices in the room:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/overview-room-connections.png" alt="overview room connections">
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_where_we_do_it">Where We Do It</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>SCALE 17x (2019) is at the <a href="https://pasadenacenter.visitpasadena.com/">Pasadena Convention Center</a>.</p>
+</div>
+<div class="paragraph">
+<p>Here is a map of the convention center:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/pasadena-convention-center-map.jpg" alt="pasadena convention center map">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_points_of_interest">Points of Interest</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>AV NOC</strong>: Room 204</p>
+</li>
+<li>
+<p><strong>Tech NOC</strong>: Room 215</p>
+</li>
+<li>
+<p><strong>Registration</strong>: Outside Exhibit Hall A</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_audio_subsystem">Audio Subsystem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A <strong>microphone</strong> is connected to the sound reinforcement system so that the audience may better hear the speaker.
+Each room usually has two microphones.
+One Countryman earset microphone with beltpack transmitter that is normally the primary microphone used by the presenter and one handheld wireless microphone as a backup for the presenter or for someone to give an introduction or to ask questions.
+The beltpack and the handheld microphone use disposable batteries and should the batteries need replacing, you can either acquire some from the A/V NOC or find spares near the sound mixer board in the conference room (sometimes inside a drawer).
+The specific transmission frequencies of the microphones is preconfigured by the convention center staff and should never be changed without permission from Michael Proctor-Smith.</p>
+</div>
+<div class="paragraph">
+<p>If the speaker is using a laptop and has sound to play, they may also connect their laptop audio to the sound system via the combination <strong>HDMI Cable</strong> or <strong>VGA/Audio Cable</strong> that connects the Speaker&#8217;s Laptop to the <strong>Podium Computer</strong>.
+The <strong>Room Audio Mixer</strong> is setup by the convention center staff to combine the various audio sources into one master channel to be output via the room&#8217;s <strong>loudspeakers</strong>.
+We are also using our own <strong>Network-Controlled Audio Mixer</strong> that will take auxiliary output feeds split off from each channel of the Room Audio Mixer as input.
+This mix is what will be fed to the video camera to be recorded with the video stream.
+This additional setup will allow us to control from the A/V NOC the audio levels fed into the camera independently of the audio levels that are to be heard in the room.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_video_subsystem">Video Subsystem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Video of each talk is streamed live on <strong> YouTube </strong> on the <a href="https://www.youtube.com/channel/UCN2nbMPLJWv3Y%5F%5F4JuF_hMQ">SCaLE Youtube Channel</a>.
+The video contains both the feed from the room&#8217;s camera and a feed of the slides combined together into a picture-in-picture style layout with the slides being the larger, primary video image for legibility and the room camera being the smaller, secondary image.
+The image below shows a sample frame of the final video output as shown on YouTube:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/sample-talk-youtube.jpg" alt="sample talk youtube">
+</div>
+</div>
+<div class="paragraph">
+<p>The cameras that provide the video of the speaker are special network-controlled <strong>Pan-Tilt-Zoom (PTZ) cameras</strong>.
+This allows us to remotely control where the camera is pointing at from the A/V NOC.
+The audio for the video stream is provided to the camera from the audio subsystem&#8217;s mixer.
+This audio track is multiplexed into the video stream by the camera and the resulting stream is made available over SCALE&#8217;s LAN to be viewed by either the NOC Monitoring System or the Podium Computer.
+You can think of the camera as a server that serves a video stream to any client that connects to it.</p>
+</div>
+<div class="paragraph">
+<p>The following image shows the two models of cameras in use: On the left  is the Samsung Camera and on the right is the PTZOptics Camera.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/2-types-of-cameras.jpg" alt="2 types of cameras">
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_podium_computer">The Podium Computer</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The Podium Computer is at the heart of each room&#8217;s operation.
+This machine has two purposes:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Projector source switching</strong>.
+During a talk the video feed from the speaker&#8217;s laptop is fed into the Podium Computer and passed on to the projector.
+However, should a speaker not have a laptop connected, the Podium Computer can act as a backup source for the projector, showing a generic background image advertising the conference.
+Additionally, in between talks, the Podium Computer can also display a web page from the network that highlights upcoming talks or displays information related to conference sponsors.</p>
+</li>
+<li>
+<p><strong>Video stream compositing</strong>.
+This computer also creates the final video stream to be sent to YouTube.
+It has access to the room camera&#8217;s video stream via its network connection and is also able to capture a video stream of the slides being projected from its on-board <strong>video capture card</strong>.
+These two feeds are composited onto one canvas with an appropriate background image that will become the final video stream.
+All of the audio for the YouTube stream is provided by the camera over the network because the camera already received the audio from the sound reinforcement system&#8217;s mixer.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The follow image shows a podium computer.
+Note the I/O connectors on the front panel:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/podium-computer-hero.jpg" alt="podium computer hero">
+</div>
+</div>
+<div class="paragraph">
+<p>The following image shows a front view of the various I/O connections on the podium computer:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/podium-computer-front-panel-connections.png" alt="podium computer front panel connections">
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_room_setup">Room Setup</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_network_mixer">Network Mixer</h3>
+<div class="imageblock">
+<div class="content">
+<img src="network_mixer.svg" alt="network mixer" width="1247" height="333">
+</div>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Place <strong>Network Mixer</strong> in a safe place near the <strong>In-Room Audio Mixer</strong>
+(either on the lower shelf below the mixer or on the same shelf as the mixer)</p>
+</li>
+<li>
+<p>&#10063; Fold WiFi antenna down.</p>
+</li>
+<li>
+<p>&#10063; Connect <strong>AC Adapter</strong> to <strong>Network Mixer</strong>. (Note: Do not turn on Network
+Mixer power switch yet.)</p>
+</li>
+<li>
+<p>&#10063; Connect <strong>Network Mixer</strong> to <strong>Long Ethernet Cable</strong> to <strong>Network Switch</strong>.</p>
+</li>
+<li>
+<p>&#10063; Connect the long in-room <strong>XLR Audio Cable</strong> to Network Mixer&#8217;s <strong>MIX L</strong> jack.</p>
+<div class="literalblock">
+<div class="content">
+<pre>Tip: This XLR audio cable should already be ran along back of the room from camera to audio mixer.</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/XLR-connectors-small.jpg" alt="XLR Plugs" width="100" height="100">
+</div>
+<div class="title">Figure 1. XLR Plugs</div>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Using 3 sets of <strong>1/4” TS Audio Cables</strong> and <strong>1/4” TS-to-1/4” TRS
+Adapters</strong>, connect the following In-Room Audio Mixer INSERT Jacks to the
+corresponding Network Mixer channels (see diagram below):</p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; <strong>"Handheld Mic"</strong> to Network Mixer <strong>Ch. 1</strong>,</p>
+</li>
+<li>
+<p>&#10063; <strong>"LAV Mic"</strong> to Network Mixer <strong>Ch. 2</strong></p>
+</li>
+<li>
+<p>&#10063; <strong>"DI" (Sometimes labeled "COMP")</strong> to Network Mixer <strong>Ch. 3</strong>.</p>
+<div class="literalblock">
+<div class="content">
+<pre>Note: INSERT Jack on Zed 14 audio mixer is on top, whereas INSERT Jack on Mackie 1404 audio mixer it is on rear panel.</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>CAUTION: Make sure that the TRS side (the one with the adapter) is the side plugged into the In-Room Mixer.</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10063; Set <strong>MIX L</strong> knob to the maximum position.</p>
+</li>
+<li>
+<p>&#10063; Connect <strong>AC Adapter</strong> to Network Mixer and power outlet and <strong>Turn On</strong>
+power switch.</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_camera_di_box">Camera DI Box</h3>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Connect Long XLR Audio Cable to Female-Female XLR Coupler.</p>
+<div class="literalblock">
+<div class="content">
+<pre>Note: Long XLR Audio Cable runs from audio mixer area to the back of the room near the camera.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>&#10063; Connect Female-Female XLR Coupler to Camera DI Box.</p>
+<div class="literalblock">
+<div class="content">
+<pre>Note: Camera DI Box should be placed on the floor near the tripod.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>&#10063; Set ATT switch (on  Camera DI Box) to 0dB.</p>
+</li>
+<li>
+<p>&#10063; Set Ground Switch to OFF.</p>
+</li>
+<li>
+<p>&#10063; Tape the DI Box to the tripod.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="camera_di_box.svg" alt="camera di box" width="799" height="180">
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_poe_injector_for_samsung_camera">PoE Injector (for Samsung Camera)</h3>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Using Short Ethernet Cable, connect Network Switch
+(any port from 22 to 27) to DATA Jack of ZyXEL PoE Injector</p>
+</li>
+<li>
+<p>&#10063; Connect power to PoE Injector, using IEC Cable.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="poe_injector_samsung.svg" alt="poe injector samsung" width="614" height="236">
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_samsung_camera">Samsung Camera</h3>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Unfold and place Tripod next to confidence monitor (s.a., teleprompter).
+If there are no confidence monitors, place tripod in the back of the room.</p>
+</li>
+<li>
+<p>&#10063; Attach PVC camera mount to tripod.</p>
+<div class="literalblock">
+<div class="content">
+<pre>CAUTION: Ensure that the camera and mount will extend over a leg of the tripod for stability</pre>
+</div>
+</div>
+</li>
+<li>
+<p>&#10063; Attach Samsung Camera to PVC camera mount:</p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Carefully align and insert metal alignment pins on camera into camera
+mount.</p>
+</li>
+<li>
+<p>&#10063; Twist camera to lock.</p>
+</li>
+<li>
+<p>&#10063; Secure camera to mount by connecting metal cable tether.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10063; Check that camera is level.</p>
+</li>
+<li>
+<p>&#10063; Check that camera and mount extends over a leg of tripod for added
+stability.</p>
+</li>
+<li>
+<p>&#10063; Connect Camera’s Audio Cable to Camera DI Box by plugging in 1/4” RING
+plug to the DI Box PARPOUT Jack. (see the labels on the cable)</p>
+<div class="literalblock">
+<div class="content">
+<pre>Note: The TIP plug will remain unconnected.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>&#10063; Connect Camera’s Ethernet Cable into the PoE Injector’s PoE/DATA Jack.
+This should power on the camera.</p>
+</li>
+<li>
+<p>&#10063; Raise camera and lock in place with metal pin and tension knobs.</p>
+<div class="literalblock">
+<div class="content">
+<pre>Note: Camera should be high enough such that it can look over anybody standing in the back of the room; approximately 8 feet.</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>WARNING: DO NOT OVERTIGHTEN the tension knobs.</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="samsung_camera.svg" alt="samsung camera" width="733" height="221">
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_poe_injector_for_ptzoptics_camera">PoE Injector (for PTZOptics Camera)</h3>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Using Short Ethernet Cable, connect Network Switch (any port from 22 to
+27) to LAN IN Jack of TP-LINK PoE Injector</p>
+</li>
+<li>
+<p>&#10063; Connect power to PoE Injector, using DC 48V AC Adapter.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="poe_injector_ptzoptics.svg" alt="poe injector ptzoptics" width="988" height="300">
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_ptzoptics_camera">PTZOptics Camera</h3>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Unfold the tripod in the back of the room in the appropriate spot.
+(Look for the Ethernet cable and DI Box)</p>
+</li>
+<li>
+<p>&#10063; Attach the PTZ Optics Camera (already screwed into mount) to the Tripod.</p>
+</li>
+<li>
+<p>&#10063; Connect the Camera DI Box to the Camera with the 3.5mm TRS to Dual 1/4”
+TS Audio Cable, connecting the 1/4” plug to the DI Box PARPOUT Jack, and the
+3.5mm TRS plug into the Camera’s LINE-IN jack.</p>
+</li>
+<li>
+<p>&#10063; Ensure the Camera&#8217;s power switch is in the ON position.</p>
+</li>
+<li>
+<p>&#10063; Connect the Long POE+Data Ethernet Cable coming from the POE injector to the
+POE Splitter on the Camera Mount. This will power on the camera.</p>
+</li>
+<li>
+<p>&#10063; Raise the camera high enough so that it can look over anybody standing in
+the back of the room (approximately 8 feet). Lock the tripod height into place
+with the appropriate metal pins and tension knobs. Do not overtighten the
+tension knob.</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_podium_computer">Podium Computer</h3>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/podium-computer-front-panel-connections.png" alt="podium computer front panel connections">
+</div>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Place the computer on the shelf of the speaker’s podium.</p>
+</li>
+<li>
+<p>&#10063; When connecting cables, you want to end with a clean and tidy set of
+cables running that are not in the way of the speaker and not a rats nest.
+Do not allow wires to dangle.</p>
+</li>
+<li>
+<p>&#10063; Connect the Ethernet cable labeled “AV” coming from the network
+switch into the PC Ethernet jack. The other Ethernet cable labeled “Speaker” is
+for Presenter&#8217;s Laptop use. If the Ethernet cables are not already plugged into
+the network switch, you will need to connect the cables to the switches.
+Use an empty port in the AV VLAN range (22-27, confirm with diagram posted on Switch)</p>
+</li>
+<li>
+<p>&#10063; Connect the HDMI plug (using the side without the adapters) of the
+Speaker’s Laptop HDMI/VGA/Audio cable to the HDMI In jack.</p>
+</li>
+<li>
+<p>&#10063; Connect the HDMI cable going to the projector to the HDMI Out jack.</p>
+</li>
+<li>
+<p>&#10063; Connect the KVM Source Switch to the Switch jack in the upper right by
+pushing in the connector. Do not screw the connector in.</p>
+</li>
+<li>
+<p>&#10063; Plug the AC adapter power cord into a power outlet of the
+surge protector inside or near the podium.</p>
+</li>
+<li>
+<p>&#10063; Connect the AC Adapter to the Podium Computer.</p>
+</li>
+<li>
+<p>&#10063; Alert the NOC that the computer is connected and if instructed, press the
+Power Switch to power on the machine. The machine will turn on and the power button
+will light up green. If the computer does not come on, wait 45 seconds, watching the
+LCD screen on the front panel to see if penguins display on the screen.</p>
+</li>
+<li>
+<p>&#10063; Confirm that the Podium Computer has a good network connection by looking
+at the inner motherboard through the clear right side wall of the computer.
+You should see both a solid blue Link light and a flashing orange Activity light from the right.</p>
+<div class="literalblock">
+<div class="content">
+<pre>TIP: The light is located roughly underneath the penguin logo etched on top of the box.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>&#10063; Test the KVM Video Switch by pressing the pushbutton on the KVM remote.
+Each time you press the remote, one of two lights near the bottom
+of the front of the computer will turn on, indicating which source is active.</p>
+</li>
+<li>
+<p>&#10063; Tape the Laminated Speaker Reminder Flyer to the top of the podium.</p>
+</li>
+<li>
+<p>&#10063; Tape the KVM switch about 6 inches from the bottom edge of the podium
+towards the left edge of the top of the podium.</p>
+</li>
+<li>
+<p>&#10063; Tape down the <strong>HDMI Adapters Cable Set</strong>, leaving enough slack in the cable
+on the side with the adapters so that the presenter can comfortably plug the
+adapters into their laptop.</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_room_testing_procedures">Room Testing Procedures</h3>
+<div class="paragraph">
+<p>This procedure can be run by just a volunteer with a year or more
+experience. New volunteers should pair with more experienced volunteers.When in
+doubt, ask an A/V expert for help. “Easily audible” means loud enough to hear
+in a room full of people, but not so loud that it is painful or distorted.
+“Elevated enough” means as high as it can go and still be stable. Typically
+this is high enough to look over standing audience members (approximately 8
+feet). Please do not adjust audio settings without AV NOC approval.</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Test the in-room audio levels. Audio should be noise-free and clear in
+all areas of the room and easily audible. Have your setup partner stand near
+the loudspeaker and then later in the back of the room to confirm that you are
+audible. When testing a microphone, hold the microphone near your mouth and
+talk at a normal level, letting the microphone do the amplification of the
+voice. Count to ten to ensure that your partner has enough sample audio to
+listen to for each test. Check the audio levels of the following devices:</p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Earset microphone (also called lavelier/lav)</p>
+</li>
+<li>
+<p>&#10063; Handheld microphones #1 and #2 (if present)</p>
+</li>
+<li>
+<p>&#10063; Laptop audio feed by plugging in a 3.5mm test source such as a
+phone or laptop into the audio cable already at the podium.
+Avoid playing copyrighted sounds when testing, such as music.
+If you have a phone, record your voice and play it back.</p>
+</li>
+<li>
+<p>&#10063; (If present) Panel microphones</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10063; Request attention from the Monitoring Computer operator.</p>
+</li>
+<li>
+<p>&#10063; With consultation from the Monitoring Computer operator, check that the camera has been set up properly:</p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Camera should have a clear view of the podium</p>
+</li>
+<li>
+<p>&#10063; Camera should be elevated enough to see over audience</p>
+</li>
+<li>
+<p>&#10063; Camera feed should be clean</p>
+</li>
+<li>
+<p>&#10063; Camera should not wobble on the stand. If using a Samsung Camera, the Camera mount should extend over a leg for stability.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10063; Help the Monitoring Computer operator check the recorded audio levels. For each item in Step 1 above, ensure that the monitoring computers pick up clear audio on the audio channel of the monitoring feed.</p>
+</li>
+<li>
+<p>&#10063; Ensure that no other noise or interference is in the room. Report if there is something unusual about a room that might affect audio quality, such as flickering lights, loud fans, hum/buzz, etc.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Done! If issues were detected, please notify A/V NOC.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_radio_checkout_and_protocol">Radio Checkout and Protocol</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The SCALE A/V team uses two-way radios with headsets to keep everyone working during a shift in communication with each other.
+The radios are setup with two channels: A/V team and Tech Team.
+At the beginning of each shift you will check out a radio if you have not already done so and you are responsible for its safe return and check in at the end of your shift/day.</p>
+</div>
+<div class="sect2">
+<h3 id="_radio_checkout_procedure">Radio Checkout Procedure</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Only pick up fully charged radios from the charging station.
+(A green light in the charging cradle indicates full charge.)</p>
+</li>
+<li>
+<p>Sign up on check out sheet with your name and time that the radio has been checked out.</p>
+</li>
+<li>
+<p>You may also want to check out a headset.
+Make sure to plug the headset into the radio to test if it works.</p>
+</li>
+<li>
+<p>To check a radio back in, put it back it in the charger to charge and log the check-in time on the sheet.</p>
+</li>
+<li>
+<p>If you have taken a headset, keep it until the end of SCaLE.
+This is for sanitary purposes and so that you know that your headset works.</p>
+</li>
+<li>
+<p><strong>Please test your radio (and headset, if using one) before leaving the NOC to make sure it works properly and that you are on the correct channel!</strong></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_voice_technique">Voice Technique</h3>
+<div class="paragraph">
+<p>Communicating with a radio is an art.
+Both procedure (what you say), and technique (how you say it) is important so that all appropriate parties can communicate efficiently and effectively.
+In order to promote good communication, please observe the following techniques and procedures.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Listen for other traffic before pressing the transmit button, so you don&#8217;t accidentally talk over someone else who is already talking.</p>
+</li>
+<li>
+<p>Hold the transmit button down for at least a second before speaking to ensure that the beginning of your message is not cut off.</p>
+</li>
+<li>
+<p>Be aware of the position of the microphone in the radio chassis or external microphone in relation to your mouth so that you are able to transmit as clear a signal as possible, especially in noisy environments.</p>
+</li>
+<li>
+<p>Speak slowly, distinctively, and clearly, making sure not to trail off in volume.
+This can take some practice.
+Sometimes it may help to read numbers off digit by digit if the number is important, such as a device diagnostic reading.
+When reading single alphabet letters, it might be more clear to use the phonetic alphabet (Alpha, Bravo, etc.) or simply a word that begins with that letter such as "T as in Thomas".</p>
+</li>
+<li>
+<p>When you finish transmitting a message, release the transmit button immediately to return the radio to the receiving mode.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_voice_procedure">Voice Procedure</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Phrase</th>
+<th class="tableblock halign-left valign-top">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alice FOR Bob.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Begin all transmissions with a preamble to identify who you are addressing and who you are.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GO FOR Bob</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">To preserve clarity, the contacted party begins their message with their name.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alice, are you near the ballrooms?</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bob, SAY AGAIN?
+OVER.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">If Alice did not understand Bob, she should request re-transmission by using the phrase &#8220;say again&#8221;.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alice, are you near the ballrooms?.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bob, AFFIRMATIVE.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Affirmative/Negative are often used in place of yes/no to prevent the single syllable words from getting cut off in transmission.
+Note that affirmative/negative are responses to questions.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alice, can you go to Ballroom A and check the projector to see if it&#8217;s on?
+OVER.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bob, COPY.
+I&#8217;&#8217;ll head over there.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The terms Copy/Roger are used to designate that you have received the transmission.
+Affirmative was not used here because Alice is signifying that she will comply with the request, despite Bob&#8217;s phrasing of the command as a question out of politeness.
+You may sometimes hear &#8220;Wilco&#8221;, which is short for &#8220;Will Comply&#8221;.</p></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_primer_on_digital_video">A Primer on Digital Video</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A video file is formatted in a specific file format called a container format.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_team_roles">Team Roles</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_field_techs">Field Techs</h3>
+<div class="paragraph">
+<p>Under most circumstances, presenters are capable of wiring themselves to the microphones and turning them on and off, as well as connecting their laptops to the projector system.
+But should an issue arise or should a special request be made, a member of the A/V team will be dispatched to the room to attempt to assess the situation, report any complications to the A/V NOC, and with the advisement of the NOC, carry out the appropriate solution in a manner that minimizes the disruption to both the presenter and the attendees.
+Generally, unless there is some technical issue that is preventing the talk from continuing, we do not go on stage and interrupt a speaker.
+Team members will be assigned a walkie-talkie for their shift so that they can stay in contact with the NOC while in the field.
+Certain special events such as panels, keynotes or specially configured rooms will require trained volunteers to be present in the conference room for the duration of the talk and operate an audio mixing board, adjusting audio levels to ensure quality of sound for the audience in the room.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_video_feed_monitors">Video Feed Monitors</h3>
+<div class="paragraph">
+<p>Team members who volunteer to monitor the video feeds will work with a partner to watch the video streaming from all of the rooms that are broadcasting and use their surveillance capability to detect issues with the video stream, detect issues that may be occurring in the room such a projector malfunction, and to adjust the camera&#8217;s framing so as to ensure that the camera is pointed toward the front of the room and has the presenter visible within the frame.
+To see a detailed description of what Video Feed Monitors do, read the <a href="/video-monitoring-procedure.html">Video Monitoring Procedure</a>.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_av_noc">The A/V NOC</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The A/V NOC (Network Operations Center) is the headquarters of the A/V team.
+The NOC is located on the 2nd floor of the conference center, <strong>Room 204</strong>.
+Team members should report to the NOC at the beginning of their shift so that they can be assigned a task.
+When in the NOC, please talk quietly (like inside a library) because video feed monitors are trying to listen to the audio streams and staff needs to be able to hear about issues over the radio.</p>
+</div>
+<div class="sect2">
+<h3 id="_noc_setup">NOC Setup</h3>
+<div class="paragraph">
+<p>The table for the radios should be sufficiently far away from the door to prevent people from running into it.
+For 17x, we are going to try to place the radios behind the reception desk.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_audiovideo_glossary">Audio/Video Glossary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Here are some terms you might read or hear during the weekend.</p>
+</div>
+<div class="paragraph">
+<p><strong>Amplifier</strong>: a device that produces a gain in signal level</p>
+</div>
+<div class="paragraph">
+<p><strong>Balanced Audio</strong>: An audio signal transmission strategy which sends an inverted copy with the original signal to allow devices to use the two copies to remove common noise common to both signals.</p>
+</div>
+<div class="paragraph">
+<p><strong>Bandwidth</strong>: The range of frequencies a signal occupies.</p>
+</div>
+<div class="paragraph">
+<p><strong>Compressor</strong>: A device which reduces the dynamic range of an audio signal.</p>
+</div>
+<div class="paragraph">
+<p><strong>Countryman</strong>: A brand of headset, earset, and lavalier microphones</p>
+</div>
+<div class="paragraph">
+<p><strong>DI Box</strong>: Also called a Direct box.
+It is said to stand for Direct Injection or Direct Input.
+Converts an unbalanced high impedance signal to a balanced low impedance signal.</p>
+</div>
+<div class="paragraph">
+<p><strong>Dynamic Range</strong>: The difference between the largest and smallest values a quantity can assume, such as volume.</p>
+</div>
+<div class="paragraph">
+<p><strong>Ground Lift</strong>: A switch on some audio devices that disconnects the cable shield.
+Used in attempts to stop hum induced by ground loops.</p>
+</div>
+<div class="paragraph">
+<p><strong>Ground Loop</strong>: Sometimes when connecting audio equipment to each other, a potential between the two devices&#8217; grounds can occur which induces current flow at a frequency of the mains line voltage (60Hz in the US).
+This produces an unwanted audible hum in the signal.</p>
+</div>
+<div class="paragraph">
+<p><strong>Impedance</strong>: Measured in Ohms, it is the AC equivalent of resistance and represents opposition to current flow in a circuit.</p>
+</div>
+<div class="paragraph">
+<p><strong>Lavalier</strong>: A type of small microphone often clipped to a tie or garment.</p>
+</div>
+<div class="paragraph">
+<p><strong>Line Level</strong>: A signal with a higher voltage than Mic Level and is used between various audio devices before being sent to the amplifier.</p>
+</div>
+<div class="paragraph">
+<p><strong>Mic Level</strong>: A signal with a relatively low voltage.</p>
+</div>
+<div class="paragraph">
+<p><strong>Speaker Level:</strong> The highest voltage signal of the Mic, Instrument, Line, Speaker levels that has been amplified and can be sent to a passive loudspeaker.</p>
+</div>
+<div class="paragraph">
+<p><strong>TS</strong>: Tip-Sleeve phone audio connector.
+Used for an unbalanced mono signal.</p>
+</div>
+<div class="paragraph">
+<p><strong>TRS</strong>: Tip-Ring-Sleeve phone audio connector.
+Can be used as for an unbalanced stereo or balanced mono signal.</p>
+</div>
+<div class="paragraph">
+<p><strong>XLR</strong>: A balanced audio connector with three conductors used for connecting microphones and other audio equipment.
+Its balanced nature makes it ideal for longer cable runs.</p>
+</div>
+<div class="paragraph">
+<p><strong>Z</strong>: An abbreviation for electrical impedance.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_identifying_audio_noise">Identifying Audio Noise</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In order to speak more precisely when discussing audio noise problems, it may be useful to familiarize yourself with the different types of audio noise and how they are different from each other.</p>
+</div>
+<div class="sect2">
+<h3 id="_hum">Hum</h3>
+<div class="paragraph">
+<p>Hum (also called buzz) is a continuous sound that occur in a specific set of lower frequencies (often around 60Hz) and  usually are caused by electrical interference by either bad audio connections or a ground loop condition.
+<a href="https://www.youtube.com/watch?v=SVZ2P0KsLic">This is a video sample</a> with a 60Hz tone.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/identify_hum.png" alt="identify hum">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hiss">Hiss</h3>
+<div class="paragraph">
+<p>Hiss is a continuous broadband sound that occurs over a wider set of frequencies than hum and may be caused by fans, air conditioners, or analog sound equipment like tape cassettes.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/identify_hiss.png" alt="identify hiss">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_clicks_and_pops">Clicks and Pops</h3>
+<div class="paragraph">
+<p>Clicks and pops are short bursts of high level sound across the spectrum and can be caused by mechanical issues in analog systems like vinyl record players or signal processing errors in digital systems such as insufficient buffer sizes or latency.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/identify_clicks.png" alt="identify clicks">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_distortion">Distortion</h3>
+<div class="paragraph">
+<p>Distortion is any kind of alteration to the shape of a sound wave and is usually unwanted.
+There are different types of distortion, but the most common type is amplitude distortion (also called clipping).</p>
+</div>
+<div class="paragraph">
+<p>Clipping occurs when the peaks and troughs of an audio signal gets &#8220;clipped&#8221; off due to the amplitude of the wave being higher in threshold than the audio device can handle.
+(Think of those unintelligible fast food drive-thru speakers.) <a href="https://www.youtube.com/watch?v=W4D6BuqL4z8">Here is a video sample</a> of clipping.</p>
+</div>
+<div class="paragraph">
+<p>You can prevent distortion by reducing the sound levels on a device so that signals have enough &#8220;headroom&#8221; and do not trip the peak or clip indicators.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/identify_clipping.png" alt="identify clipping">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_feedback">Feedback</h3>
+<div class="paragraph">
+<p>Audio feedback is the loud unpleasant squeal that occurs when a loop occurs between an audio input and output, such as a microphone pointed at a loudspeaker.
+The signal gets continually amplified any may overdrive the speakers and cause potential damage, so immediate attention is required such as lowering the volume of the sound channel in question and pointing the microphone away from the amplification source.
+<a href="https://www.youtube.com/watch?v=DYNGmpZPcqs">Here is a video sample</a> of audio feedback.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_video_monitoring_procedure">Video Monitoring Procedure</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Always remember:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Make sure to cover your drinks!</strong></p>
+</li>
+<li>
+<p>Have the headphones on at the same time as the walkie talkie earpiece.</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_check_to_see_if_the_speaker_is_centered_in_the_frame">Check to see if the Speaker is centered in the frame</h3>
+<div class="paragraph">
+<p>If not then pan/tilt the camera so that the Speaker is centered in the frame.
+If a speaker keeps leaving the frame (like pacing around), then you may want to zoom out.</p>
+</div>
+<div class="paragraph">
+<p><strong>Note when making camera adjustments</strong>: Camera movement is sensitive.
+There is a small delay between you pressing a button and the result showing up on screen.
+Wait for this lag as you make adjustments.</p>
+</div>
+<div class="paragraph">
+<p>Use the camera movement controls to position the Camera to show the speaker in the middle of the frame.
+Use the <strong>Set Home</strong> button along the way, so that if you mess up and move the camera too far or the camera gets moved accidentally you can automatically move back to the last known good position by pressing the <strong>Home</strong> button.
+If you&#8217;ve moved the camera to an unknown location, press <strong>Home</strong> to move back to the last known position.</p>
+</div>
+<div class="paragraph">
+<p>Once the speaker is properly framed, press <strong>Set Home</strong> again to lock in the new position.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_listen_to_audio_of_each_room">Listen to Audio of Each Room</h3>
+<div class="paragraph">
+<p>To Hear Audio in the various rooms, click room&#8217;s window.
+If the video in the Operations Control window disappears or is not shown, then refresh the page.
+If the Operations Control window is not open or crashes, open Firefox and use the address bar to open it again.
+The web address is: + <code><a href="http://&lt;room-letter/number&gt;.scaleav.us/html-frontend/operate.html" class="bare">http://&lt;room-letter/number&gt;.scaleav.us/html-frontend/operate.html</a></code></p>
+</div>
+<div class="paragraph">
+<p>Listen for audio problems in the room.
+If you suspect there are audio problems, you may want to check other rooms first to get a feel for the baseline of what other rooms sound like.
+If you determine there is an issue, then log the issue and ask Michael Proctor-Smith for help.
+Examples of potential issues are,</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Hum, hiss, clicks, and pops</p>
+</li>
+<li>
+<p>Feedback</p>
+</li>
+<li>
+<p>Inaudibly low sound</p>
+</li>
+<li>
+<p>&#8220;Hot&#8221; audio (when audio is too loud, distortion and clipping is possible)</p>
+</li>
+<li>
+<p>Unintelligible speech</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>When we hear on the radio that there is an audio problem in a room, confirm whether the issue is with the camera audio or with the room&#8217;s ambient sound by selecting audio track 2 (camera audio) in VLC.
+If there is a problem, let the person on the radio know if the problem is with the camera audio or the room ambient audio.
+If the video is also cutting out, let them know about that too.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_observe_the_video_feed">Observe the Video Feed</h3>
+<div class="paragraph">
+<p>Observe the video feed and confirm that both the PTZ Camera video and the Slides video is displaying properly.
+If Video is not working then log the issue and ask Michael Proctor-Smith.
+Examples of problems that could happen are:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>No slides showing: could be a problem on the speaker&#8217;s end.</p>
+</li>
+<li>
+<p>Slides are cut off: the speaker may have misformatted the slides or has not configured their laptop properly to display at the correct resolution (<strong>1024x768@60Hz</strong>)</p>
+</li>
+<li>
+<p>Video is Choppy or it goes black: if the video goes black, make sure the projector is physically turned on, and still no picture/dark/black, then alert senior tech.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_scale_signs_crashing">SCALE Signs Crashing</h3>
+<div class="paragraph">
+<p>If there are reports of the SCALE Signs web browser crashing, press &#8220;Restart Signs&#8221;</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_vlcmonitoring_station_issues">VLC/Monitoring Station Issues</h3>
+<div class="paragraph">
+<p>If a VLC window goes completely black, you can reload the room feed in VLC by closing the window by pressing the X in the window title bar.
+A new VLC window will open in its place.</p>
+</div>
+<div class="paragraph">
+<p>If the monitoring station computers are acting up, inform Michael Starch or Matthew Campbell</p>
+</div>
+<div class="sect3">
+<h4 id="_last_and_final_resort">Last and Final Resort:</h4>
+<div class="paragraph">
+<p>If the monitoring station computer crashes or freezes, you can restart the system:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Windows+Shift+E to exit the i3wm window manager.</p>
+</li>
+<li>
+<p>Ask for Login Prompt</p>
+</li>
+<li>
+<p>Display the Web Control Interface by opening up Firefox and entering the web address for a room.</p>
+</li>
+<li>
+<p>New VLC windows of the various room feeds may open up stacked on top of one another, so move them around to space them out.
+To Reorganize the room windows, just move them around with the mouse.</p>
+</li>
+<li>
+<p>Make sure the Audio for the VLC windows is set to Audio Track 2.</p>
+</li>
+<li>
+<p>Check that the camera is displaying in the top right corner.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_room_equipment_connections">Room Equipment Connections</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The following schematics show the various connections of all of the equipment in each room</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/detailed-podium-connections-scale-18x.png" alt="detailed podium connections scale 18x">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/detailed-camera-connections-scale-18x.png" alt="detailed camera connections scale 18x">
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_types_of_audio_connectors">Types of Audio Connectors</h2>
+<div class="sectionbody">
+<h3 id="_xlr" class="discrete">XLR</h3>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/XLR-connectors-small.jpg" alt="XLR connectors small">
+</div>
+</div>
+<div class="paragraph">
+<p>1 channel mono, balanced.
+Used for microphones, speakers, subwoofers, monitors, mixers, and due to its balanced nature and shielding is ideal for long distance cable runs.</p>
+</div>
+<h3 id="_14_ts_phone_connector" class="discrete">1/4" TS Phone Connector</h3>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/Jack_plug.jpg" alt="Jack plug">
+</div>
+</div>
+<div class="paragraph">
+<p>1 channel mono, unbalanced.
+Used for musical instruments and shorter audio device connections.
+Splitter cables such as stereo to two mono channels may use this type of plug.</p>
+</div>
+<h3 id="_14_or_18_trs_phone_connector" class="discrete">1/4" or 1/8" TRS Phone Connector</h3>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/balanced_jack.png" alt="balanced jack">
+</div>
+</div>
+<div class="paragraph">
+<p>2 channels of unbalanced stereo audio or 1 channel of balanced audio.
+Used to connect headphones and other consumer electronics.
+Available in quarter-inch and eighth-inch sizes.
+The eighth-inch size is also called 3.5mm.</p>
+</div>
+<h3 id="_rca_connector" class="discrete">RCA Connector</h3>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/rca.jpg" alt="rca">
+</div>
+</div>
+<div class="paragraph">
+<p>1 channel mono, balanced.
+Used to connect devices like CD/DVD players to mixers.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_audio_troubleshooting">Audio Troubleshooting</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_for_experts_only">For Experts Only</h3>
+<div class="paragraph">
+<p>If there is noise, distortion, or imbalancing in any room, an audio-visual expert should be called in for assistance.
+An audio-visual expert is someone who has volunteered for SCALE for many years, and has experience setting audio-levels for both the room and the monitor feeds.
+The following procedure is for the experts.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Identify the primary issue in the room.
+What needs to be fixed?
+Audio issues differ in the proper fix, and so a clear understanding of the issue before doing any workis important and prevents further errors.
+Possible errors include:</p>
+</li>
+<li>
+<p></p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Hum or buzz.
+There are generally two causes of constant hum/buzzing.
+Ground loop buzzing (60Hz buzz) is caused by audio equipment being grounded to different grounds in the facility.
+With multi-phase power this is easy to do.
+Possible solutions: connect equipment to the same ground (same electrical outlet);
+push the ground-lift switch on the DI Box &lt;insert picture here&gt;.
+Sometimes the issue could also be caused by poor shielding of the audio cable.
+First check to see that the audio cable is not crossing near any power cables, as this might be causing some of the hum.
+Additionally, look in the room for any malfunctioning fluorescent lights.</p>
+</li>
+<li>
+<p>Distortion.
+Distortion is caused when signals are amplified too much.
+This often means gains are too high.Possible solutions: Before performing adjustments to the gains, check with AV NOC to ensure that there is distortion on the AV monitoring feed.
+If distortion is detected on the monitoring feed, Adjust the mixer board to bring down the gains.
+If distortion is not detected on the monitoring feed, do not adjust the gains, but reduce the volume knobs.
+See noise (iii)</p>
+</li>
+<li>
+<p>Noise.
+General noise is a more difficult problem, but can be the result of amplifying the output to the speaker too high.
+Is the noise constant or intermittent?
+Possible solutions: If the noise is intermittent, the cable might be damaged.
+Follow the cable&#8217;s path and look to see if maybe the cable is/was being crushed by a chair or table leg or was laid down and bent at too narrow of an angle.
+In addition, check that connections between cables and equipment are secure.</p>
+</li>
+<li>
+<p>Feedback.
+Feedback is the unintended &#8220;infinite loop&#8221; of amplification of a sound and can occur when a microphone is pointed toward a loudspeaker and the amplification is set too high.
+Solving this problem has two aspects: triage and solution.
+When it immediately happens, the sound is deafening to the audience, so your instinctual reaction should be to lower the master faders to stop the feedback.
+Once you&#8217;ve lowered the sound, then you can begin to think about how to prevent it.
+If this is a panel with multiple microphones, turn off unused microphones.
+The more microphones that are hot, the more likely feedback is to occur.
+Is one presenter standing near a loudspeaker?
+Turn down their gain.Note: before adjusting gains, please consult with AV NOC.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Identify the affected portion of the audio system.
+Problems with audio equipment can appear anywhere in the chain of the audio system.
+Once the affected portion is identified, work can focus there to resolve the issue, before expanding into other portions.
+This can keep the amount of work minimal.
+Parts of the audio system:</p>
+</li>
+<li>
+<p></p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Single loudspeaker.
+If a problem affects one speaker and not the other then the problem is often with the built-in amplification in that speaker.
+Look there first.
+Is it turned on?
+Next, check the cables.</p>
+</li>
+<li>
+<p>All loudspeakers.
+If a problem exists in multiple speakers,but notthe monitoring feed, the problem might be with the in-room audio mixer settings.
+Check to make sure the channels are not muted and that the channels and mix settings are appropriately set.
+Note:The monitoring feed is post-gain controls and thus these should not be adjusted unless the monitoring feed is also affected.</p>
+</li>
+<li>
+<p>Monitoring feed.
+If a problem is reported on the monitoring feed, but is not apparent in the room, then the output settings to the monitoring feed are at fault.
+Confirm that the appropriate channels from the in-room audio mixer are being fed to the networked audio mixer.
+In addition, gains can be checked for this issue.</p>
+</li>
+<li>
+<p>Inputs.
+If the problem is observed in both the monitoring feed, and the room, the problem likely exists with the inputs.
+Adjust there first.
+These include the gain settings.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Perform adjustments.
+Adjust the system to fix the above isolated problem, and perform the adjustments for the affected part of the system first.
+Remember, settings dialed far past unity gain (labeled &#8220;U&#8221; or &#8220;+0db&#8221; on most systems) are often likely to be contributing to the problem.</p>
+</li>
+<li>
+<p>Rebalance.
+Once the issue is solved, the other affected settings should be adjusted as minimally as possible to ensure that the room still operates normally.
+Move along the chain of settings from the inputs to outputs.</p>
+</li>
+<li>
+<p>Re-test.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_things_to_keep_in_mind">Things to keep in mind:</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>One debugger at a time.
+Only one individual should be touching settings at a given time.
+Far too much time has been lost in past years when 2 debuggers are adjusting 2 settings at 1 time.
+If another volunteer has a suggestion, formally hand-off ownership of the debug.</p>
+</li>
+<li>
+<p>Be procedural.
+Work an area of the system from input to output.Don&#8217;t just randomly adjust settings.</p>
+</li>
+<li>
+<p>Fix one setting at a time.
+As much as possible, fix a setting, test it independently (with headphones) and then move on to the next setting.
+Varying 2 settings at once is usually a bad idea.</p>
+</li>
+<li>
+<p>Minimal changes are best.
+Keep adjustments small, and line levels low but sufficient to do the job.</p>
+</li>
+<li>
+<p>Unity gain is good.
+Going far past unity usually should be reasoned through as it often causes the aforementioned problems.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_volunteer_logistics">Volunteer Logistics</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Here is some useful information for volunteers.</p>
+</div>
+<div class="sect2">
+<h3 id="_communications">Communications</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Email</strong>: Announcements and discussions usually occur on the scale-av mailing list.
+Please sign up early, as it requires approval to add your subscription.</p>
+</li>
+<li>
+<p><strong>Radio</strong>: During the event we use two-way radios to stay in communication with each other in the field.
+Please check out a radio from the A/V NOC.</p>
+</li>
+<li>
+<p><strong>Slack</strong>: We are also encouraged to use Slack to chat.
+You can download the app to your smartphone or login via your computer.
+Please ask Ilan (@socallinuxexpo.org) or Bala (@socallinuxexpo.org) for an invitation, so you can access our team channels.</p>
+</li>
+<li>
+<p><strong>Old fashioned, offline messages</strong>: If you&#8217;re a fan of writing things on sheets of dead trees, or there&#8217;s a power outage and the world is going to end but you still need to relay a message, you can leave a message at the front desk of the A/V NOC between 8am-6pm.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_registration">Registration</h3>
+<div class="paragraph">
+<p>Volunteers for the A/V team will receive a free badge.
+SCALE Registration for volunteers was handled by the team lead.
+We submit a list of names to registration a few weeks before the conference.
+You should have received an email confirming your registration for SCALE, if not, please contact Lan.</p>
+</div>
+<div class="paragraph">
+<p>You will not be able to pick up your expo badge until the registration area has been set up late Wednesday night or Thursday morning.
+The registration area is near the entrance to the Expo Hall, on the convention center side.</p>
+</div>
+<div class="paragraph">
+<p>It is the same process for staff or attendees to pick up a badge.
+You go to Registration, check-in via the bank of self-service kiosks.
+If you received an email from registration, there is an express check-in code.
+If you didn&#8217;t get the email or misplaced it, just enter your first and last name and the email address you used to sign up as a volunteer.
+The printer will print your badge and you can then pick up your shirt and swag.</p>
+</div>
+<div class="paragraph">
+<p>After you&#8217;ve picked up your badge, you can check in with Lan at the A/V NOC in room 204.
+We&#8217;ll get you oriented.
+We also have staff tshirts for the A/V team.
+Please wear them when you&#8217;re working.
+Depending on availability, we will hand out multiple shirts so you can wear them multiple days.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hotel_rooms">Hotel Rooms</h3>
+<div class="paragraph">
+<p>SCALE attendees are primarily staying at on-site Sheraton hotel or the offsite Hilton hotel 5 minutes away.</p>
+</div>
+<div class="paragraph">
+<p>SCALE provides a small number of hotel rooms for volunteers who are working for most of the conference.
+This is a privilege offered to volunteers who have done good work for us before, because we work long hours, and staying onsite is safer than a long commute.</p>
+</div>
+<div class="paragraph">
+<p>You should have already received a confirmation email directly from the hotel, as well as an email from Ilan telling you to please contact him and not the hotel if you want to change anything about your registration.</p>
+</div>
+<div class="paragraph">
+<p>SCALE will only cover the room and the parking.
+The hotel will require a credit card on file to cover any extra charges.
+Be sure to let them know if you need a parking pass.
+If you don&#8217;t need a car, you should consider taking Uber/Lyft to the hotel if it is under $25/each way;
+that may be reimbursable with the receipt.
+You should also ask about whether the room includes free internet access, and if so, what the code is.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_parking">Parking</h3>
+<div class="paragraph">
+<p>Here is the general information regarding parking at the venue or around Pasadena.
+You may also consider carpooling or other modes of transportation.</p>
+</div>
+<div class="paragraph">
+<p>SCALE will handle parking reimbursement after the conference, within reason.
+Please be frugal as SCALE has a lot of expenses with the new venue.</p>
+</div>
+<div class="paragraph">
+<p>Shuttles from nearby hotels to the convention may be available.
+Ask your hotel front desk for information.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_meals">Meals</h3>
+<div class="paragraph">
+<p>Boxed lunches will be provided for on-site volunteers in the volunteer break room, which is Room 208.
+Pastries are sometimes available in the morning.
+Dinners are provided via prepaid debit-cards that reload nightly.
+Outside food and beverages are not permitted in the venue.</p>
+</div>
+<div class="paragraph">
+<p>There are many restaurants and shops around the venue, so there should be plenty of options if you want to find your own food.</p>
+</div>
+<div class="paragraph">
+<p>Shifts</p>
+</div>
+<div class="paragraph">
+<p>The bulk of volunteers are needed from 8am to 6pm.
+We are aiming for 5-hour shifts in the morning and afternoon, which overlap around noon.This should enable you to enjoy the conference and prevent you from having too long of a day.</p>
+</div>
+<div class="paragraph">
+<p>We will need at least one volunteer with audio mixer experience to support the evening events.
+Hopefully, this duty will rotate to a different volunteer each night.</p>
+</div>
+<div class="paragraph">
+<p>Please fill out the doodle poll to list your availability.
+It is extremely easy to update your availability.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_training">Training</h3>
+<div class="paragraph">
+<p>Training will be provided onsite.
+There are many veteran volunteers who can answer basic questions.
+This book was created to also provide documentation of all of the procedures and equipment used by the team.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_questions">Questions</h3>
+<div class="paragraph">
+<p>Lan Dang is the volunteer coordinator for the SCALE A/V Team.
+Her goal is to make sure SCALE A/V is well-supported and that you have a good experience and want to come back to help out again next year.
+Address all questions, concerns, and complaints to her.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_vga_distribution_amplifier">VGA Distribution Amplifier</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Use a D.A.
+to help amplify the video signal in a room where the projector image seems unstable or weak.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/vga-da-2port-small.jpg" alt="vga da 2port small">
+</div>
+</div>
+<div class="paragraph">
+<p>Kit Contents:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>1x VGA Distribution Amplifier (labeled Video Splitter)</p>
+</li>
+<li>
+<p>1x USB cable for power</p>
+</li>
+<li>
+<p>1x VGA cable for Output #1</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Connection Instructions:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Connect the VGA In from the Podium Computer to  Output #1 of the DA using the VGA cable</p>
+</li>
+<li>
+<p>Connect the Projector VGA cable to Output #2 of the DA.</p>
+</li>
+<li>
+<p>Connect the Presenter&#8217;s Laptop VGA cable to the Input port of the DA.</p>
+</li>
+<li>
+<p>Connect the USB power cable to a free USB port on front of the Podium Computer</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2022-07-29 18:20:53 UTC
+</div>
+</div>
+</body>
+</html>
