@@ -3,7 +3,7 @@ footer:
   columns: =100%
   recto:
     center:
-      content: '{section-or-chapter-title} | *{page-number}* | v{version}'
+      content: '{section-or-chapter-title} | *{page-number}* | v{version} https://github.com/socallinuxexpo/scale-av-web/commit/{commitHash}[{commitHash}]'
   verso:
     center:
-      content: '{section-or-chapter-title} | *{page-number}* | v{version}'
+      content: '{section-or-chapter-title} | *{page-number}* | v{version} https://github.com/socallinuxexpo/scale-av-web/commit/{commitHash}[{commitHash}]'

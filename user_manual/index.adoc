@@ -1,6 +1,10 @@
+include::version.adoc[]
 = Scale A/V User Manual
+v{version}
 :toc: left
 :toclevels: 3
+
+Document generated from https://github.com/socallinuxexpo/scale-av-web/commit/{commitHash}[{commitHash}]
 
 ifndef::backend-pdf[]
 image:https://img.shields.io/badge/License-MIT-yellow.svg[MIT License, link=https://opensource.org/licenses/MIT] image:https://img.shields.io/badge/Contribute%20on-GitHub-orange[Contribute on GitHub, link=https://github.com/socallinuxexpo/scale-av-web/] image:https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square[PRs Welcome, link=http://makeapullrequest.com] image:https://img.shields.io/badge/Download%20-PDF-blue[Download PDF, link=./scale-av-user-manual.pdf]
