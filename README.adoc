@@ -43,7 +43,7 @@ The following instructions are for building the
 
 === Prerequisites ===
 
-You will need to install https://docs.docker.com/get-docker/[docker] for your specific platform.
+You will need to install https://podman.io/[podman] for your specific platform.
 
 === Cloning the repo ===
 
