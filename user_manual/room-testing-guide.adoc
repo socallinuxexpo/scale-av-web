@@ -1,0 +1,54 @@
+== Room Testing Procedure ==
+
+Each room needs to be tested for both audio and visual. In-room and recorded levels will be tested.
+
+There are several notes to remember during the each test:
+
+* Almost all settings are adjusted remotely, please be patient.
+* **Any** in-room change shall be as-directed from AV-NOC.
+* Please speak with radio protocol as multiple teams will be working at once
+* When calling in a test please wait for acknologement from AV-NOC and proceed at AV-NOC's pace.
+
+Additionally, volunteers will need the following equipment:
+
+* [ ] Computer with HDML, mini-HDMI, or USB-C video output.
+* [ ] Device for playing MP3 with headphone jack
+* [ ] Idominable speaking voice and much to talk about.
+
+=== Testing Audio ===
+
+There are two microphone channels and one audio feed that need to be tested. Each of these three channels should
+be tested in-order.
+
+1. Countryman microphone (CH 1) worn over-the-ear
+2. Handheld microphone (CH 2) held pointing out your mount about 3in away
+3. Audio source (CH 3) played into the 1/8in headphone jack on the podium 
+
+For each channel, follow this procedure:
+
+* [ ] Call into AV-NOC reporting that your room is ready to test channel 1, 2, or 3.
+* [ ] Wait for AV-NOC to confirm to proceed with test
+* [ ] Talk into the microphone or play audio and report if the room audio is "too quiet", or "too loud"
+* [ ] **Continue talking** as AV-NOC will adjust room levels
+* [ ] Confirm when the room audio is properly set
+* [ ] **Continue talking** as AV-NOC is now setting recorded levels
+* [ ] Stop talking when AV-NOC confirms that the levels are set
+* [ ] Proceed to next channel.
+
+=== Testing Video ===
+
+Testing video requires ensuing that the projector in the room and the recorded feed are both receiving video. To
+test, follow this procedure:
+
+* [ ] Plug in an HDMI or HDMI compatible input to the HDMI cord on the podium using optional adapters
+* [ ] Ensure porject projects feed from computer
+* [ ] Call into AV-NOC asking to check remote viedo feed
+* [ ] Confirm remote feed is as expected with AV-NOC
+* [ ] Press push-button switch one time and ensure feed changed
+* [ ] Press push-button switch one additional time and ensure feed changed back.
+
+Corngradulations, the testing is now done. Please move to the next room as directed by AV-NOC.
+
+
+
+
