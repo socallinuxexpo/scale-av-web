@@ -2,8 +2,8 @@
 
 version=2.0.17
 
-if [ ! -r ./public ]; then
-    mkdir public
+if [ ! -r ./dist ]; then
+    mkdir dist
 fi
 
 if ! asciidoctor --version | grep $version > /dev/null; then
@@ -15,9 +15,9 @@ if ! asciidoctor --version | grep $version > /dev/null; then
 else
     echo "asciidoctor $version installed!"
     echo "running build..."
-    asciidoctor index.adoc -o public/index.html
-    asciidoctor user_manual/index.adoc -o public/scale-av-user-manual.html -acommitHash=$(git rev-parse --short HEAD) -r asciidoctor-diagram
-    asciidoctor user_manual/index.adoc -o public/scale-av-user-manual.pdf -r asciidoctor-pdf -acommitHash=$(git rev-parse --short HEAD) -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml
+    asciidoctor index.adoc -o dist/index.html
+    asciidoctor user_manual/index.adoc -o dist/scale-av-user-manual.html -acommitHash=$(git rev-parse --short HEAD) -r asciidoctor-diagram
+    asciidoctor user_manual/index.adoc -o dist/scale-av-user-manual.pdf -r asciidoctor-pdf -acommitHash=$(git rev-parse --short HEAD) -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml
 fi
 
-cp -r user_manual/assets/ public/
+cp -r user_manual/assets/ dist/

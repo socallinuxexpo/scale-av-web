@@ -54,7 +54,7 @@ Clone this repo, then change directory into the cloned repo:
 
 === Usage ===
 
-The following will locally generate the {scale-av-user-manual-html} & {scale-av-user-manual-pdf} documents to the `public/` folder.
+The following will locally generate the {scale-av-user-manual-html} & {scale-av-user-manual-pdf} documents to the `dist/` folder.
 
  ./build.sh
 
