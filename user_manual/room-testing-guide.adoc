@@ -15,6 +15,7 @@ Additionally, volunteers will need the following equipment:
 
 * [ ] Computer with HDMI, mini-HDMI, or USB-C video output.
 * [ ] Device for playing MP3 with headphone jack
+** [ ] A sample MP3 file can be downloaded from http://www.hyperion-records.co.uk/audiotest/1%20Sullivan%20The%20Lost%20Chord,%20Seated%20one%20day%20at%20the%20organ.MP3
 * [ ] A loud speaking voice and much to talk about.
 
 === Testing Audio ===
