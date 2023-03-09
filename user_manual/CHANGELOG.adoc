@@ -1,8 +1,9 @@
-:version: 1.3
+:version: 2.0
 [cols=",,,", options="header", caption=""]
 .*Changelog*
 |===
 |Name |Date |Reason For Changes |Version
+|Sean Marquez | March, 2022 | Updated testing procedures, as per @LeStarch edits | 2.0
 |Jess Bermudes | July 27, 2022 | Fix note about PTZ POE Splitter | 1.3
 |Jess Bermudes | March 5, 2020 | Update Room Setup per Sean's notes | 1.2
 |Jess Bermudes | March 4, 2020 | Add caution for AV cables in Room Setup | 1.1
