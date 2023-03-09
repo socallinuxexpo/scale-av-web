@@ -53,7 +53,7 @@ fi
 
 #### generate scale av user manual as pdf ####
 clitool="asciidoctor"
-cmdargs="user_manual/index.adoc -o dist/scale-av-user-manual.pdf -r asciidoctor-pdf -acommitHash=$(git rev-parse --short HEAD) -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml"
+cmdargs="user_manual/index.adoc -o dist/scale-av-user-manual.pdf -r asciidoctor-pdf -acommitHash=$(git rev-parse --short HEAD) -acommitDate=$(git show -s --format=%ci HEAD) -r asciidoctor-diagram -b pdf -a pdf-theme=user_manual/theme.yml"
 cmd="$clitool $cmdargs"
 workdir=$project_root
 podmancmd="podman run --rm -v "$PWD:/src" -w "/src" docker.io/asciidoctor/docker-asciidoctor:1.27.0 $cmd"
