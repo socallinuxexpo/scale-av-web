@@ -3,7 +3,6 @@ include::version.adoc[]
 v{version}
 Document generated from https://github.com/socallinuxexpo/scale-av-web/commit/{commitHash}[{commitHash}]
 Last Updated: {commitDate}
-
 :toc: left
 :toclevels: 3
 
