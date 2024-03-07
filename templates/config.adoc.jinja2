@@ -1,0 +1,5 @@
+{%- for key in global_vars -%}
+:{{ key }}: {{ global_vars[key] }}
+{% endfor -%}
+:commit_hash: {{commit_hash}}
+:commit_date: {{commit_date}}

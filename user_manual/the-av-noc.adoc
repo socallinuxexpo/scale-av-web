@@ -8,4 +8,3 @@ When in the NOC, please talk quietly (like inside a library) because video feed 
 === NOC Setup
 
 The table for the radios should be sufficiently far away from the door to prevent people from running into it.
-For 17x, we are going to try to place the radios behind the reception desk.
