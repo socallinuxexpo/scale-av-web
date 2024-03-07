@@ -22,7 +22,7 @@ effective in the field.
 
 === Schedule Overview ===
 
-SCALE {scale_no} is {conference_dates}, Thursday through Sunday. However, volunteers are
+SCALE is held Thursday through Sunday. However, volunteers are
 needed for setup on Wednesday as well as sometimes on Tuesday.
 Tuesday (afternoon): Retrieving equipment from the off-site storage facility,
 unpacking and setting up the A/V NOC, and potential room setups.

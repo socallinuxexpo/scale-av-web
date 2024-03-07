@@ -1,6 +1,6 @@
 == Where We Do It
 
-SCALE {scale_no} is at the https://pasadenacenter.visitpasadena.com/[Pasadena Convention Center].
+SCALE is at the https://pasadenacenter.visitpasadena.com/[Pasadena Convention Center].
 
 Here is a map of the convention center:
 

@@ -5,8 +5,6 @@ SCALE A/V is the team that handles A/V for the http://socallinuxexpo.org[Souther
 
 We consist of volunteers.  The main perks for volunteers include free admission to SCALE, learning new things, getting the bird's eye view of the conference.  And meals are covered for your shifts.
 
-We are currently working on SCALE {scale_no}, which will be at the Pasadena Convention Center on {conference_dates}.  This will be our fourth time at this venue.
-
 There are many volunteer opportunities for people of any skill level before, during, and after the conference.
 
 == volunteer signup
