@@ -1,0 +1,3 @@
+== A Primer on Digital Video
+
+A video file is formatted in a specific file format called a container format.

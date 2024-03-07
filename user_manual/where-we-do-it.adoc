@@ -1,0 +1,13 @@
+== Where We Do It
+
+SCALE is at the https://pasadenacenter.visitpasadena.com/[Pasadena Convention Center].
+
+Here is a map of the convention center:
+
+image::./assets/pasadena-convention-center-map.jpg[]
+
+=== Points of Interest
+
+* *AV NOC*: Room 204
+* *Tech NOC*: Room 215
+* *Registration*: Outside Exhibit Hall A

@@ -1,0 +1,9 @@
+extends: default
+footer:
+  columns: =100%
+  recto:
+    center:
+      content: '{section-or-chapter-title} | *{page-number}* | v{doc_version} https://github.com/socallinuxexpo/scale-av-web/commit/{commit_hash}[{commit_hash}] | {commit_date}'
+  verso:
+    center:
+      content: '{section-or-chapter-title} | *{page-number}* | v{doc_version} https://github.com/socallinuxexpo/scale-av-web/commit/{commit_hash}[{commit_hash}] | {commit_date}'

@@ -1,0 +1,97 @@
+include::../config.adoc[]
+= Scale A/V User Manual
+v{doc_version}
+:toc: left
+:toclevels: 3
+
+Last Updated: {commit_date}
+
+Document generated from https://github.com/socallinuxexpo/scale-av-web/commit/{commit_hash}[{commit_hash}]
+
+ifndef::backend-pdf[]
+image:https://img.shields.io/badge/License-MIT-yellow.svg[MIT License, link=https://opensource.org/licenses/MIT] image:https://img.shields.io/badge/Contribute%20on-GitHub-orange[Contribute on GitHub, link=https://github.com/socallinuxexpo/scale-av-web/] image:https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square[PRs Welcome, link=http://makeapullrequest.com] image:https://img.shields.io/badge/Download%20-PDF-blue[Download PDF, link=./scale-av-user-manual.pdf]
+endif::[]
+
+toc::[]
+
+include::CHANGELOG.adoc[]
+
+<<<
+
+include::introduction.adoc[Introduction]
+
+<<<
+
+include::what-we-do.adoc[What We Do]
+
+<<<
+
+include::where-we-do-it.adoc[Where We Do It]
+
+<<<
+
+include::audio-subsystem.adoc[Audio Subsystem]
+
+<<<
+
+include::video-subsystem.adoc[Video Subsystem]
+
+<<<
+
+include::podium-computer.adoc[Podium Computer]
+
+<<<
+
+include::room-setup.adoc[Room Setup]
+
+<<<
+
+include::room-testing-guide.adoc[Room Testing Guide]
+
+<<<
+
+include::radio-protocol.adoc[Radio Checkout and Protocol]
+
+<<<
+
+include::a-primer-on-digital-video.adoc[A Primer on Digital Video]
+
+<<<
+
+include::team-roles.adoc[Team Roles]
+
+<<<
+
+include::the-av-noc.adoc[The A/V NOC]
+
+<<<
+
+include::audiovideo-glossary.adoc[Audio/Video Glossary]
+
+<<<
+
+include::identifying-audio-noise.adoc[Identifying Audio Noise]
+
+<<<
+
+include::video-monitoring-procedure.adoc[Video Monitoring Procedure]
+
+<<<
+
+include::room-equipment-connections.adoc[Room Equipment Connections]
+
+<<<
+
+include::a-primer-on-audio.adoc[A Primer on Audio]
+
+<<<
+
+include::audio-troubleshooting.adoc[Audio Troubleshooting]
+
+<<<
+
+include::volunteer-logistics.adoc[Useful Volunteer Information]
+
+<<<
+
+include::vga-distribution-amplifier.adoc[VGA Distribution Amplifier]

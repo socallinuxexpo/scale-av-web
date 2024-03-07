@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+[Tripod] as tripod
+[Samsung Camera] as cam
+[PVC Camera Mount] as mount
+[Camera DI Box] as DIBox
+[PoE Injector] as injector
+interface PARPOUT
+interface "PoE/DATA" as injectorOUT
+
+cam .. PARPOUT: <<audio cable>>
+injectorOUT .. cam: <<ethernet>>
+injector - injectorOUT
+DIBox - PARPOUT
+mount - cam
+cam - tripod
+@enduml

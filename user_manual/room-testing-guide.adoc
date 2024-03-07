@@ -1,0 +1,57 @@
+== Room Testing Procedure ==
+
+Each room needs to be tested for both audio and visual. In-room and recorded levels will be tested.
+
+There are several notes to remember during the each test:
+
+* Almost all settings are adjusted remotely, please be patient.
+* **Do not** change things in-room unless directed by AV-NOC.
+* Please speak using our radio protocol as multiple teams will be working at once
+* When calling in a test please wait for acknologement from AV-NOC and proceed at AV-NOC's pace.
+* When speaking in the microphone being tested, the goal is for the audio to be loud enough to be heard in a room full of people, but not so loud that it is painful or distorted. 
+* Make sure that the camera stand is sufficiently elevated: as high as it can go and still be stable. Typically this is high enough to look over standing audience members (approximately 8 feet). 
+
+Additionally, volunteers will need the following equipment:
+
+* [ ] Computer with HDMI, mini-HDMI, or USB-C video output.
+* [ ] Device for playing MP3 with headphone jack
+** [ ] A sample MP3 file can be downloaded from http://www.hyperion-records.co.uk/audiotest/1%20Sullivan%20The%20Lost%20Chord,%20Seated%20one%20day%20at%20the%20organ.MP3
+* [ ] A loud speaking voice and much to talk about.
+
+=== Testing Audio ===
+
+There are two microphone channels and one audio feed that need to be tested. Each of these three channels should
+be tested in-order.
+
+1. Countryman earset microphone (CH 1) worn over-the-ear
+2. Handheld microphone (CH 2) held pointing at your mouth about 3in away
+3. Audio source (CH 3) played into the 1/8" headphone jack on the podium 
+
+For each channel, follow this procedure:
+
+* [ ] Call into AV-NOC reporting that your room is ready to test channel 1, 2, or 3.
+* [ ] Wait for AV-NOC to confirm to proceed with test
+* [ ] Talk into the microphone or play audio and report if the room audio is "too quiet", or "too loud"
+* [ ] **Continue talking** as AV-NOC will adjust room levels while you are speaking
+* [ ] Confirm when the room audio is properly set
+* [ ] **Continue talking** as AV-NOC is now setting recorded levels
+* [ ] Stop talking when AV-NOC confirms that the levels are set
+* [ ] Proceed to next channel.
+
+=== Testing Video ===
+
+Testing video requires ensuing that the projector in the room and the recorded feed are both receiving video. To
+test, follow this procedure:
+
+* [ ] Plug in an HDMI or HDMI compatible input to the HDMI cord on the podium using optional adapters
+* [ ] Ensure projector projects feed from computer
+* [ ] Call into AV-NOC asking to check remote video feed
+* [ ] Confirm remote feed is as expected with AV-NOC
+* [ ] Press video switcher pushbutton switch one time and ensure feed changed
+* [ ] Press video switcher pushbutton switch one additional time and ensure feed changed back.
+
+Corngradulations, the testing is now done. Please move to the next room as directed by AV-NOC.
+
+
+
+
