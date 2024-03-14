@@ -67,63 +67,6 @@ include::./assets/camera_di_box.puml[Camera DI Box]
 ....
 
 <<<
-=== PoE Injector (for Samsung Camera) ===
-
-* [ ] Using Short Ethernet Cable, connect Network Switch 
-(any port from 22 to 27) to DATA Jack of ZyXEL PoE Injector
-
-* [ ] Connect power to PoE Injector, using IEC Cable.
-
-[plantuml, poe_injector_samsung, svg]
-....
-include::./assets/poe_injector_samsung.puml[PoE Injector (Samsung Camera)]
-....
-
-
-<<<
-=== Samsung Camera ===
-
-* [ ] Unfold and place Tripod next to confidence monitor (s.a., teleprompter).
-If there are no confidence monitors, place tripod in the back of the room.
-
-* [ ] Attach PVC camera mount to tripod.
-
- CAUTION: Ensure that the camera and mount will extend over a leg of the tripod for stability
-
-* [ ] Attach Samsung Camera to PVC camera mount:
-
-** [ ] Carefully align and insert metal alignment pins on camera into camera
-mount.
-
-** [ ] Twist camera to lock.
-
-** [ ] Secure camera to mount by connecting metal cable tether.
-
-* [ ] Check that camera is level.
-
-* [ ] Check that camera and mount extends over a leg of tripod for added
-stability.
-
-* [ ] Connect Camera’s Audio Cable to Camera DI Box by plugging in 1/4” RING
-plug to the DI Box PARPOUT Jack. (see the labels on the cable)
-
-  Note: The TIP plug will remain unconnected.
-
-* [ ] Connect Camera’s Ethernet Cable into the PoE Injector’s PoE/DATA Jack.
-This should power on the camera.
-
-* [ ] Raise camera and lock in place with metal pin and tension knobs. 
-
- Note: Camera should be high enough such that it can look over anybody standing in the back of the room; approximately 8 feet. 
- 
- WARNING: DO NOT OVERTIGHTEN the tension knobs.
-
-[plantuml, samsung_camera, svg]
-....
-include::./assets/samsung_camera.puml[Samsung Camera]
-....
-
-<<<
 === PoE Injector (for PTZOptics Camera) ===
 
 * [ ] Using Short Ethernet Cable, connect Network Switch (any port from 22 to

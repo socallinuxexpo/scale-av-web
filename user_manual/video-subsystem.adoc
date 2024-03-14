@@ -12,6 +12,6 @@ The audio for the video stream is provided to the camera from the audio subsyste
 This audio track is multiplexed into the video stream by the camera and the resulting stream is made available over SCALE's LAN to be viewed by either the NOC Monitoring System or the Podium Computer.
 You can think of the camera as a server that serves a video stream to any client that connects to it.
 
-The following image shows the two models of cameras in use: On the left  is the Samsung Camera and on the right is the PTZOptics Camera.
+The following image shows the PTZOptics Camera in use.
 
-image::./assets/2-types-of-cameras.jpg[]
+image::./assets/pzoptics_camera.png[]
