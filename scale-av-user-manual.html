@@ -464,8 +464,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_network_mixer">Network Mixer</a></li>
 <li><a href="#_camera_di_box">Camera DI Box</a></li>
-<li><a href="#_poe_injector_for_samsung_camera">PoE Injector (for Samsung Camera)</a></li>
-<li><a href="#_samsung_camera">Samsung Camera</a></li>
 <li><a href="#_poe_injector_for_ptzoptics_camera">PoE Injector (for PTZOptics Camera)</a></li>
 <li><a href="#_ptzoptics_camera">PTZOptics Camera</a></li>
 <li><a href="#_podium_computer">Podium Computer</a></li>
@@ -546,10 +544,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Last Updated: 2024-03-07T02:57:02+00:00</p>
+<p>Last Updated: 2024-03-14T22:15:52+00:00</p>
 </div>
 <div class="paragraph">
-<p>Document generated from <a href="https://github.com/socallinuxexpo/scale-av-web/commit/4f0edc1">4f0edc1</a></p>
+<p>Document generated from <a href="https://github.com/socallinuxexpo/scale-av-web/commit/0077aab">0077aab</a></p>
 </div>
 <div class="paragraph">
 <p><span class="image"><a class="image" href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a></span> <span class="image"><a class="image" href="https://github.com/socallinuxexpo/scale-av-web/"><img src="https://img.shields.io/badge/Contribute%20on-GitHub-orange" alt="Contribute on GitHub"></a></span> <span class="image"><a class="image" href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a></span> <span class="image"><a class="image" href="./scale-av-user-manual.pdf"><img src="https://img.shields.io/badge/Download%20-PDF-blue" alt="Download PDF"></a></span></p>
@@ -778,11 +776,11 @@ This audio track is multiplexed into the video stream by the camera and the resu
 You can think of the camera as a server that serves a video stream to any client that connects to it.</p>
 </div>
 <div class="paragraph">
-<p>The following image shows the two models of cameras in use: On the left  is the Samsung Camera and on the right is the PTZOptics Camera.</p>
+<p>The following image shows the PTZOptics Camera in use.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="./assets/2-types-of-cameras.jpg" alt="2 types of cameras">
+<img src="./assets/pzoptics_camera.png" alt="pzoptics camera">
 </div>
 </div>
 <div style="page-break-after: always;"></div>
@@ -949,101 +947,6 @@ power switch.</p>
 <div class="imageblock">
 <div class="content">
 <img src="camera_di_box.svg" alt="camera di box" width="799" height="180">
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-<div class="sect2">
-<h3 id="_poe_injector_for_samsung_camera">PoE Injector (for Samsung Camera)</h3>
-<div class="ulist checklist">
-<ul class="checklist">
-<li>
-<p>&#10063; Using Short Ethernet Cable, connect Network Switch
-(any port from 22 to 27) to DATA Jack of ZyXEL PoE Injector</p>
-</li>
-<li>
-<p>&#10063; Connect power to PoE Injector, using IEC Cable.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="poe_injector_samsung.svg" alt="poe injector samsung" width="614" height="236">
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-<div class="sect2">
-<h3 id="_samsung_camera">Samsung Camera</h3>
-<div class="ulist checklist">
-<ul class="checklist">
-<li>
-<p>&#10063; Unfold and place Tripod next to confidence monitor (s.a., teleprompter).
-If there are no confidence monitors, place tripod in the back of the room.</p>
-</li>
-<li>
-<p>&#10063; Attach PVC camera mount to tripod.</p>
-<div class="literalblock">
-<div class="content">
-<pre>CAUTION: Ensure that the camera and mount will extend over a leg of the tripod for stability</pre>
-</div>
-</div>
-</li>
-<li>
-<p>&#10063; Attach Samsung Camera to PVC camera mount:</p>
-<div class="ulist checklist">
-<ul class="checklist">
-<li>
-<p>&#10063; Carefully align and insert metal alignment pins on camera into camera
-mount.</p>
-</li>
-<li>
-<p>&#10063; Twist camera to lock.</p>
-</li>
-<li>
-<p>&#10063; Secure camera to mount by connecting metal cable tether.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>&#10063; Check that camera is level.</p>
-</li>
-<li>
-<p>&#10063; Check that camera and mount extends over a leg of tripod for added
-stability.</p>
-</li>
-<li>
-<p>&#10063; Connect Camera’s Audio Cable to Camera DI Box by plugging in 1/4” RING
-plug to the DI Box PARPOUT Jack. (see the labels on the cable)</p>
-<div class="literalblock">
-<div class="content">
-<pre>Note: The TIP plug will remain unconnected.</pre>
-</div>
-</div>
-</li>
-<li>
-<p>&#10063; Connect Camera’s Ethernet Cable into the PoE Injector’s PoE/DATA Jack.
-This should power on the camera.</p>
-</li>
-<li>
-<p>&#10063; Raise camera and lock in place with metal pin and tension knobs.</p>
-<div class="literalblock">
-<div class="content">
-<pre>Note: Camera should be high enough such that it can look over anybody standing in the back of the room; approximately 8 feet.</pre>
-</div>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>WARNING: DO NOT OVERTIGHTEN the tension knobs.</pre>
-</div>
-</div>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="samsung_camera.svg" alt="samsung camera" width="733" height="221">
 </div>
 </div>
 <div style="page-break-after: always;"></div>
@@ -2189,7 +2092,7 @@ to help amplify the video signal in a room where the projector image seems unsta
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-03-07 02:57:16 UTC
+Last updated 2024-03-14 22:16:03 UTC
 </div>
 </div>
 </body>
