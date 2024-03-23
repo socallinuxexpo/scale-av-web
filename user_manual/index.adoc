@@ -74,7 +74,11 @@ include::identifying-audio-noise.adoc[Identifying Audio Noise]
 
 <<<
 
-include::video-monitoring-procedure.adoc[Video Monitoring Procedure]
+include::video-monitoring-quick.adoc[Video Monitoring Station (Quick Start Guide)]
+
+<<<
+
+include::video-monitoring-procedure.adoc[Video Monitoring Station]
 
 <<<
 
