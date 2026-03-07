@@ -1,36 +1,62 @@
-== Video Monitoring Procedure
+== Audio and Video Monitoring Procedure
 
-Always remember:
+=== Before You Begin
+* *Avoid spills!* If you must have a drink, make sure it has a cap or lid!
+* New volunteers shadow an experienced operator. 
+* Minimize interruptions to MPS:
+  * Do not blindly react to the monitoring feed: it is several seconds behind real-time. Observe the feed for several seconds to determine if problems persist before reporting. It sometimes freezes. Turn the toggle on and off again before reporting an issue. 
 
-* *Make sure to cover your drinks!*
-* Have the headphones on at the same time as the walkie talkie earpiece.
+=== About Monitoring Station
 
-=== Check to see if the Speaker is centered in the frame
+The monitoring station has two monitors. On these monitors you will see multiple windows including the Mothership Control, windows showing Talks, Camera Controls, and the Conference Schedule. In this section we will familiarize you with the station, so that you will be ready to following the monitoring procedures in the following sections. 
 
-If not then pan/tilt the camera so that the Speaker is centered in the frame.
-If a speaker keeps leaving the frame (like pacing around), then you may want to zoom out.
+==== Using the Mothership Control
+Mothership Control displays a list of rooms and a toggle. You will be informed which rooms should be monitored at the start of your shift. 
 
-*Note when making camera adjustments*: Camera movement is sensitive.
-There is a small delay between you pressing a button and the result showing up on screen.
-Wait for this lag as you make adjustments.
+image::./assets/Mothership-Control.png[Screenshot of Mothership Control,pdfwidth=40%]
 
-Use the camera movement controls to position the Camera to show the speaker in the middle of the frame.
-Use the *Set Home* button along the way, so that if you mess up and move the camera too far or the camera gets moved accidentally you can automatically move back to the last known good position by pressing the *Home* button.
-If you've moved the camera to an unknown location, press *Home* to move back to the last known position.
+The system is designed so that any rooms which are toggled on will create a window on the screen, even if you try to exit out. Exiting out will restart the window. 
 
-Once the speaker is properly framed, press *Set Home* again to lock in the new position.
+==== Using Room Windows
 
-=== Listen to Audio of Each Room
+The Room Window consists of a banner, a video feed, and a presentation feed. 
 
-To Hear Audio in the various rooms, click room's window.
-If the video in the Operations Control window disappears or is not shown, then refresh the page.
-If the Operations Control window is not open or crashes, open Firefox and use the address bar to open it again.
+image::./assets/LCARS-II.png[Screenshot of Room Window,pdfwidth=80%]
+
+You will be able to hear the audio from one room at a time. To hear the audio of a room, select a room's window. You will only hear the audio while a room is selected. See Monitoring Audio Issues section for the full procedure. 
+
+Note that the Room Windows video can freeze. If the video freezes, use the toggle from the Mothership Control to restart the video, and then drag the window back where you had it. 
+
+==== Using the Camera Controls
+
+The Camera Controls window displays a menu, the video from a room, and camera controls. 
+
+image::./assets/Camera-Controls.png[Screenshot of Camera Controls,pdfwidth=40%]
+
+You will mostly use the Room Selection menu to select a room you want to control, and the movement controls to position the camera. See the Monitoring Video Issues section for the full procedure. 
+
+For experienced operators: If the Operations Control window is not open or crashes, open Firefox and use the address bar to open it again.
 The web address is: + `http://<room-letter/number>.scaleav.us/html-frontend/operate.html`
 
-Listen for audio problems in the room.
-If you suspect there are audio problems, you may want to check other rooms first to get a feel for the baseline of what other rooms sound like.
-If you determine there is an issue, then log the issue and ask Michael Proctor-Smith for help.
-Examples of potential issues are,
+===== Room Selection Menu
+
+image::./assets/Room-Selection.png[Screenshot of Room Selection Menu]
+
+Select the Room you want to control from the Room Selection menu. When selected the video feed will appear and you can control the room's cameras. 
+
+There are a few more menu items. Please do not use these without consulting an experienced operator. 
+
+===== HDMI Input
+
+This menu controls which HDMI Input is set up to stream the feed. It can be useful in certain situations where the video isn't showing. 
+
+===== Select Scene
+
+This menu controls which window, the small window, or the large window, displays the video feed. 
+
+=== Monitoring Audio Issues
+
+Examples of potential issues are:
 
 * Hum, hiss, clicks, and pops
 * Feedback
@@ -38,23 +64,33 @@ Examples of potential issues are,
 * "`Hot`" audio (when audio is too loud, distortion and clipping is possible)
 * Unintelligible speech
 
-When we hear on the radio that there is an audio problem in a room, confirm whether the issue is with the camera audio or with the room's ambient sound by selecting audio track 2 (camera audio) in VLC.
-If there is a problem, let the person on the radio know if the problem is with the camera audio or the room ambient audio.
-If the video is also cutting out, let them know about that too.
+If you are unsure whether you are hearing an audio problem, first check other rooms to get a feel for the baseline of what other rooms sound like.
 
-=== Observe the Video Feed
+If you determine there is an issue, then log the issue and ask Michael Proctor-Smith for help.
 
-Observe the video feed and confirm that both the PTZ Camera video and the Slides video is displaying properly.
-If Video is not working then log the issue and ask Michael Proctor-Smith.
-Examples of problems that could happen are:
+=== Monitoring Video Issues
+
+Observe the video feed and confirm thatthe video of the speaker and presentation display properly.
+
+Examples of potential issues are:
 
 * No slides showing: could be a problem on the speaker's end.
 * Slides are cut off: the speaker may have misformatted the slides or has not configured their laptop properly to display at the correct resolution (*1024x768@60Hz*)
-* Video is Choppy or it goes black: if the video goes black, make sure the projector is physically turned on, and still no picture/dark/black, then alert senior tech.
+* Video is choppy or it goes black: if the video goes black, make sure the projector is physically turned on, and still no picture/dark/black, then alert senior tech.
 
-=== SCALE Signs Crashing
+If you determine there is an issue, then log the issue and ask Michael Proctor-Smith for help.
 
-If there are reports of the SCALE Signs web browser crashing, press "`Restart Signs`"
+==== Centering Speakers in the frame
+
+* Use the Camera Controls window to move the camera to ensure Speakers are centered in the frame. 
+* If a speaker keeps leaving the frame (like pacing around), then you may want to zoom out.
+* Note when making camera adjustments: 
+** *Camera movement is sensitive.* Just press a direction control once at a time. 
+** There is a *small delay *between you pressing a button and the result showing up on screen.
+** Wait for this lag as you make adjustments.
+* Use the *Return Home*to automatically move back to the last known good position.
+* If you've moved the camera far away from the speaker, select *Return Home* to move back to the last known position of the speaker.
+** If using the *Return Home* button does not return to the speaker, manually find the location of the speaker and then select *Set Home*.
 
 === VLC/Monitoring Station Issues
 
@@ -63,7 +99,7 @@ A new VLC window will open in its place.
 
 If the monitoring station computers are acting up, inform Michael Starch or Matthew Campbell
 
-==== Last and Final Resort:
+*Last and Final Resort:*
 
 If the monitoring station computer crashes or freezes, you can restart the system:
 

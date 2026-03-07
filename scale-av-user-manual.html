@@ -504,17 +504,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_feedback">Feedback</a></li>
 </ul>
 </li>
-<li><a href="#_video_monitoring_procedure">Video Monitoring Procedure</a>
+<li><a href="#_audio_and_video_monitoring_procedure">Audio and Video Monitoring Procedure</a>
 <ul class="sectlevel2">
-<li><a href="#_check_to_see_if_the_speaker_is_centered_in_the_frame">Check to see if the Speaker is centered in the frame</a></li>
-<li><a href="#_listen_to_audio_of_each_room">Listen to Audio of Each Room</a></li>
-<li><a href="#_observe_the_video_feed">Observe the Video Feed</a></li>
-<li><a href="#_scale_signs_crashing">SCALE Signs Crashing</a></li>
-<li><a href="#_vlcmonitoring_station_issues">VLC/Monitoring Station Issues</a>
+<li><a href="#_before_you_begin">Before You Begin</a></li>
+<li><a href="#_about_monitoring_station">About Monitoring Station</a>
 <ul class="sectlevel3">
-<li><a href="#_last_and_final_resort">Last and Final Resort:</a></li>
+<li><a href="#_using_the_mothership_control">Using the Mothership Control</a></li>
+<li><a href="#_using_room_windows">Using Room Windows</a></li>
+<li><a href="#_using_the_camera_controls">Using the Camera Controls</a></li>
 </ul>
 </li>
+<li><a href="#_monitoring_audio_issues">Monitoring Audio Issues</a></li>
+<li><a href="#_monitoring_video_issues">Monitoring Video Issues</a>
+<ul class="sectlevel3">
+<li><a href="#_centering_speakers_in_the_frame">Centering Speakers in the frame</a></li>
+</ul>
+</li>
+<li><a href="#_vlcmonitoring_station_issues">VLC/Monitoring Station Issues</a></li>
 </ul>
 </li>
 <li><a href="#_room_equipment_connections">Room Equipment Connections</a></li>
@@ -544,10 +550,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Last Updated: 2024-03-14T21:30:41-07:00</p>
+<p>Last Updated: 2026-03-06T13:56:50-07:00</p>
 </div>
 <div class="paragraph">
-<p>Document generated from <a href="https://github.com/socallinuxexpo/scale-av-web/commit/89ea57b">89ea57b</a></p>
+<p>Document generated from <a href="https://github.com/socallinuxexpo/scale-av-web/commit/08e6e0c">08e6e0c</a></p>
 </div>
 <div class="paragraph">
 <p><span class="image"><a class="image" href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License"></a></span> <span class="image"><a class="image" href="https://github.com/socallinuxexpo/scale-av-web/"><img src="https://img.shields.io/badge/Contribute%20on-GitHub-orange" alt="Contribute on GitHub"></a></span> <span class="image"><a class="image" href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a></span> <span class="image"><a class="image" href="./scale-av-user-manual.pdf"><img src="https://img.shields.io/badge/Download%20-PDF-blue" alt="Download PDF"></a></span></p>
@@ -1546,54 +1552,112 @@ The signal gets continually amplified any may overdrive the speakers and cause p
 </div>
 </div>
 <div class="sect1">
-<h2 id="_video_monitoring_procedure">Video Monitoring Procedure</h2>
+<h2 id="_audio_and_video_monitoring_procedure">Audio and Video Monitoring Procedure</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Always remember:</p>
-</div>
+<div class="sect2">
+<h3 id="_before_you_begin">Before You Begin</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Make sure to cover your drinks!</strong></p>
+<p><strong>Avoid spills!</strong> If you must have a drink, make sure it has a cap or lid!</p>
 </li>
 <li>
-<p>Have the headphones on at the same time as the walkie talkie earpiece.</p>
+<p>New volunteers shadow an experienced operator.</p>
+</li>
+<li>
+<p>Minimize interruptions to MPS:</p>
+</li>
+<li>
+<p>Do not blindly react to the monitoring feed: it is several seconds behind real-time. Observe the feed for several seconds to determine if problems persist before reporting. It sometimes freezes. Turn the toggle on and off again before reporting an issue.</p>
 </li>
 </ul>
 </div>
-<div class="sect2">
-<h3 id="_check_to_see_if_the_speaker_is_centered_in_the_frame">Check to see if the Speaker is centered in the frame</h3>
-<div class="paragraph">
-<p>If not then pan/tilt the camera so that the Speaker is centered in the frame.
-If a speaker keeps leaving the frame (like pacing around), then you may want to zoom out.</p>
-</div>
-<div class="paragraph">
-<p><strong>Note when making camera adjustments</strong>: Camera movement is sensitive.
-There is a small delay between you pressing a button and the result showing up on screen.
-Wait for this lag as you make adjustments.</p>
-</div>
-<div class="paragraph">
-<p>Use the camera movement controls to position the Camera to show the speaker in the middle of the frame.
-Use the <strong>Set Home</strong> button along the way, so that if you mess up and move the camera too far or the camera gets moved accidentally you can automatically move back to the last known good position by pressing the <strong>Home</strong> button.
-If you&#8217;ve moved the camera to an unknown location, press <strong>Home</strong> to move back to the last known position.</p>
-</div>
-<div class="paragraph">
-<p>Once the speaker is properly framed, press <strong>Set Home</strong> again to lock in the new position.</p>
-</div>
 </div>
 <div class="sect2">
-<h3 id="_listen_to_audio_of_each_room">Listen to Audio of Each Room</h3>
+<h3 id="_about_monitoring_station">About Monitoring Station</h3>
 <div class="paragraph">
-<p>To Hear Audio in the various rooms, click room&#8217;s window.
-If the video in the Operations Control window disappears or is not shown, then refresh the page.
-If the Operations Control window is not open or crashes, open Firefox and use the address bar to open it again.
+<p>The monitoring station has two monitors. On these monitors you will see multiple windows including the Mothership Control, windows showing Talks, Camera Controls, and the Conference Schedule. In this section we will familiarize you with the station, so that you will be ready to following the monitoring procedures in the following sections.</p>
+</div>
+<div class="sect3">
+<h4 id="_using_the_mothership_control">Using the Mothership Control</h4>
+<div class="paragraph">
+<p>Mothership Control displays a list of rooms and a toggle. You will be informed which rooms should be monitored at the start of your shift.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/Mothership-Control.png" alt="Screenshot of Mothership Control">
+</div>
+</div>
+<div class="paragraph">
+<p>The system is designed so that any rooms which are toggled on will create a window on the screen, even if you try to exit out. Exiting out will restart the window.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_using_room_windows">Using Room Windows</h4>
+<div class="paragraph">
+<p>The Room Window consists of a banner, a video feed, and a presentation feed.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/LCARS-II.png" alt="Screenshot of Room Window">
+</div>
+</div>
+<div class="paragraph">
+<p>You will be able to hear the audio from one room at a time. To hear the audio of a room, select a room&#8217;s window. You will only hear the audio while a room is selected. See Monitoring Audio Issues section for the full procedure.</p>
+</div>
+<div class="paragraph">
+<p>Note that the Room Windows video can freeze. If the video freezes, use the toggle from the Mothership Control to restart the video, and then drag the window back where you had it.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_using_the_camera_controls">Using the Camera Controls</h4>
+<div class="paragraph">
+<p>The Camera Controls window displays a menu, the video from a room, and camera controls.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/Camera-Controls.png" alt="Screenshot of Camera Controls">
+</div>
+</div>
+<div class="paragraph">
+<p>You will mostly use the Room Selection menu to select a room you want to control, and the movement controls to position the camera. See the Monitoring Video Issues section for the full procedure.</p>
+</div>
+<div class="paragraph">
+<p>For experienced operators: If the Operations Control window is not open or crashes, open Firefox and use the address bar to open it again.
 The web address is: + <code><a href="http://&lt;room-letter/number&gt;.scaleav.us/html-frontend/operate.html" class="bare">http://&lt;room-letter/number&gt;.scaleav.us/html-frontend/operate.html</a></code></p>
 </div>
+<div class="sect4">
+<h5 id="_room_selection_menu">Room Selection Menu</h5>
+<div class="imageblock">
+<div class="content">
+<img src="./assets/Room-Selection.png" alt="Screenshot of Room Selection Menu">
+</div>
+</div>
 <div class="paragraph">
-<p>Listen for audio problems in the room.
-If you suspect there are audio problems, you may want to check other rooms first to get a feel for the baseline of what other rooms sound like.
-If you determine there is an issue, then log the issue and ask Michael Proctor-Smith for help.
-Examples of potential issues are,</p>
+<p>Select the Room you want to control from the Room Selection menu. When selected the video feed will appear and you can control the room&#8217;s cameras.</p>
+</div>
+<div class="paragraph">
+<p>There are a few more menu items. Please do not use these without consulting an experienced operator.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_hdmi_input">HDMI Input</h5>
+<div class="paragraph">
+<p>This menu controls which HDMI Input is set up to stream the feed. It can be useful in certain situations where the video isn&#8217;t showing.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_select_scene">Select Scene</h5>
+<div class="paragraph">
+<p>This menu controls which window, the small window, or the large window, displays the video feed.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_monitoring_audio_issues">Monitoring Audio Issues</h3>
+<div class="paragraph">
+<p>Examples of potential issues are:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1615,17 +1679,19 @@ Examples of potential issues are,</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>When we hear on the radio that there is an audio problem in a room, confirm whether the issue is with the camera audio or with the room&#8217;s ambient sound by selecting audio track 2 (camera audio) in VLC.
-If there is a problem, let the person on the radio know if the problem is with the camera audio or the room ambient audio.
-If the video is also cutting out, let them know about that too.</p>
+<p>If you are unsure whether you are hearing an audio problem, first check other rooms to get a feel for the baseline of what other rooms sound like.</p>
+</div>
+<div class="paragraph">
+<p>If you determine there is an issue, then log the issue and ask Michael Proctor-Smith for help.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_observe_the_video_feed">Observe the Video Feed</h3>
+<h3 id="_monitoring_video_issues">Monitoring Video Issues</h3>
 <div class="paragraph">
-<p>Observe the video feed and confirm that both the PTZ Camera video and the Slides video is displaying properly.
-If Video is not working then log the issue and ask Michael Proctor-Smith.
-Examples of problems that could happen are:</p>
+<p>Observe the video feed and confirm thatthe video of the speaker and presentation display properly.</p>
+</div>
+<div class="paragraph">
+<p>Examples of potential issues are:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1636,15 +1702,54 @@ Examples of problems that could happen are:</p>
 <p>Slides are cut off: the speaker may have misformatted the slides or has not configured their laptop properly to display at the correct resolution (<strong>1024x768@60Hz</strong>)</p>
 </li>
 <li>
-<p>Video is Choppy or it goes black: if the video goes black, make sure the projector is physically turned on, and still no picture/dark/black, then alert senior tech.</p>
+<p>Video is choppy or it goes black: if the video goes black, make sure the projector is physically turned on, and still no picture/dark/black, then alert senior tech.</p>
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_scale_signs_crashing">SCALE Signs Crashing</h3>
 <div class="paragraph">
-<p>If there are reports of the SCALE Signs web browser crashing, press &#8220;Restart Signs&#8221;</p>
+<p>If you determine there is an issue, then log the issue and ask Michael Proctor-Smith for help.</p>
+</div>
+<div class="sect3">
+<h4 id="_centering_speakers_in_the_frame">Centering Speakers in the frame</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Use the Camera Controls window to move the camera to ensure Speakers are centered in the frame.</p>
+</li>
+<li>
+<p>If a speaker keeps leaving the frame (like pacing around), then you may want to zoom out.</p>
+</li>
+<li>
+<p>Note when making camera adjustments:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Camera movement is sensitive.</strong> Just press a direction control once at a time.</p>
+</li>
+<li>
+<p>There is a *small delay *between you pressing a button and the result showing up on screen.</p>
+</li>
+<li>
+<p>Wait for this lag as you make adjustments.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Use the *Return Home*to automatically move back to the last known good position.</p>
+</li>
+<li>
+<p>If you&#8217;ve moved the camera far away from the speaker, select <strong>Return Home</strong> to move back to the last known position of the speaker.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If using the <strong>Return Home</strong> button does not return to the speaker, manually find the location of the speaker and then select <strong>Set Home</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -1656,8 +1761,9 @@ A new VLC window will open in its place.</p>
 <div class="paragraph">
 <p>If the monitoring station computers are acting up, inform Michael Starch or Matthew Campbell</p>
 </div>
-<div class="sect3">
-<h4 id="_last_and_final_resort">Last and Final Resort:</h4>
+<div class="paragraph">
+<p><strong>Last and Final Resort:</strong></p>
+</div>
 <div class="paragraph">
 <p>If the monitoring station computer crashes or freezes, you can restart the system:</p>
 </div>
@@ -1685,7 +1791,6 @@ To Reorganize the room windows, just move them around with the mouse.</p>
 </ol>
 </div>
 <div style="page-break-after: always;"></div>
-</div>
 </div>
 </div>
 </div>
@@ -2098,7 +2203,7 @@ to help amplify the video signal in a room where the projector image seems unsta
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-03-15 04:30:55 UTC
+Last updated 2026-03-07 00:46:36 UTC
 </div>
 </div>
 </body>
